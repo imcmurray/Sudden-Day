@@ -4,5 +4,6 @@ description = "Play the Sudden Day album straight through — every track, in or
 summary = "Play the whole album in order."
 hidemeta = true
 disableShare = true
+showtoc = false
 +++
 {{< listen-through >}}

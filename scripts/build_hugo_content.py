@@ -953,6 +953,7 @@ def build_listen_page(tracks: dict[int, Track]) -> None:
         "summary": "Play the whole album in order.",
         "hidemeta": True,
         "disableShare": True,
+        "showtoc": False,
     }) + """\
 {{< listen-through >}}
 """
