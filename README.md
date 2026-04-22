@@ -15,8 +15,7 @@ Sibling project: [Journal of Discords](https://github.com/imcmurray/Journal-of-D
 │   ├── track-01-june-7-1844.md … track-16-sudden-day.md
 │   ├── epilogue-1890.md
 │   ├── afterword-after-you-listen.md
-│   ├── companion-essay-link.md     (pointer only — see note below)
-│   └── (optional) companion-essay.md
+│   └── companion-essay.md
 ├── scripts/
 │   └── build_hugo_content.py   Regenerates website/content/ from essays/.
 ├── songs/                   Reserved for finished audio assets (mp3/wav) as tracks are recorded.
@@ -47,17 +46,6 @@ cd website && hugo server
 cd website && hugo --minify
 # output in website/public/
 ```
-
-## Outstanding: companion essay
-
-A companion essay (`SUDDEN_DAY__A_Companion_Essay.md`) was attached to the source GitLab snippet as a personal-snippet file upload. GitLab does not expose personal-snippet uploads through the API or to personal access tokens — the `/uploads/-/system/personal_snippet/...` route requires an authenticated browser session. To include it:
-
-1. Open https://192.168.1.228/-/snippets/153 in a browser (logged in).
-2. Click the `SUDDEN_DAY__A_Companion_Essay.md` link at the bottom and save the file.
-3. Save it to `essays/companion-essay.md`.
-4. Re-run `python3 scripts/build_hugo_content.py`.
-
-The placeholder at `website/content/essays/companion-essay.md` is a draft until then.
 
 ## Source
 

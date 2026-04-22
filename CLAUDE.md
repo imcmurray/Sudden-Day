@@ -37,6 +37,3 @@ The album's entire premise is fidelity to the primary source. Never add a source
 
 `songs/` is reserved for audio files. The track pages expect (but do not require) an mp3 at `website/static/audio/track-NN-<slug>.mp3`. When those exist, the build script can be extended to embed a player shortcode — not wired up yet.
 
-## Companion essay gap
-
-`essays/companion-essay.md` is missing because GitLab personal-snippet file uploads can't be fetched with a personal access token. See `README.md` for how to drop it in when available.
