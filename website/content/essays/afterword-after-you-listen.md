@@ -1,6 +1,6 @@
 +++
 title = "After You Listen"
-weight = 4
+weight = 3
 tags = ["afterword"]
 +++
 You've just heard the voices of people who have been dead for 180 years.

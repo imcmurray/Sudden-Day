@@ -5,8 +5,6 @@ suno_url = "https://suno.com/embed/ff4ea206-0d85-4071-83ef-84d2f9ba8d51"
 
 *The silencing that wasn't*
 
-### [Act Theme — The Reckoning](/tracks/the-reckoning/)
-
 {{< suno >}}
 
 ### [Track 14 — Citizens of Hancock County](/tracks/citizens-of-hancock-county/)

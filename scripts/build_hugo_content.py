@@ -63,13 +63,22 @@ SUNO_UUIDS = {
     "sudden-day":                "d8a6d046-e086-4e8a-b636-a2b1f6577907",
 }
 
-# Per-act theme/overture tracks that aren't on the numbered album tracklist —
-# embedded on the act's own page.
+# Act-level theme songs. Embedded on the act's own page (not surfaced as
+# a standalone /tracks/ page, since only some acts have one).
 SUNO_UUIDS_ACT = {
     "V": "ff4ea206-0d85-4071-83ef-84d2f9ba8d51",  # "The Reckoning"
 }
-SUNO_UUIDS_ESSAY = {
-    "epilogue-1890": "ba50afac-5de3-4cc0-b5fc-041906cb35b3",
+
+# Bonus tracks that sit outside the numbered album tracklist but deserve
+# their own /tracks/<slug>/ page in the tracks listing.
+EXTRA_TRACKS = {
+    "1890": {
+        "uuid":         "ba50afac-5de3-4cc0-b5fc-041906cb35b3",
+        "title":        "1890",
+        "description":  "Epilogue / bonus track — a modern coda asking what hasn't changed.",
+        "weight":       101,
+        "source_essay": "epilogue-1890.md",
+    },
 }
 
 def suno_url(uuid: str) -> str:
@@ -362,12 +371,6 @@ def build_act_pages(tracks: dict[int, Track]) -> None:
         lines = [frontmatter(fm_fields)]
         lines.append(f"*{info['subtitle']}*\n")
         if uuid:
-            # The act's theme track also gets its own standalone page at
-            # /tracks/<act-slug>/. Link it from here so it's reachable from
-            # the act and from the tracks listing.
-            theme_slug = theme_track_slug(roman, info["title"])
-            theme_title = info["title"].split("—", 1)[1].strip() if "—" in info["title"] else info["title"]
-            lines.append(f"### [Act Theme — {theme_title}](/tracks/{theme_slug}/)\n")
             lines.append("{{< suno >}}\n")
         for n in info["tracks"]:
             t = tracks[n]
@@ -378,50 +381,29 @@ def build_act_pages(tracks: dict[int, Track]) -> None:
         write(SITE / "acts" / f"{roman_slug(roman)}.md", "\n".join(lines))
 
 
-def theme_track_slug(roman: str, act_title: str) -> str:
-    """Slug for an act's standalone theme track: 'the-reckoning' for Act V, etc.
-    Derived from the part after the em-dash in the act title."""
-    if "—" in act_title:
-        name = act_title.split("—", 1)[1].strip()
-    else:
-        name = act_title
-    s = name.lower()
-    s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
-    return s
-
-
-def build_theme_track_pages(tracks: dict[int, Track]) -> None:
-    """Emit a standalone /tracks/<theme-slug>/ page for each registered act
-    theme track (currently: The Reckoning for Act V)."""
-    roman_to_weight = {"I": 101, "II": 102, "III": 103, "IV": 104, "V": 105}
-    for roman, uuid in SUNO_UUIDS_ACT.items():
-        info = ACTS[roman]
-        theme_title = info["title"].split("—", 1)[1].strip() if "—" in info["title"] else info["title"]
-        slug = theme_track_slug(roman, info["title"])
+def build_extra_track_pages() -> None:
+    """Emit standalone /tracks/<slug>/ pages for songs that aren't part of
+    the numbered album tracklist (e.g. "The Reckoning", "1890")."""
+    for slug, info in EXTRA_TRACKS.items():
         fm = frontmatter({
-            "title": theme_title,
-            "linkTitle": theme_title,
-            "description": f"{theme_title} — theme track for {info['title']}. {info['subtitle']}.",
-            "summary": f"Theme track for {info['title']}. {info['subtitle']}.",
-            "weight": roman_to_weight.get(roman, 100),
-            "acts": [info["title"]],
-            "tags": ["theme track", f"act {roman.lower()}"],
-            "suno_url": suno_url(uuid),
+            "title": info["title"],
+            "linkTitle": info["title"],
+            "description": info["description"],
+            "summary": info["description"],
+            "weight": info["weight"],
+            "tags": ["bonus track"],
+            "suno_url": suno_url(info["uuid"]),
         })
-        body_lines = [
-            "{{< suno >}}",
-            "",
-            f"*{info['subtitle']}*",
-            "",
-            f"**{theme_title}** is both the name of **[{info['title']}](/acts/{roman_slug(roman)}/)** and a song in its own right — the arc the act traces, distilled into a single theme.",
-            "",
-            f"## Tracks in {info['title']}",
-            "",
-        ]
-        for n in info["tracks"]:
-            t = tracks[n]
-            body_lines.append(f"- **[Track {t.number:02d} — {t.title}](/tracks/{t.slug}/)** — {t.caption}" if t.caption else f"- **[Track {t.number:02d} — {t.title}](/tracks/{t.slug}/)**")
-        write(SITE / "tracks" / f"{slug}.md", fm + "\n".join(body_lines) + "\n")
+        if info.get("source_essay"):
+            src = ESSAYS / info["source_essay"]
+            body = src.read_text()
+            body = strip_source_footer(body)
+            # Strip the essay's own leading title block; frontmatter provides it.
+            body = re.sub(r"^# [^\n]*\n(?:## [^\n]*\n)?(?:### [^\n]*\n)?\n*---\n+", "", body, count=1)
+            content = "{{< suno >}}\n\n" + body
+        else:
+            content = "{{< suno >}}\n\n" + info["description"] + "\n"
+        write(SITE / "tracks" / f"{slug}.md", fm + content)
 
 
 def build_track_pages(tracks: dict[int, Track]) -> None:
@@ -838,7 +820,6 @@ Long-form companion pieces to the album.
     essay_files = [
         ("intro-before-you-listen.md",     "Before You Listen",  "introduction"),
         ("album-analysis.md",              "Album Analysis",     "analysis"),
-        ("epilogue-1890.md",               "1890",               "epilogue"),
         ("afterword-after-you-listen.md",  "After You Listen",   "afterword"),
         ("companion-essay.md",             "Companion Essay",    "companion"),
     ]
@@ -866,18 +847,12 @@ Long-form companion pieces to the album.
         body = strip_source_footer(body)
         # Strip the essay's own top-level title since the frontmatter provides one.
         body = re.sub(r"^# [^\n]*\n(?:## [^\n]*\n)?(?:### [^\n]*\n)?\n*---\n+", "", body, count=1)
-        essay_slug = fname.removesuffix(".md")
-        uuid = SUNO_UUIDS_ESSAY.get(essay_slug)
-        fm_fields: dict = {
+        fm = frontmatter({
             "title": title,
             "weight": weight,
             "tags": [kind],
-        }
-        if uuid:
-            fm_fields["suno_url"] = suno_url(uuid)
-        fm = frontmatter(fm_fields)
-        prefix = "{{< suno >}}\n\n" if uuid else ""
-        write(SITE / "essays" / fname, fm + prefix + body)
+        })
+        write(SITE / "essays" / fname, fm + body)
 
 
 def main() -> None:
@@ -896,7 +871,7 @@ def main() -> None:
     build_acts_index()
     build_act_pages(tracks)
     build_track_pages(tracks)
-    build_theme_track_pages(tracks)
+    build_extra_track_pages()
     build_essays(tracks)
     print("done.")
 

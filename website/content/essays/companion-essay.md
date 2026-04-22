@@ -1,6 +1,6 @@
 +++
 title = "Companion Essay"
-weight = 5
+weight = 4
 tags = ["companion"]
 +++
 # SUDDEN DAY: A Companion Essay
