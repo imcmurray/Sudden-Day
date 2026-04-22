@@ -4,3 +4,4 @@ website/.hugo_build.lock
 __pycache__/
 *.pyc
 .DS_Store
+.claude/
