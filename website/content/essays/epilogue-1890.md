@@ -1,0 +1,329 @@
++++
+title = "1890"
+weight = 3
+tags = ["epilogue"]
++++
+## SONG OVERVIEW
+
+**Title:** 1890
+**Album Position:** Epilogue / Bonus Track (Track 17)
+**Act:** Beyond the five-act structure - a modern coda
+**Role:** A contemporary voice asking uncomfortable questions about what hasn't changed
+
+**Caption:** 1890 ended the practice. But D&C 132 is still scripture. The fundamentalists still practice. And the question remains: Is it really over? Could it come back?
+
+**Style:** `Contemporary folk, sparse, questioning, acoustic guitar, minimal arrangement, haunting, unresolved, modern, reflective`
+
+**Runtime Target:** 4:00-4:30
+
+---
+
+## FINAL LYRICS
+
+```
+[Sparse, Contemporary Intro]
+. . . . . .
+. . . . !
+
+[Verse 1]
+In 1890 they signed a paper
+Said the practice was done
+But the revelation's still in the book
+Still doctrine for everyone
+
+[Verse 2]
+They sealed the men to multiple wives
+In temples across the land
+"For time" was ended, "eternity" wasn't
+Do you understand?
+
+[Pre-Chorus]
+The prophet speaks, the prophet's silent
+The doctrine shifts like sand
+What was commanded yesterday
+Today is contraband
+
+[Chorus]
+Is it still sudden day?
+Or have we learned to hide the night?
+Is it still sudden day?
+Or just a different kind of lie?
+They burned the press in 1844
+They burned the practice in 1890
+But the revelation remains
+And I wonder... I wonder...
+
+[Break]
+. . . . .
+
+[Verse 3]
+In the mountains they still practice
+What the mainline church denies
+The fundamentalists kept the faith
+While the rest learned compromise
+
+[Verse 4]
+And the tender trees still wither
+In communities we don't name
+The great throat still swallows
+Just with a different kind of shame
+
+[Chorus]
+Is it still sudden day?
+Or have we learned to hide the night?
+Is it still sudden day?
+Or just a different kind of lie?
+They burned the press in 1844
+They burned the practice in 1890
+But the revelation remains
+And I wonder... I wonder...
+
+[Bridge - the doctrinal question]
+Could it come back?
+If a prophet said the word?
+Could it come back?
+Would the faithful say they heard?
+The same God who commanded
+Is the same God they obey
+And what's doctrine in the eternities
+Could be doctrine here today
+
+Section 132 still says
+"If ye abide not that covenant
+Then are ye damned"
+It's still there
+It's still canon
+It's still waiting
+
+[Final Chorus - questioning, unresolved]
+Is it still sudden day?
+I want to believe it's light
+Is it still sudden day?
+Or are we just too tired to fight?
+The Expositor is ashes
+But we're singing what they swore
+The disease is known
+But is it cured?
+Or just waiting
+Behind the door?
+
+[Outro - spare, haunting]
+Still scripture...
+Still sealed...
+Still...
+
+[Fade to silence]
+```
+
+---
+
+## SOURCE MATERIAL
+
+This song is different from the main album. Rather than drawing from the 1844 Expositor, it draws from **contemporary realities** and asks questions about what the Expositor's story means today.
+
+### The 1890 Manifesto
+In 1890, under pressure from the federal government (which had seized church assets and was imprisoning polygamists), President Wilford Woodruff issued the Manifesto declaring an end to the practice of plural marriage.
+
+### D&C 132 Remains Canon
+Despite the Manifesto, Doctrine and Covenants Section 132 - the revelation on plural marriage - was never removed from LDS scripture. It remains canon today.
+
+Key passages still in scripture:
+> "If ye abide not that covenant, then are ye damned" (D&C 132:4)
+
+> "If a man marry a wife by my word... and it is sealed unto them by the Holy Spirit of promise... they shall pass by the angels, and the gods" (D&C 132:19)
+
+> "If a man receiveth a wife in the new and everlasting covenant, and if she be with another man... he may marry another... and this is how he can commit adultery" (D&C 132:41-42 paraphrased)
+
+### Celestial/Eternal Polygamy Continues
+The mainline LDS church still practices what is called "celestial polygamy" - men can be sealed to multiple women in the temple (for eternity) if their previous wife has died. Women cannot be sealed to multiple men.
+
+### Fundamentalist Groups
+Multiple fundamentalist Mormon groups (FLDS, AUB, Kingston Group, and others) continue to practice plural marriage today, claiming they are following the original doctrine that the mainline church abandoned under government pressure.
+
+### The Theological Question
+The LDS church teaches that prophets receive revelation from God. D&C 132 was received as revelation. It has never been formally repudiated - only the *practice* was suspended. If a future prophet received revelation reinstating the practice, the theological framework for obedience already exists.
+
+---
+
+## LYRIC-TO-CONTEXT MAPPING
+
+| Lyric | Context |
+|-------|---------|
+| "In 1890 they signed a paper" | The Wilford Woodruff Manifesto |
+| "The revelation's still in the book" | D&C 132 remains in LDS canon |
+| "For time was ended, eternity wasn't" | Distinction between earthly polygamy (ended) and celestial polygamy (continues) |
+| "In the mountains they still practice" | FLDS and other fundamentalist groups in Utah, Arizona, etc. |
+| "The fundamentalists kept the faith" | They claim to follow original doctrine |
+| "The tender trees still wither" | Women in fundamentalist communities still experience the patterns the Expositor documented |
+| "The great throat still swallows" | Financial exploitation continues in some groups |
+| "Could it come back?" | The theological question - D&C 132 was never repudiated |
+| "Section 132 still says" | Direct reference to the scripture |
+| "If ye abide not that covenant / Then are ye damned" | D&C 132:4 |
+
+---
+
+## PRODUCER NOTES
+
+### What This Song Does
+- Asks questions the main album doesn't address
+- Acknowledges that the Expositor's story isn't fully resolved
+- Speaks in a modern voice about modern realities
+- Leaves the ending unresolved - because reality is unresolved
+- Connects the 1844 story to the present day
+
+### Why This Is an Epilogue, Not Part of the Main Album
+
+The 16-track album is historically grounded in the 1844 Expositor. Every lyric is traceable to primary sources. That integrity is the album's strength.
+
+This song is different:
+- It's interpretive, not documentary
+- It speaks in a contemporary voice
+- It asks questions rather than presenting testimony
+- It deals with post-1844 history
+
+Mixing this with the main album would dilute the historical grounding. As an epilogue, it extends the conversation without undermining the primary source integrity.
+
+### Key Production Decisions
+1. **Contemporary, not period** - This should sound modern, not 1844
+2. **Sparse arrangement** - Just voice and guitar; the questions should echo
+3. **Unresolved ending** - No triumphant resolution; reality doesn't resolve
+4. **The D&C 132 quote** - Let the scripture speak for itself
+5. **"Still..." as the final word** - The waiting, the uncertainty
+
+### The Bridge as Theological Challenge
+
+The bridge asks the question that believing members avoid:
+
+"Could it come back / If a prophet said the word?"
+
+This isn't hypothetical. The theology supports it:
+- Prophets receive revelation
+- D&C 132 was revelation
+- It was never repudiated, only suspended
+- A future prophet could reinstate it
+
+For members who believe in prophetic authority, this is a live question. For ex-members who escaped, it's a reminder that the theological cage still exists.
+
+### Connection to Main Album
+
+| Main Album Reference | Epilogue Echo |
+|---------------------|---------------|
+| "Sudden day" (Track 16) | "Is it still sudden day?" |
+| "The tender tree" (Track 6) | "The tender trees still wither" |
+| "The great throat" (Track 10) | "The great throat still swallows" |
+| "The disease is known" (Tracks 1, 16) | "The disease is known / But is it cured?" |
+| The women's coercion (Tracks 4-7) | "Communities we don't name" |
+
+The epilogue picks up the album's imagery and asks: What about now?
+
+### The Uncomfortable Truth
+
+The mainline LDS church has:
+- Never removed D&C 132 from canon
+- Never formally apologized for the coercion documented in the Expositor
+- Never repudiated the *doctrine* of plural marriage, only the *practice*
+- Continued to perform celestial sealings that create eternal polygamy
+
+The fundamentalist groups have:
+- Continued to practice plural marriage
+- Continued to use the same coercion patterns
+- Produced documented cases of abuse, trafficking, and underage marriage
+
+The disease isn't cured. It's managed. And the question "could it come back?" is theologically valid.
+
+---
+
+## HISTORICAL CONTEXT
+
+### Timeline After the Expositor
+
+| Year | Event |
+|------|-------|
+| 1844 | Expositor published and destroyed; Joseph Smith killed |
+| 1852 | Plural marriage publicly announced by Brigham Young |
+| 1862 | Morrill Anti-Bigamy Act passed by Congress |
+| 1879 | Reynolds v. United States - polygamy not protected by First Amendment |
+| 1882 | Edmunds Act - polygamy a felony |
+| 1887 | Edmunds-Tucker Act - church assets seized |
+| 1890 | Wilford Woodruff Manifesto - plural marriage ended (officially) |
+| 1904 | Second Manifesto - excommunication for new plural marriages |
+| 1930s-present | Fundamentalist groups continue practice |
+| 2008 | FLDS Yearning for Zion Ranch raid |
+| Present | D&C 132 remains canon |
+
+### The Fundamentalist Reality
+
+Today, an estimated 30,000-50,000 people live in polygamous families in the American West, primarily in fundamentalist Mormon communities. These groups include:
+
+- **FLDS** (Fundamentalist Church of Jesus Christ of Latter-Day Saints)
+- **AUB** (Apostolic United Brethren)
+- **Kingston Group** (Latter Day Church of Christ)
+- Various independent fundamentalist families
+
+These communities have produced documented cases of:
+- Underage marriage
+- Sexual abuse
+- Financial exploitation
+- Trafficking across state lines
+- Exile of young men ("Lost Boys")
+- Coercion of women into plural marriages
+
+The patterns the Expositor documented in 1844 continue today in these communities.
+
+---
+
+## ALBUM FLOW NOTE
+
+**Position:** After Track 16 "Sudden Day"
+
+**Transition:**
+Track 16 ends with triumph: "Lo, it is sudden day... The disease is known... The remedy applied..."
+
+The epilogue answers: "Is it still sudden day? ... The disease is known / But is it cured?"
+
+This creates a choice for listeners:
+- Stop at Track 16 for the triumphant ending
+- Continue to the epilogue for the uncomfortable questions
+
+**Label clearly as "Epilogue" or "Bonus Track"** so listeners understand this is optional - a conversation extension, not the album's conclusion.
+
+---
+
+## VERSION HISTORY
+
+### v1 (Final)
+- Established contemporary voice distinct from main album
+- D&C 132 quoted directly
+- Questions asked without answers
+- Connections to main album imagery maintained
+- Unresolved ending mirrors unresolved reality
+
+### Concerns Noted (for future revision if needed)
+- Some may find the questioning tone too critical
+- The fundamentalist references are real but sensitive
+- The unresolved ending may frustrate listeners expecting closure
+- All of these are features, not bugs - the discomfort is the point
+
+---
+
+## WHY THIS SONG EXISTS
+
+The main album tells the Expositor's story. It ends with truth surviving.
+
+But the story isn't over.
+
+D&C 132 is still scripture. The fundamentalists still practice. The mainline church still performs celestial polygamy. The theological framework that enabled the coercion in 1844 is still intact.
+
+The Expositor writers asked: "How long should righteous men stay silent?"
+
+This song asks: "How long should we pretend it's over?"
+
+The disease is known. But the cure isn't complete.
+
+---
+
+*"The remedy can never be applied, unless the disease is known."*
+— Nauvoo Expositor, June 7, 1844
+
+*But what if we know the disease and still can't cure it?*
+— 2024

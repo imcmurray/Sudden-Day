@@ -1,0 +1,118 @@
+baseURL = 'https://suddenday.example/'
+languageCode = 'en-us'
+title = 'Sudden Day'
+theme = 'PaperMod'
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[taxonomies]
+  act = "acts"
+  tag = "tags"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tracks"
+    name = "Tracks"
+    url = "/tracks/"
+    weight = 2
+  [[menu.main]]
+    identifier = "acts"
+    name = "Acts"
+    url = "/acts/"
+    weight = 3
+  [[menu.main]]
+    identifier = "essays"
+    name = "Essays"
+    url = "/essays/"
+    weight = 4
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 5
+
+  [[menu.footer]]
+    identifier = "mission"
+    name = "Our Mission"
+    url = "/mission/"
+    weight = 1
+  [[menu.footer]]
+    identifier = "methodology"
+    name = "Methodology"
+    url = "/methodology/"
+    weight = 2
+  [[menu.footer]]
+    identifier = "source"
+    name = "Source Document"
+    url = "/about/source/"
+    weight = 3
+  [[menu.footer]]
+    identifier = "faq"
+    name = "FAQ"
+    url = "/faq/"
+    weight = 4
+  [[menu.footer]]
+    identifier = "terms"
+    name = "Terms of Use"
+    url = "/terms/"
+    weight = 5
+
+[params]
+  env = "production"
+  title = "Sudden Day"
+  description = "A historically accurate song cycle drawing directly from the June 7, 1844 Nauvoo Expositor."
+  keywords = ["Nauvoo Expositor", "Joseph Smith", "William Law", "1844", "history", "music", "song cycle"]
+  author = "Sudden Day Project"
+
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = true
+  tocopen = false
+
+  [params.homeInfoParams]
+    Title = "Sudden Day"
+    Content = """
+On June 7, 1844, a group of insiders published a single issue of a newspaper. Three days later, it was destroyed by order of the man it exposed. Seventeen days after that, he was dead.
+
+*Sudden Day* is a 16-track song cycle drawn directly from the *Nauvoo Expositor*. Every lyric traces to the primary source. Every act follows the whistleblowers, the women, the revelations, the machinery of power, and the reckoning that followed.
+
+**“The remedy can never be applied, unless the disease is known.”** — *Nauvoo Expositor*, June 7, 1844
+"""
+
+  [params.assets]
+    disableFingerprinting = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
