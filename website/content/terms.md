@@ -39,7 +39,7 @@ Links to FAIR Latter-day Saints and to Church of Jesus Christ materials are prov
 - **Full context.** We do not quote out of context in ways that change meaning.
 - **Charitable reading.** We acknowledge reasonable interpretations before presenting our analysis — see the [source document page](/about/source/).
 - **Complete citations.** Every lyric is mapped to its source on the track page.
-- **Corrections welcome.** If we have made an error, we want to know. File an issue on the project's GitHub repository.
+- **Corrections welcome.** If we have made an error, we want to know. File an issue on the project's [GitHub repository](https://github.com/imcmurray/Sudden-Day).
 
 ---
 
@@ -61,7 +61,7 @@ Historical quotations reflect the views of their original authors, not the creat
 
 ## Contact
 
-For corrections, questions, or concerns, please open an issue on the project's GitHub repository.
+For corrections, questions, or concerns, please open an issue on the project's [GitHub repository](https://github.com/imcmurray/Sudden-Day).
 
 ---
 

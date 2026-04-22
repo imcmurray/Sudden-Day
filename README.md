@@ -2,6 +2,8 @@
 
 *Songs from the Nauvoo Expositor* — a 16-track song cycle drawn directly from the June 7, 1844 *Nauvoo Expositor*, and a Hugo website documenting the story, the lyrics, and their source material.
 
+Sibling project: [Journal of Discords](https://github.com/imcmurray/Journal-of-Discords) ([site](https://journalofdiscords.com/)) — same method, applied to the 26-volume *Journal of Discourses* (1854–1886).
+
 ## Repo layout
 
 ```

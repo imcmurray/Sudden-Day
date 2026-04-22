@@ -519,7 +519,7 @@ The *Nauvoo Expositor* is in the public domain. Our original analysis and creati
 
 ## I found an error — what should I do?
 
-Please tell us. We care more about being correct than about being right. Open an issue on the project's GitHub repository with the specific claim, the source that contradicts it, and your suggested correction.
+Please tell us. We care more about being correct than about being right. Open an issue on the project's [GitHub repository](https://github.com/imcmurray/Sudden-Day) with the specific claim, the source that contradicts it, and your suggested correction.
 
 ---
 
@@ -654,7 +654,7 @@ All sources on this site are publicly accessible. We encourage readers to:
 1. Read the full *Expositor* — not just our excerpts — at [FAIR Latter-day Saints' hosted full text](https://www.fairlatterdaysaints.org/answers/Primary_sources/Nauvoo_Expositor_Full_Text).
 2. Check lyric-to-source mappings against the original.
 3. Evaluate whether our characterizations are fair.
-4. Point out any errors for correction via the project's GitHub repository.
+4. Point out any errors for correction via the project's [GitHub repository](https://github.com/imcmurray/Sudden-Day).
 
 ---
 
@@ -703,7 +703,7 @@ Links to FAIR Latter-day Saints and to Church of Jesus Christ materials are prov
 - **Full context.** We do not quote out of context in ways that change meaning.
 - **Charitable reading.** We acknowledge reasonable interpretations before presenting our analysis — see the [source document page](/about/source/).
 - **Complete citations.** Every lyric is mapped to its source on the track page.
-- **Corrections welcome.** If we have made an error, we want to know. File an issue on the project's GitHub repository.
+- **Corrections welcome.** If we have made an error, we want to know. File an issue on the project's [GitHub repository](https://github.com/imcmurray/Sudden-Day).
 
 ---
 
@@ -725,7 +725,7 @@ Historical quotations reflect the views of their original authors, not the creat
 
 ## Contact
 
-For corrections, questions, or concerns, please open an issue on the project's GitHub repository.
+For corrections, questions, or concerns, please open an issue on the project's [GitHub repository](https://github.com/imcmurray/Sudden-Day).
 
 ---
 

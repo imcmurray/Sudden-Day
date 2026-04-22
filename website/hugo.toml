@@ -103,6 +103,10 @@ On June 7, 1844, a group of insiders published a single issue of a newspaper. Th
   [params.assets]
     disableFingerprinting = true
 
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/imcmurray/Sudden-Day"
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 

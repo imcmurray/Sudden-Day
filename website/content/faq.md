@@ -82,7 +82,7 @@ The *Nauvoo Expositor* is in the public domain. Our original analysis and creati
 
 ## I found an error — what should I do?
 
-Please tell us. We care more about being correct than about being right. Open an issue on the project's GitHub repository with the specific claim, the source that contradicts it, and your suggested correction.
+Please tell us. We care more about being correct than about being right. Open an issue on the project's [GitHub repository](https://github.com/imcmurray/Sudden-Day) with the specific claim, the source that contradicts it, and your suggested correction.
 
 ---
 

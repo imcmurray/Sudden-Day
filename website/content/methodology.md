@@ -115,7 +115,7 @@ All sources on this site are publicly accessible. We encourage readers to:
 1. Read the full *Expositor* — not just our excerpts — at [FAIR Latter-day Saints' hosted full text](https://www.fairlatterdaysaints.org/answers/Primary_sources/Nauvoo_Expositor_Full_Text).
 2. Check lyric-to-source mappings against the original.
 3. Evaluate whether our characterizations are fair.
-4. Point out any errors for correction via the project's GitHub repository.
+4. Point out any errors for correction via the project's [GitHub repository](https://github.com/imcmurray/Sudden-Day).
 
 ---
 
