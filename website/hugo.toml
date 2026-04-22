@@ -1,4 +1,4 @@
-baseURL = 'https://suddenday.example/'
+baseURL = 'https://suddenday.com/'
 languageCode = 'en-us'
 title = 'Sudden Day'
 theme = 'PaperMod'
