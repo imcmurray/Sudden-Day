@@ -230,7 +230,7 @@ The two projects share a single thesis — *the remedy can never be applied, unl
 > *"The remedy can never be applied, unless the disease is known."*
 > — *Nauvoo Expositor*, June 7, 1844
 """
-    write(SITE / "about.md", content)
+    write(SITE / "about" / "_index.md", content)
     source = frontmatter({"title": "Source Document"}) + """\
 The primary source for the entire album is:
 

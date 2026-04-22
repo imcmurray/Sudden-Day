@@ -38,21 +38,31 @@ buildExpired = false
     name = "About"
     url = "/about/"
     weight = 5
-
-  [[menu.footer]]
+  [[menu.main]]
     identifier = "mission"
-    name = "Our Mission"
+    name = "Mission"
     url = "/mission/"
-    weight = 1
+    weight = 6
+  [[menu.main]]
+    identifier = "faq"
+    name = "FAQ"
+    url = "/faq/"
+    weight = 7
+
   [[menu.footer]]
     identifier = "methodology"
     name = "Methodology"
     url = "/methodology/"
-    weight = 2
+    weight = 1
   [[menu.footer]]
     identifier = "source"
     name = "Source Document"
     url = "/about/source/"
+    weight = 2
+  [[menu.footer]]
+    identifier = "mission"
+    name = "Our Mission"
+    url = "/mission/"
     weight = 3
   [[menu.footer]]
     identifier = "faq"
@@ -106,6 +116,11 @@ On June 7, 1844, a group of insiders published a single issue of a newspaper. Th
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/imcmurray/Sudden-Day"
+
+  [params.footer]
+    hideCopyright = false
+    tagline = "A song cycle drawn directly from the *Nauvoo Expositor* of June 7, 1844. Every lyric traces to the primary source."
+    githubURL = "https://github.com/imcmurray/Sudden-Day"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
