@@ -6,7 +6,10 @@ summary = "They begged him to repent. He said he'd rather be damned. Now forbear
 weight = 2
 acts = ["Act I — The Awakening"]
 tags = ["Folk rock", "Americana", "building intensity", "male vocals", "righteous anger", "acoustic to electric", "stomping rhythm", "raw emotion"]
+suno_url = "https://suno.com/embed/cc51bd8c-695e-4536-9b3f-2135543650e4"
 +++
+{{< suno >}}
+
 ## SONG OVERVIEW
 
 **Title:** Forbearance

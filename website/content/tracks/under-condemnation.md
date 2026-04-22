@@ -6,7 +6,10 @@ summary = "The revelation said wives who refused would stand condemned before Go
 weight = 7
 acts = ["Act II — The Women"]
 tags = ["Dark Americana", "female vocals", "ominous", "building intensity", "organ undertones", "minor key", "accusatory", "powerful"]
+suno_url = "https://suno.com/embed/a5f0bd5e-7d83-4b7d-8bbf-2353edaa9d13"
 +++
+{{< suno >}}
+
 ## SONG OVERVIEW
 
 **Title:** Under Condemnation

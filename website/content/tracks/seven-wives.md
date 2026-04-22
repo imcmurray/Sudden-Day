@@ -6,7 +6,10 @@ summary = "\"What a thing it is for a man to be accused of having seven wives, w
 weight = 3
 acts = ["Act I — The Awakening"]
 tags = ["Dark folk", "sardonic", "minor key", "acoustic guitar", "sparse arrangement", "male vocals", "bitter", "ironic"]
+suno_url = "https://suno.com/embed/86691f97-49c0-4c6a-b492-6cbcb5570ea2"
 +++
+{{< suno >}}
+
 ## SONG OVERVIEW
 
 **Title:** Seven Wives

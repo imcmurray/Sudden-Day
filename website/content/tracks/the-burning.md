@@ -6,7 +6,10 @@ summary = "One hundred men. Scattered type. The flames consuming truth. Three da
 weight = 15
 acts = ["Act V — The Reckoning"]
 tags = ["Cinematic folk", "dramatic", "male and female vocals", "building intensity", "strings", "percussion", "flames as metaphor", "tragic"]
+suno_url = "https://suno.com/embed/299d3f95-ab0a-44b3-9c9d-f38443f07865"
 +++
+{{< suno >}}
+
 ## SONG OVERVIEW
 
 **Title:** The Burning

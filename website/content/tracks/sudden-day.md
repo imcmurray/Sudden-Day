@@ -6,7 +6,10 @@ summary = "They burned the press but not the truth. Lo, it is sudden day. The da
 weight = 16
 acts = ["Act V — The Reckoning"]
 tags = ["Sweeping folk", "triumphant yet mournful", "male and female vocals", "full arrangement", "orchestral elements", "anthemic", "resolution", "hopeful"]
+suno_url = "https://suno.com/embed/d8a6d046-e086-4e8a-b636-a2b1f6577907"
 +++
+{{< suno >}}
+
 ## SONG OVERVIEW
 
 **Title:** Sudden Day

@@ -6,7 +6,10 @@ summary = "She crossed the ocean to find God. She left everything behind. She di
 weight = 4
 acts = ["Act II — The Women"]
 tags = ["Folk ballad", "Celtic influence", "female vocals", "hopeful turning melancholy", "acoustic guitar", "violin", "gentle build", "emotional"]
+suno_url = "https://suno.com/embed/8e147196-5f20-463d-8ddd-d0577b9ba69c"
 +++
+{{< suno >}}
+
 ## SONG OVERVIEW
 
 **Title:** Ten Thousand Miles

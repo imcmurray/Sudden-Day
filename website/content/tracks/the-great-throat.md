@@ -6,7 +6,10 @@ summary = "They preached sacrifice. They preached gathering. The wealth flowed i
 weight = 10
 acts = ["Act III — The Revelations"]
 tags = ["Blues-influenced folk", "sardonic", "male vocals", "groove-based", "acoustic guitar", "upright bass", "wry delivery", "accusatory"]
+suno_url = "https://suno.com/embed/b81dd2e3-fdfb-4a2a-930e-574f75754cec"
 +++
+{{< suno >}}
+
 ## SONG OVERVIEW
 
 **Title:** The Great Throat

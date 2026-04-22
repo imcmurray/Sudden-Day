@@ -6,7 +6,10 @@ summary = "Austin Cowles sat in the High Council when Hyrum read the revelation.
 weight = 8
 acts = ["Act III — The Revelations"]
 tags = ["Folk", "storytelling", "male vocals", "serious tone", "acoustic guitar", "deliberate pacing", "testimonial", "building conviction"]
+suno_url = "https://suno.com/embed/e8fc7980-ad1b-4367-b20e-a067dc1a131f"
 +++
+{{< suno >}}
+
 ## SONG OVERVIEW
 
 **Title:** The Revelation

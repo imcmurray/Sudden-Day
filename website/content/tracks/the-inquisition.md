@@ -6,7 +6,10 @@ summary = "April 18th. A council called in secret. Tried, condemned, and cut off
 weight = 12
 acts = ["Act IV — The Power"]
 tags = ["Dark folk", "tense", "male vocals", "minor key", "sparse arrangement building to intensity", "accusatory", "dramatic", "ominous"]
+suno_url = "https://suno.com/embed/037ee37d-c35d-453d-9a8b-df2d295b00fd"
 +++
+{{< suno >}}
+
 ## SONG OVERVIEW
 
 **Title:** The Inquisition

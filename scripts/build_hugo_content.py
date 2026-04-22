@@ -41,6 +41,39 @@ ACTS = {
     "V":   {"title": "Act V — The Reckoning",     "subtitle": "The silencing that wasn't",           "tracks": [14, 15, 16]},
 }
 
+# Suno embed UUIDs per slug. Resolved from user-supplied /s/<shortid> share URLs
+# by following the 307 redirect to /song/<uuid>. Embeds live at
+# https://suno.com/embed/<uuid>.
+#
+# NOTE: "citizens-of-hancock-county" is tentatively mapped to the user's
+# "THE RECKONING" link — it's the only album track missing from the user's
+# list, and Act V is titled "The Reckoning". If that assumption is wrong,
+# swap the UUID below.
+SUNO_UUIDS = {
+    "june-7-1844":               "fcb8d616-61f5-448d-bd4a-847c23677b7d",
+    "forbearance":               "cc51bd8c-695e-4536-9b3f-2135543650e4",
+    "seven-wives":               "86691f97-49c0-4c6a-b492-6cbcb5570ea2",
+    "ten-thousand-miles":        "8e147196-5f20-463d-8ddd-d0577b9ba69c",
+    "positively-no-admittance":  "c54441ec-b558-4552-ba54-5c1089cf9867",
+    "the-tender-tree":           "febfa13b-8e0f-4d8f-b149-f6c10e4d2018",
+    "under-condemnation":        "a5f0bd5e-7d83-4b7d-8bbf-2353edaa9d13",
+    "the-revelation":            "e8fc7980-ad1b-4367-b20e-a067dc1a131f",
+    "many-gods":                 "a5ca0607-8880-4fee-89e6-d22566a8db2c",
+    "the-great-throat":          "b81dd2e3-fdfb-4a2a-930e-574f75754cec",
+    "king-and-lawgiver":         "10228a53-bc0e-443f-89f5-0768105a323d",
+    "the-inquisition":           "037ee37d-c35d-453d-9a8b-df2d295b00fd",
+    "habeas-corpus":             "f38f731a-e341-4420-88cb-e5f696dbce96",
+    "citizens-of-hancock-county": "ff4ea206-0d85-4071-83ef-84d2f9ba8d51",
+    "the-burning":               "299d3f95-ab0a-44b3-9c9d-f38443f07865",
+    "sudden-day":                "d8a6d046-e086-4e8a-b636-a2b1f6577907",
+}
+SUNO_UUIDS_ESSAY = {
+    "epilogue-1890": "ba50afac-5de3-4cc0-b5fc-041906cb35b3",
+}
+
+def suno_url(uuid: str) -> str:
+    return f"https://suno.com/embed/{uuid}"
+
 
 @dataclass
 class Track:
@@ -337,7 +370,7 @@ def build_track_pages(tracks: dict[int, Track]) -> None:
         body = strip_source_footer(t.body)
         # Drop the duplicate first two heading lines; Hugo will render frontmatter title.
         body = re.sub(r"^# .+?\n## Track \d+ - Act [IVX]+:[^\n]*\n### From[^\n]*\n+---\n+", "", body, count=1)
-        fm = frontmatter({
+        fm_fields = {
             "title": f"Track {t.number:02d} — {t.title}",
             "linkTitle": t.title,
             "description": t.caption,
@@ -345,12 +378,15 @@ def build_track_pages(tracks: dict[int, Track]) -> None:
             "weight": t.number,
             "acts": [ACTS[t.act_roman]["title"]],
             "tags": [s.strip() for s in t.style.split(",") if s.strip()][:8] if t.style else [],
-        })
-        audio_slot = f"""
-{{{{< audio src="/audio/track-{t.number:02d}-{t.slug}.mp3" >}}}}
-
-"""
-        write(SITE / "tracks" / f"{t.slug}.md", fm + body)
+        }
+        uuid = SUNO_UUIDS.get(t.slug)
+        if uuid:
+            fm_fields["suno_url"] = suno_url(uuid)
+        fm = frontmatter(fm_fields)
+        # Inject the Suno player at the top of the body so it sits above the
+        # song overview section on the rendered page.
+        prefix = "{{< suno >}}\n\n" if uuid else ""
+        write(SITE / "tracks" / f"{t.slug}.md", fm + prefix + body)
 
 
 def build_mission() -> None:
@@ -771,12 +807,18 @@ Long-form companion pieces to the album.
         body = strip_source_footer(body)
         # Strip the essay's own top-level title since the frontmatter provides one.
         body = re.sub(r"^# [^\n]*\n(?:## [^\n]*\n)?(?:### [^\n]*\n)?\n*---\n+", "", body, count=1)
-        fm = frontmatter({
+        essay_slug = fname.removesuffix(".md")
+        uuid = SUNO_UUIDS_ESSAY.get(essay_slug)
+        fm_fields: dict = {
             "title": title,
             "weight": weight,
             "tags": [kind],
-        })
-        write(SITE / "essays" / fname, fm + body)
+        }
+        if uuid:
+            fm_fields["suno_url"] = suno_url(uuid)
+        fm = frontmatter(fm_fields)
+        prefix = "{{< suno >}}\n\n" if uuid else ""
+        write(SITE / "essays" / fname, fm + prefix + body)
 
 
 def main() -> None:

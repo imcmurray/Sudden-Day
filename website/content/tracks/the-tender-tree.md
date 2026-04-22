@@ -6,7 +6,10 @@ summary = "Sent away until the talk died down. Robbed of what only death can res
 weight = 6
 acts = ["Act II — The Women"]
 tags = ["Sparse folk", "mournful", "female vocals", "slow", "acoustic guitar", "cello", "ethereal", "grief-laden"]
+suno_url = "https://suno.com/embed/febfa13b-8e0f-4d8f-b149-f6c10e4d2018"
 +++
+{{< suno >}}
+
 ## SONG OVERVIEW
 
 **Title:** The Tender Tree

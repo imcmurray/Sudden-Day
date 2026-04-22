@@ -6,7 +6,10 @@ summary = "Francis Higbee's letter to his neighbors. Arise in the majesty of you
 weight = 14
 acts = ["Act V — The Reckoning"]
 tags = ["Rousing Americana", "anthemic", "male vocals", "building throughout", "full band by end", "call to arms", "passionate", "urgent"]
+suno_url = "https://suno.com/embed/ff4ea206-0d85-4071-83ef-84d2f9ba8d51"
 +++
+{{< suno >}}
+
 ## SONG OVERVIEW
 
 **Title:** Citizens of Hancock County

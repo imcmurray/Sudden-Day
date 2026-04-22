@@ -6,7 +6,10 @@ summary = "They taught there were innumerable gods above our God. That He could 
 weight = 9
 acts = ["Act III — The Revelations"]
 tags = ["Progressive folk", "building complexity", "male vocals", "philosophical", "acoustic to fuller arrangement", "questioning", "expansive then collapsing", "atmospheric"]
+suno_url = "https://suno.com/embed/a5ca0607-8880-4fee-89e6-d22566a8db2c"
 +++
+{{< suno >}}
+
 ## SONG OVERVIEW
 
 **Title:** Many Gods

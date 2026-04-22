@@ -1,0 +1,22 @@
+.suno-player-wrapper {
+  margin: 1.5rem 0 2rem;
+}
+.suno-player {
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--entry);
+}
+.suno-player iframe {
+  display: block;
+  width: 100%;
+  border: none;
+}
+.suno-placeholder {
+  margin: 1.5rem 0 2rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: var(--entry);
+  color: var(--secondary);
+  text-align: center;
+  font-style: italic;
+}

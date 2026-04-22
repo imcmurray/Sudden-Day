@@ -2,7 +2,10 @@
 title = "1890"
 weight = 3
 tags = ["epilogue"]
+suno_url = "https://suno.com/embed/ba50afac-5de3-4cc0-b5fc-041906cb35b3"
 +++
+{{< suno >}}
+
 ## SONG OVERVIEW
 
 **Title:** 1890

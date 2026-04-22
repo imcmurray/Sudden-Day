@@ -6,7 +6,10 @@ summary = "Fugitives fled to Nauvoo and found protection. The Mayor's court over
 weight = 13
 acts = ["Act IV — The Power"]
 tags = ["Driving folk rock", "urgent", "male vocals", "faster tempo", "acoustic guitar with percussion", "journalistic", "exposÃ© energy", "Americana"]
+suno_url = "https://suno.com/embed/f38f731a-e341-4420-88cb-e5f696dbce96"
 +++
+{{< suno >}}
+
 ## SONG OVERVIEW
 
 **Title:** Habeas Corpus

@@ -6,7 +6,10 @@ summary = "Prophet. Mayor. General. Presidential candidate. \"We will not acknow
 weight = 11
 acts = ["Act IV — The Power"]
 tags = ["Anthemic folk rock", "defiant", "male vocals", "building power", "drums entering", "acoustic to electric", "protest song energy", "Americana"]
+suno_url = "https://suno.com/embed/10228a53-bc0e-443f-89f5-0768105a323d"
 +++
+{{< suno >}}
+
 ## SONG OVERVIEW
 
 **Title:** King and Lawgiver
