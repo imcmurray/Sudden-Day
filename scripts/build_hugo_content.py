@@ -362,6 +362,12 @@ def build_act_pages(tracks: dict[int, Track]) -> None:
         lines = [frontmatter(fm_fields)]
         lines.append(f"*{info['subtitle']}*\n")
         if uuid:
+            # The act's theme track also gets its own standalone page at
+            # /tracks/<act-slug>/. Link it from here so it's reachable from
+            # the act and from the tracks listing.
+            theme_slug = theme_track_slug(roman, info["title"])
+            theme_title = info["title"].split("—", 1)[1].strip() if "—" in info["title"] else info["title"]
+            lines.append(f"### [Act Theme — {theme_title}](/tracks/{theme_slug}/)\n")
             lines.append("{{< suno >}}\n")
         for n in info["tracks"]:
             t = tracks[n]
@@ -370,6 +376,52 @@ def build_act_pages(tracks: dict[int, Track]) -> None:
                 lines.append(f"> {t.caption}")
             lines.append("")
         write(SITE / "acts" / f"{roman_slug(roman)}.md", "\n".join(lines))
+
+
+def theme_track_slug(roman: str, act_title: str) -> str:
+    """Slug for an act's standalone theme track: 'the-reckoning' for Act V, etc.
+    Derived from the part after the em-dash in the act title."""
+    if "—" in act_title:
+        name = act_title.split("—", 1)[1].strip()
+    else:
+        name = act_title
+    s = name.lower()
+    s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+    return s
+
+
+def build_theme_track_pages(tracks: dict[int, Track]) -> None:
+    """Emit a standalone /tracks/<theme-slug>/ page for each registered act
+    theme track (currently: The Reckoning for Act V)."""
+    roman_to_weight = {"I": 101, "II": 102, "III": 103, "IV": 104, "V": 105}
+    for roman, uuid in SUNO_UUIDS_ACT.items():
+        info = ACTS[roman]
+        theme_title = info["title"].split("—", 1)[1].strip() if "—" in info["title"] else info["title"]
+        slug = theme_track_slug(roman, info["title"])
+        fm = frontmatter({
+            "title": theme_title,
+            "linkTitle": theme_title,
+            "description": f"{theme_title} — theme track for {info['title']}. {info['subtitle']}.",
+            "summary": f"Theme track for {info['title']}. {info['subtitle']}.",
+            "weight": roman_to_weight.get(roman, 100),
+            "acts": [info["title"]],
+            "tags": ["theme track", f"act {roman.lower()}"],
+            "suno_url": suno_url(uuid),
+        })
+        body_lines = [
+            "{{< suno >}}",
+            "",
+            f"*{info['subtitle']}*",
+            "",
+            f"**{theme_title}** is both the name of **[{info['title']}](/acts/{roman_slug(roman)}/)** and a song in its own right — the arc the act traces, distilled into a single theme.",
+            "",
+            f"## Tracks in {info['title']}",
+            "",
+        ]
+        for n in info["tracks"]:
+            t = tracks[n]
+            body_lines.append(f"- **[Track {t.number:02d} — {t.title}](/tracks/{t.slug}/)** — {t.caption}" if t.caption else f"- **[Track {t.number:02d} — {t.title}](/tracks/{t.slug}/)**")
+        write(SITE / "tracks" / f"{slug}.md", fm + "\n".join(body_lines) + "\n")
 
 
 def build_track_pages(tracks: dict[int, Track]) -> None:
@@ -844,6 +896,7 @@ def main() -> None:
     build_acts_index()
     build_act_pages(tracks)
     build_track_pages(tracks)
+    build_theme_track_pages(tracks)
     build_essays(tracks)
     print("done.")
 
