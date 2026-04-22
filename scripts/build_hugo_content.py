@@ -44,11 +44,6 @@ ACTS = {
 # Suno embed UUIDs per slug. Resolved from user-supplied /s/<shortid> share URLs
 # by following the 307 redirect to /song/<uuid>. Embeds live at
 # https://suno.com/embed/<uuid>.
-#
-# NOTE: "citizens-of-hancock-county" is tentatively mapped to the user's
-# "THE RECKONING" link — it's the only album track missing from the user's
-# list, and Act V is titled "The Reckoning". If that assumption is wrong,
-# swap the UUID below.
 SUNO_UUIDS = {
     "june-7-1844":               "fcb8d616-61f5-448d-bd4a-847c23677b7d",
     "forbearance":               "cc51bd8c-695e-4536-9b3f-2135543650e4",
@@ -63,10 +58,15 @@ SUNO_UUIDS = {
     "king-and-lawgiver":         "10228a53-bc0e-443f-89f5-0768105a323d",
     "the-inquisition":           "037ee37d-c35d-453d-9a8b-df2d295b00fd",
     "habeas-corpus":             "f38f731a-e341-4420-88cb-e5f696dbce96",
-    "citizens-of-hancock-county": "ff4ea206-0d85-4071-83ef-84d2f9ba8d51",
+    "citizens-of-hancock-county": "49e9d9e1-dbee-47c3-a38e-6425e5d6777b",
     "the-burning":               "299d3f95-ab0a-44b3-9c9d-f38443f07865",
     "sudden-day":                "d8a6d046-e086-4e8a-b636-a2b1f6577907",
 }
+
+# Unassigned: the user's "THE RECKONING" link did not match any album track
+# by name. Parked here until we confirm where it belongs (Act V overture,
+# alternate cut, bonus track, etc.).
+#   "the-reckoning": "ff4ea206-0d85-4071-83ef-84d2f9ba8d51",
 SUNO_UUIDS_ESSAY = {
     "epilogue-1890": "ba50afac-5de3-4cc0-b5fc-041906cb35b3",
 }
