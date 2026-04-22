@@ -21,20 +21,17 @@
 
     <div class="listen-current" id="listen-current">
       <div class="listen-act" id="lc-act"></div>
+      <div class="listen-act-subtitle" id="lc-act-subtitle"></div>
       <h2 class="listen-title" id="lc-title"></h2>
       <p class="listen-caption" id="lc-caption"></p>
-      <dl class="listen-meta">
-        <div><dt>Role</dt><dd id="lc-role"></dd></div>
-        <div><dt>Style</dt><dd id="lc-style"></dd></div>
-        <div><dt>Runtime</dt><dd id="lc-runtime"></dd></div>
-      </dl>
+      <p class="listen-role" id="lc-role"></p>
       <p class="listen-link"><a id="lc-link" href="">Open the full track page &rarr;</a></p>
     </div>
   </div>
 
   <aside class="listen-tracklist">
     <h3 class="listen-tracklist-heading">Tracklist</h3>
-    <ol class="listen-tracklist-ol" id="listen-tracklist"></ol>
+    <div class="listen-tracklist-groups" id="listen-tracklist"></div>
   </aside>
 </div>
 
@@ -95,27 +92,25 @@
   font-size: 1.5rem;
   color: var(--primary);
 }
+.listen-act-subtitle {
+  color: var(--secondary);
+  font-style: italic;
+  font-size: .9rem;
+  margin-bottom: .75rem;
+}
 .listen-caption {
   color: var(--content);
   font-style: italic;
   margin: 0 0 1rem;
   line-height: 1.5;
 }
-.listen-meta {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: .75rem 1.5rem;
+.listen-role {
+  color: var(--content);
+  font-size: .95rem;
+  line-height: 1.5;
   margin: 0 0 1rem;
-  font-size: .9rem;
 }
-.listen-meta > div { display: flex; flex-direction: column; gap: .15rem; }
-.listen-meta dt {
-  color: var(--secondary);
-  font-size: .75rem;
-  text-transform: uppercase;
-  letter-spacing: .05em;
-}
-.listen-meta dd { margin: 0; color: var(--content); }
+.listen-role:empty { display: none; }
 .listen-link a {
   color: var(--primary);
   text-decoration: none;
@@ -140,43 +135,52 @@
   text-transform: uppercase;
   letter-spacing: .08em;
 }
-.listen-tracklist-ol {
+.listen-tracklist-groups { display: flex; flex-direction: column; gap: 1rem; }
+.listen-tl-group + .listen-tl-group { border-top: 1px solid var(--border); padding-top: 1rem; }
+.listen-tl-group-heading {
+  font-size: .75rem;
+  font-weight: 600;
+  color: var(--secondary);
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  margin: 0 0 .25rem;
+  padding: 0 .75rem;
+}
+.listen-tl-group-sub {
+  font-size: .72rem;
+  color: var(--secondary);
+  font-style: italic;
+  margin: 0 0 .5rem;
+  padding: 0 .75rem;
+  opacity: .75;
+}
+.listen-tl-ol {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-.listen-tracklist-ol li {
-  margin: 0;
-  padding: 0;
-}
-.listen-tracklist-ol button {
+.listen-tl-ol li { margin: 0; padding: 0; }
+.listen-tl-ol button {
   display: block;
   width: 100%;
   text-align: left;
   background: none;
   border: none;
-  padding: .5rem .75rem;
+  padding: .4rem .75rem;
   font: inherit;
   color: var(--content);
   border-radius: 6px;
   cursor: pointer;
   transition: background .12s;
-  line-height: 1.35;
+  line-height: 1.3;
+  font-size: .92rem;
 }
-.listen-tracklist-ol button:hover { background: var(--tertiary); }
-.listen-tracklist-ol button.is-current {
+.listen-tl-ol button:hover { background: var(--tertiary); }
+.listen-tl-ol button.is-current {
   background: var(--primary);
   color: var(--theme);
   font-weight: 600;
 }
-.listen-tracklist-ol .listen-tl-title { display: block; }
-.listen-tracklist-ol .listen-tl-act {
-  display: block;
-  font-size: .72rem;
-  color: var(--secondary);
-  margin-top: .1rem;
-}
-.listen-tracklist-ol button.is-current .listen-tl-act { color: var(--theme); opacity: .8; }
 </style>
 
 <script>
@@ -196,25 +200,53 @@
   var nextBtn  = document.getElementById('listen-next');
   var olEl     = document.getElementById('listen-tracklist');
   var actEl    = document.getElementById('lc-act');
+  var actSubEl = document.getElementById('lc-act-subtitle');
   var titleEl  = document.getElementById('lc-title');
   var capEl    = document.getElementById('lc-caption');
   var roleEl   = document.getElementById('lc-role');
-  var styleEl  = document.getElementById('lc-style');
-  var rtEl     = document.getElementById('lc-runtime');
   var linkEl   = document.getElementById('lc-link');
 
-  // Build tracklist
+  // Build tracklist, grouped by act (preserving overall order).
+  var groups = [];
+  var currentGroup = null;
   data.forEach(function (entry, i) {
-    var li = document.createElement('li');
-    var btn = document.createElement('button');
-    btn.type = 'button';
-    btn.setAttribute('data-index', String(i));
-    btn.innerHTML =
-      '<span class="listen-tl-title">' + escapeHtml(entry.label) + '</span>' +
-      '<span class="listen-tl-act">' + escapeHtml(entry.act || '') + '</span>';
-    btn.addEventListener('click', function () { select(i); });
-    li.appendChild(btn);
-    olEl.appendChild(li);
+    var key = entry.act || '';
+    if (!currentGroup || currentGroup.key !== key) {
+      currentGroup = { key: key, subtitle: entry.actSubtitle || '', entries: [] };
+      groups.push(currentGroup);
+    }
+    currentGroup.entries.push({ entry: entry, index: i });
+  });
+
+  groups.forEach(function (g) {
+    var wrap = document.createElement('div');
+    wrap.className = 'listen-tl-group';
+    if (g.key) {
+      var h = document.createElement('div');
+      h.className = 'listen-tl-group-heading';
+      h.textContent = g.key;
+      wrap.appendChild(h);
+    }
+    if (g.subtitle) {
+      var sub = document.createElement('div');
+      sub.className = 'listen-tl-group-sub';
+      sub.textContent = g.subtitle;
+      wrap.appendChild(sub);
+    }
+    var ol = document.createElement('ol');
+    ol.className = 'listen-tl-ol';
+    g.entries.forEach(function (item) {
+      var li = document.createElement('li');
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.setAttribute('data-index', String(item.index));
+      btn.textContent = item.entry.label;
+      btn.addEventListener('click', function () { select(item.index); });
+      li.appendChild(btn);
+      ol.appendChild(li);
+    });
+    wrap.appendChild(ol);
+    olEl.appendChild(wrap);
   });
 
   var buttons = olEl.querySelectorAll('button');
@@ -228,11 +260,10 @@
     iframe.src = e.sunoUrl;
     iframe.title = 'Suno player — ' + (e.title || '');
     actEl.textContent    = e.act || '';
+    actSubEl.textContent = e.actSubtitle || '';
     titleEl.textContent  = e.title || '';
     capEl.textContent    = e.caption || '';
-    roleEl.textContent   = e.role || '—';
-    styleEl.textContent  = e.style || '—';
-    rtEl.textContent     = e.runtime || '—';
+    roleEl.textContent   = e.role || '';
     linkEl.href          = e.trackUrl || '#';
     posEl.textContent    = (i + 1) + ' / ' + data.length;
     prevBtn.disabled = (i === 0);

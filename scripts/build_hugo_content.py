@@ -903,15 +903,20 @@ def build_listen_page(tracks: dict[int, Track]) -> None:
             "sunoUrl": suno_url(uuid),
             "trackUrl": f"/tracks/{t.slug}/",
         })
-    # Bonus tracks from EXTRA_TRACKS
+    # Extras bucket: bonus tracks and act-level theme tracks, grouped
+    # together under a single "Extras" heading in the listen-through
+    # tracklist so Act V doesn't appear twice.
+    EXTRAS_HEADING = "Extras"
+    EXTRAS_SUBTITLE = "Outside the numbered album tracklist."
+
     for slug, info in EXTRA_TRACKS.items():
         entries.append({
             "number": None,
             "slug":   slug,
             "label":  f"Bonus. {info['title']}",
             "title":  info["title"],
-            "act":    "Bonus track",
-            "actSubtitle": info["description"],
+            "act":    EXTRAS_HEADING,
+            "actSubtitle": EXTRAS_SUBTITLE,
             "caption": info["description"],
             "style":  "",
             "role":   "Bonus / epilogue",
@@ -919,7 +924,6 @@ def build_listen_page(tracks: dict[int, Track]) -> None:
             "sunoUrl": suno_url(info["uuid"]),
             "trackUrl": f"/tracks/{slug}/",
         })
-    # Act-level theme tracks (e.g. The Reckoning)
     for roman, uuid in SUNO_UUIDS_ACT.items():
         info = ACTS[roman]
         theme_title = info["title"].split("—", 1)[1].strip() if "—" in info["title"] else info["title"]
@@ -928,8 +932,8 @@ def build_listen_page(tracks: dict[int, Track]) -> None:
             "slug":   f"theme-act-{roman.lower()}",
             "label":  f"Theme. {theme_title}",
             "title":  theme_title,
-            "act":    info["title"],
-            "actSubtitle": info["subtitle"],
+            "act":    EXTRAS_HEADING,
+            "actSubtitle": EXTRAS_SUBTITLE,
             "caption": f"Theme song for {info['title']}.",
             "style":  "",
             "role":   f"Theme / overture for {info['title']}",
