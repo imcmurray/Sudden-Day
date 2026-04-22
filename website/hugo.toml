@@ -19,35 +19,40 @@ buildExpired = false
     url = "/"
     weight = 1
   [[menu.main]]
+    identifier = "listen"
+    name = "Listen"
+    url = "/listen/"
+    weight = 2
+  [[menu.main]]
     identifier = "tracks"
     name = "Tracks"
     url = "/tracks/"
-    weight = 2
+    weight = 3
   [[menu.main]]
     identifier = "acts"
     name = "Acts"
     url = "/acts/"
-    weight = 3
+    weight = 4
   [[menu.main]]
     identifier = "essays"
     name = "Essays"
     url = "/essays/"
-    weight = 4
+    weight = 5
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 5
+    weight = 6
   [[menu.main]]
     identifier = "mission"
     name = "Mission"
     url = "/mission/"
-    weight = 6
+    weight = 7
   [[menu.main]]
     identifier = "faq"
     name = "FAQ"
     url = "/faq/"
-    weight = 7
+    weight = 8
 
   [[menu.footer]]
     identifier = "methodology"

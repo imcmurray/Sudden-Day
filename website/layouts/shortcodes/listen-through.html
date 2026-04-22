@@ -1,0 +1,277 @@
+{{- $data := index site.Data "listen" -}}
+
+<div class="listen-page">
+  <div class="listen-player">
+    <iframe
+      id="listen-iframe"
+      src=""
+      width="100%"
+      height="200"
+      style="border-radius:12px;border:none;display:block"
+      loading="eager"
+      title="Sudden Day — sequential player"
+      sandbox="allow-scripts allow-same-origin allow-popups"
+      referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+    <div class="listen-controls">
+      <button type="button" class="listen-btn" id="listen-prev" aria-label="Previous track">&larr; Previous</button>
+      <span class="listen-position" id="listen-position">— / —</span>
+      <button type="button" class="listen-btn" id="listen-next" aria-label="Next track">Next &rarr;</button>
+    </div>
+
+    <div class="listen-current" id="listen-current">
+      <div class="listen-act" id="lc-act"></div>
+      <h2 class="listen-title" id="lc-title"></h2>
+      <p class="listen-caption" id="lc-caption"></p>
+      <dl class="listen-meta">
+        <div><dt>Role</dt><dd id="lc-role"></dd></div>
+        <div><dt>Style</dt><dd id="lc-style"></dd></div>
+        <div><dt>Runtime</dt><dd id="lc-runtime"></dd></div>
+      </dl>
+      <p class="listen-link"><a id="lc-link" href="">Open the full track page &rarr;</a></p>
+    </div>
+  </div>
+
+  <aside class="listen-tracklist">
+    <h3 class="listen-tracklist-heading">Tracklist</h3>
+    <ol class="listen-tracklist-ol" id="listen-tracklist"></ol>
+  </aside>
+</div>
+
+<script id="listen-data" type="application/json">{{ $data | jsonify | safeJS }}</script>
+
+<style>
+.listen-page {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(220px, 1fr);
+  gap: 2rem;
+  margin: 1.5rem 0 2rem;
+  align-items: start;
+}
+@media (max-width: 900px) {
+  .listen-page { grid-template-columns: 1fr; }
+}
+
+.listen-player { min-width: 0; }
+.listen-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+.listen-btn {
+  background: var(--entry);
+  color: var(--primary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: .5rem 1rem;
+  font: inherit;
+  cursor: pointer;
+  transition: background .15s, border-color .15s;
+}
+.listen-btn:hover { background: var(--tertiary); border-color: var(--primary); }
+.listen-btn:disabled { opacity: .4; cursor: not-allowed; }
+.listen-position {
+  color: var(--secondary);
+  font-variant-numeric: tabular-nums;
+  font-size: .9rem;
+}
+
+.listen-current {
+  background: var(--entry);
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+.listen-act {
+  color: var(--secondary);
+  font-size: .85rem;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  margin-bottom: .25rem;
+}
+.listen-title {
+  margin: 0 0 .75rem;
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+.listen-caption {
+  color: var(--content);
+  font-style: italic;
+  margin: 0 0 1rem;
+  line-height: 1.5;
+}
+.listen-meta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: .75rem 1.5rem;
+  margin: 0 0 1rem;
+  font-size: .9rem;
+}
+.listen-meta > div { display: flex; flex-direction: column; gap: .15rem; }
+.listen-meta dt {
+  color: var(--secondary);
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+.listen-meta dd { margin: 0; color: var(--content); }
+.listen-link a {
+  color: var(--primary);
+  text-decoration: none;
+  font-size: .95rem;
+  font-weight: 500;
+}
+.listen-link a:hover { text-decoration: underline; }
+
+.listen-tracklist {
+  background: var(--entry);
+  border-radius: 12px;
+  padding: 1rem;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: sticky;
+  top: 1rem;
+}
+.listen-tracklist-heading {
+  margin: 0 0 .75rem;
+  color: var(--secondary);
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+.listen-tracklist-ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.listen-tracklist-ol li {
+  margin: 0;
+  padding: 0;
+}
+.listen-tracklist-ol button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: .5rem .75rem;
+  font: inherit;
+  color: var(--content);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background .12s;
+  line-height: 1.35;
+}
+.listen-tracklist-ol button:hover { background: var(--tertiary); }
+.listen-tracklist-ol button.is-current {
+  background: var(--primary);
+  color: var(--theme);
+  font-weight: 600;
+}
+.listen-tracklist-ol .listen-tl-title { display: block; }
+.listen-tracklist-ol .listen-tl-act {
+  display: block;
+  font-size: .72rem;
+  color: var(--secondary);
+  margin-top: .1rem;
+}
+.listen-tracklist-ol button.is-current .listen-tl-act { color: var(--theme); opacity: .8; }
+</style>
+
+<script>
+(function () {
+  var data;
+  try {
+    data = JSON.parse(document.getElementById('listen-data').textContent);
+  } catch (e) {
+    console.error('listen-through: failed to parse data', e);
+    return;
+  }
+  if (!Array.isArray(data) || data.length === 0) return;
+
+  var iframe   = document.getElementById('listen-iframe');
+  var posEl    = document.getElementById('listen-position');
+  var prevBtn  = document.getElementById('listen-prev');
+  var nextBtn  = document.getElementById('listen-next');
+  var olEl     = document.getElementById('listen-tracklist');
+  var actEl    = document.getElementById('lc-act');
+  var titleEl  = document.getElementById('lc-title');
+  var capEl    = document.getElementById('lc-caption');
+  var roleEl   = document.getElementById('lc-role');
+  var styleEl  = document.getElementById('lc-style');
+  var rtEl     = document.getElementById('lc-runtime');
+  var linkEl   = document.getElementById('lc-link');
+
+  // Build tracklist
+  data.forEach(function (entry, i) {
+    var li = document.createElement('li');
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.setAttribute('data-index', String(i));
+    btn.innerHTML =
+      '<span class="listen-tl-title">' + escapeHtml(entry.label) + '</span>' +
+      '<span class="listen-tl-act">' + escapeHtml(entry.act || '') + '</span>';
+    btn.addEventListener('click', function () { select(i); });
+    li.appendChild(btn);
+    olEl.appendChild(li);
+  });
+
+  var buttons = olEl.querySelectorAll('button');
+  var current = -1;
+
+  function select(i, opts) {
+    opts = opts || {};
+    if (i < 0 || i >= data.length) return;
+    current = i;
+    var e = data[i];
+    iframe.src = e.sunoUrl;
+    iframe.title = 'Suno player — ' + (e.title || '');
+    actEl.textContent    = e.act || '';
+    titleEl.textContent  = e.title || '';
+    capEl.textContent    = e.caption || '';
+    roleEl.textContent   = e.role || '—';
+    styleEl.textContent  = e.style || '—';
+    rtEl.textContent     = e.runtime || '—';
+    linkEl.href          = e.trackUrl || '#';
+    posEl.textContent    = (i + 1) + ' / ' + data.length;
+    prevBtn.disabled = (i === 0);
+    nextBtn.disabled = (i === data.length - 1);
+    for (var k = 0; k < buttons.length; k++) {
+      buttons[k].classList.toggle('is-current', k === i);
+    }
+    if (!opts.noHash) {
+      history.replaceState(null, '', '#' + encodeURIComponent(e.slug));
+    }
+    var activeBtn = buttons[i];
+    if (activeBtn && activeBtn.scrollIntoView) {
+      activeBtn.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    }
+  }
+
+  prevBtn.addEventListener('click', function () { select(current - 1); });
+  nextBtn.addEventListener('click', function () { select(current + 1); });
+
+  document.addEventListener('keydown', function (ev) {
+    if (ev.target && /^(INPUT|TEXTAREA|SELECT)$/.test(ev.target.tagName)) return;
+    if (ev.key === 'ArrowLeft'  && current > 0)               select(current - 1);
+    if (ev.key === 'ArrowRight' && current < data.length - 1) select(current + 1);
+  });
+
+  // Restore from hash if present
+  var startIndex = 0;
+  if (location.hash) {
+    var want = decodeURIComponent(location.hash.slice(1));
+    for (var i = 0; i < data.length; i++) {
+      if (data[i].slug === want) { startIndex = i; break; }
+    }
+  }
+  select(startIndex, { noHash: !location.hash });
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c];
+    });
+  }
+})();
+</script>

@@ -873,7 +873,86 @@ def main() -> None:
     build_track_pages(tracks)
     build_extra_track_pages()
     build_essays(tracks)
+    build_listen_page(tracks)
     print("done.")
+
+
+def build_listen_page(tracks: dict[int, Track]) -> None:
+    """Single-page sequential player. Writes content/listen.md (uses the
+    `listen-through` shortcode) and website/data/listen.json holding the
+    track manifest the shortcode's JS consumes."""
+    import json as _json
+
+    entries: list[dict] = []
+    for n in sorted(tracks.keys()):
+        t = tracks[n]
+        uuid = SUNO_UUIDS.get(t.slug)
+        if not uuid:
+            continue
+        entries.append({
+            "number": t.number,
+            "slug":   t.slug,
+            "label":  f"{t.number:02d}. {t.title}",
+            "title":  t.title,
+            "act":    ACTS[t.act_roman]["title"],
+            "actSubtitle": ACTS[t.act_roman]["subtitle"],
+            "caption": t.caption,
+            "style":  t.style,
+            "role":   t.role,
+            "runtime": t.runtime,
+            "sunoUrl": suno_url(uuid),
+            "trackUrl": f"/tracks/{t.slug}/",
+        })
+    # Bonus tracks from EXTRA_TRACKS
+    for slug, info in EXTRA_TRACKS.items():
+        entries.append({
+            "number": None,
+            "slug":   slug,
+            "label":  f"Bonus. {info['title']}",
+            "title":  info["title"],
+            "act":    "Bonus track",
+            "actSubtitle": info["description"],
+            "caption": info["description"],
+            "style":  "",
+            "role":   "Bonus / epilogue",
+            "runtime": "",
+            "sunoUrl": suno_url(info["uuid"]),
+            "trackUrl": f"/tracks/{slug}/",
+        })
+    # Act-level theme tracks (e.g. The Reckoning)
+    for roman, uuid in SUNO_UUIDS_ACT.items():
+        info = ACTS[roman]
+        theme_title = info["title"].split("—", 1)[1].strip() if "—" in info["title"] else info["title"]
+        entries.append({
+            "number": None,
+            "slug":   f"theme-act-{roman.lower()}",
+            "label":  f"Theme. {theme_title}",
+            "title":  theme_title,
+            "act":    info["title"],
+            "actSubtitle": info["subtitle"],
+            "caption": f"Theme song for {info['title']}.",
+            "style":  "",
+            "role":   f"Theme / overture for {info['title']}",
+            "runtime": "",
+            "sunoUrl": suno_url(uuid),
+            "trackUrl": f"/acts/{roman_slug(roman)}/",
+        })
+
+    data_path = REPO / "website" / "data" / "listen.json"
+    data_path.parent.mkdir(parents=True, exist_ok=True)
+    data_path.write_text(_json.dumps(entries, indent=2))
+    print(f"  wrote {data_path.relative_to(REPO)}")
+
+    page = frontmatter({
+        "title": "Listen Through",
+        "description": "Play the Sudden Day album straight through — every track, in order, with its source material and producer notes alongside.",
+        "summary": "Play the whole album in order.",
+        "hidemeta": True,
+        "disableShare": True,
+    }) + """\
+{{< listen-through >}}
+"""
+    write(SITE / "listen.md", page)
 
 
 if __name__ == "__main__":
