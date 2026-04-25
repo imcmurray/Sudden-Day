@@ -111,6 +111,7 @@ No return...
 
 <details class="track-section">
 <summary>Source Material</summary>
+<div class="track-section-body">
 
 All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the Preamble's discussion of financial exploitation.
 
@@ -132,10 +133,12 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the 
 ### Worse Than Before
 > "in a very short time, they are reduced to a worse condition than that from which they had just emigrated"
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Lyric-to-Source Mapping</summary>
+<div class="track-section-body">
 
 | Lyric | Source |
 |-------|--------|
@@ -149,20 +152,22 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the 
 | "nothing else but mud" | "(except the Temple)" - only the Temple belonged to the church |
 | "deceitfully-gotten gains / Absorbed into the night" | "the Church absorbed their deceitfully-gotten gains" |
 | "In a very short time you're worse / Than before you saw the light" | "in a very short time, they are reduced to a worse condition than that from which they had just emigrated" |
-| "Ten thousand miles you traveled" | Connection to Track 4 - the converts' journey |
-| "You sold your mother's ring" | Direct callback to Track 4's sacrifice |
+| "Ten thousand miles you traveled" | Connection to [Track 4](/tracks/ten-thousand-miles/) - the converts' journey |
+| "You sold your mother's ring" | Direct callback to [Track 4](/tracks/ten-thousand-miles/)'s sacrifice |
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Producer Notes</summary>
+<div class="track-section-body">
 
 ### What This Song Does
 - Exposes the financial scheme: gather converts, sell them overpriced land
 - "The great throat" is the Expositor's own metaphor - devastating imagery
 - Connects to Act II: "Ten thousand miles you traveled" - the same converts, now fleeced
 - Sardonic tone - this is a con being exposed, delivered with bitter irony
-- Completes Act III's trilogy of exploitation: spiritual (Track 8), theological (Track 9), financial (Track 10)
+- Completes Act III's trilogy of exploitation: spiritual ([Track 8](/tracks/the-revelation/)), theological ([Track 9](/tracks/many-gods/)), financial ([Track 10](/tracks/the-great-throat/))
 
 ### Key Production Decisions
 1. **Blues-influenced groove** - Different feel from the folk ballads; this is a con exposed
@@ -172,27 +177,27 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the 
 5. **Male vocals, upright bass** - Earthy, grounded, accusatory
 
 ### The Bridge Connection
-The bridge explicitly ties back to "Ten Thousand Miles" (Track 4):
+The bridge explicitly ties back to "Ten Thousand Miles" ([Track 4](/tracks/ten-thousand-miles/)):
 - "Ten thousand miles you traveled" - the journey
 - "You sold your mother's ring" - the sacrifice
 - "You came here to be lions" - the hope
 - "Every cent you gathered / Was gathered up and lost" - the betrayal
 
-This creates album continuity: the same women who crossed oceans for God were then financially exploited. The spiritual abuse (Act II) and financial abuse (Track 10) happened to the same people.
+This creates album continuity: the same women who crossed oceans for God were then financially exploited. The spiritual abuse (Act II) and financial abuse ([Track 10](/tracks/the-great-throat/)) happened to the same people.
 
 ### The Tone Shift
 This song has a different feel from the rest of Act III:
-- Track 8 "The Revelation" - Serious, testimonial
-- Track 9 "Many Gods" - Philosophical, questioning
-- Track 10 "The Great Throat" - Sardonic, bitter, almost a dark blues
+- [Track 8](/tracks/the-revelation/) "The Revelation" - Serious, testimonial
+- [Track 9](/tracks/many-gods/) "Many Gods" - Philosophical, questioning
+- [Track 10](/tracks/the-great-throat/) "The Great Throat" - Sardonic, bitter, almost a dark blues
 
 The tonal shift is intentional. The financial exploitation is so blatant, so brazen, that a straight folk delivery would feel wrong. The sardonic edge lets the absurdity land.
 
 ### Connection to Other Tracks
-- **Track 4 "Ten Thousand Miles"** - The converts who sacrificed everything; now we see what happened to their money
-- **Track 8 "The Revelation"** - Spiritual exploitation; this is financial exploitation
-- **Track 9 "Many Gods"** - Theological exploitation; this completes the trilogy
-- **Track 6 "The Tender Tree"** - "Dry sorrow drinks her blood" - spiritual and financial draining
+- **[Track 4](/tracks/ten-thousand-miles/) "Ten Thousand Miles"** - The converts who sacrificed everything; now we see what happened to their money
+- **[Track 8](/tracks/the-revelation/) "The Revelation"** - Spiritual exploitation; this is financial exploitation
+- **[Track 9](/tracks/many-gods/) "Many Gods"** - Theological exploitation; this completes the trilogy
+- **[Track 6](/tracks/the-tender-tree/) "The Tender Tree"** - "Dry sorrow drinks her blood" - spiritual and financial draining
 
 ### Act III Complete
 With "The Great Throat," Act III is complete. The listener now knows what was taught in secret:
@@ -205,10 +210,12 @@ With "The Great Throat," Act III is complete. The listener now knows what was ta
 
 The pattern: secret doctrines enabled secret exploitation. The converts came for salvation and were drained - spiritually, theologically, financially.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Historical Context</summary>
+<div class="track-section-body">
 
 The Nauvoo economy was largely controlled by church leadership. Converts were encouraged to "gather to Zion" - selling their property abroad and bringing their wealth to Nauvoo. Upon arrival, they found:
 
@@ -226,10 +233,12 @@ This was particularly devastating for foreign converts who had:
 
 The financial exploitation worked in tandem with the spiritual coercion documented in Act II. Women who had been propositioned, coerced, and "sent away" were also being financially drained. The system extracted everything.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Album Flow Note</summary>
+<div class="track-section-body">
 
 **Act III: The Revelations** is now complete:
 
@@ -242,16 +251,18 @@ The financial exploitation worked in tandem with the spiritual coercion document
 **Transition to Act IV:**
 Act III documented what was taught and how wealth was extracted. Act IV shifts to the machinery of control - how power was maintained:
 
-- Track 11: "King and Lawgiver" - Political ambitions
-- Track 12: "The Inquisition" - The secret trial
-- Track 13: "Habeas Corpus" - Charter abuses
+- [Track 11](/tracks/king-and-lawgiver/): "King and Lawgiver" - Political ambitions
+- [Track 12](/tracks/the-inquisition/): "The Inquisition" - The secret trial
+- [Track 13](/tracks/habeas-corpus/): "Habeas Corpus" - Charter abuses
 
 The pattern continues: secret doctrines → financial extraction → political power → silencing dissent.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Version History</summary>
+<div class="track-section-body">
 
 ### v1 (Final)
 - Established the financial scheme from Expositor sources
@@ -261,8 +272,9 @@ The pattern continues: secret doctrines → financial extraction → political p
 - Bitter final chorus shows ongoing exploitation
 
 ### Concerns Noted (for future revision if needed)
-- Tone is notably different from Tracks 8-9; intentional but worth monitoring
+- Tone is notably different from Tracks [8](/tracks/the-revelation/)-[9](/tracks/many-gods/); intentional but worth monitoring
 - "Swallowed up the widows" is interpretive but consistent with documented targeting of vulnerable
 - "Children and your wife" in final chorus may be too broad; could tighten
 
+</div>
 </details>

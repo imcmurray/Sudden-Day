@@ -399,6 +399,7 @@ def build_extra_track_pages() -> None:
             body = strip_source_footer(body)
             # Strip the essay's own leading title block; frontmatter provides it.
             body = re.sub(r"^# [^\n]*\n(?:## [^\n]*\n)?(?:### [^\n]*\n)?\n*---\n+", "", body, count=1)
+            body = linkify_track_refs(body)
             content = "{{< player >}}\n\n" + body
         else:
             content = "{{< player >}}\n\n" + info["description"] + "\n"
@@ -426,6 +427,56 @@ COLLAPSIBLE_ORDER = [
     "Version History",
     "The Album Is Complete",
 ]
+
+
+# Populated by `main()` after all tracks are parsed. Maps album track number
+# to its rendered URL. Track 17 is the bonus epilogue, hosted at /tracks/1890/.
+TRACK_NUMBER_URLS: dict[int, str] = {}
+
+
+def linkify_track_refs(body: str) -> str:
+    """Convert plain `Track N`, `Tracks N–M`, and `Tracks N, M, …` references
+    to markdown links pointing at the corresponding track pages. Skips
+    occurrences that are already inside a markdown link (`[Track N](…)`)."""
+
+    def _link(n: int) -> str | None:
+        url = TRACK_NUMBER_URLS.get(n)
+        return f"[Track {n}]({url})" if url else None
+
+    def _bare_link(n: int) -> str | None:
+        url = TRACK_NUMBER_URLS.get(n)
+        return f"[{n}]({url})" if url else None
+
+    def repl_range(m: re.Match) -> str:
+        a, b = int(m.group(1)), int(m.group(2))
+        la, lb = _bare_link(a), _bare_link(b)
+        if not (la and lb):
+            return m.group(0)
+        sep = m.group(0)[m.start(2) - m.start() - 1]  # preserve - or –
+        return f"Tracks {la}{sep}{lb}"
+
+    def repl_list(m: re.Match) -> str:
+        nums_str = m.group(1)
+        try:
+            nums = [int(x.strip()) for x in nums_str.split(",")]
+        except ValueError:
+            return m.group(0)
+        linked = [_bare_link(n) for n in nums]
+        if not all(linked):
+            return m.group(0)
+        return "Tracks " + ", ".join(linked)
+
+    def repl_single(m: re.Match) -> str:
+        n = int(m.group(1))
+        out = _link(n)
+        return out if out else m.group(0)
+
+    # Order matters: range and list patterns are more specific than the
+    # single-track regex, so consume them first.
+    body = re.sub(r"\bTracks (\d{1,2})[\-–](\d{1,2})\b", repl_range, body)
+    body = re.sub(r"\bTracks (\d{1,2}(?:,\s*\d{1,2})+)\b", repl_list, body)
+    body = re.sub(r"(?<!\[)\bTrack (\d{1,2})\b", repl_single, body)
+    return body
 
 
 def parse_track_sections(body: str) -> dict[str, str]:
@@ -471,13 +522,20 @@ def render_track_meta(t: Track) -> str:
 
 
 def render_collapsible(label: str, content: str) -> str:
-    """Wrap a section in a <details> block. The blank lines around the
-    inner content are required for Goldmark to re-enter markdown
-    parsing inside the raw-HTML element."""
+    """Wrap a section in a <details> block.
+
+    The inner content is wrapped in a <div class="track-section-body">
+    so we can apply padding to the body region as a whole instead of
+    per-child — otherwise edge-touching elements (blockquote borders,
+    table rows) crash against the container's left edge. Blank lines
+    around the content are required for Goldmark to re-enter markdown
+    parsing inside the raw-HTML wrapper."""
     return (
         f'<details class="track-section">\n'
-        f'<summary>{label}</summary>\n\n'
+        f'<summary>{label}</summary>\n'
+        f'<div class="track-section-body">\n\n'
         f'{content}\n\n'
+        f'</div>\n'
         f'</details>\n'
     )
 
@@ -491,17 +549,23 @@ def build_track_pages(tracks: dict[int, Track]) -> None:
         sections = parse_track_sections(body)
 
         # Collect collapsibles in canonical order, then anything unrecognized.
+        # Bodies are passed through linkify_track_refs so cross-track
+        # references like "Track 12" become live links.
         rendered_collapsibles: list[str] = []
         seen_keys: set[str] = {"SONG OVERVIEW", "FINAL LYRICS"}
         for src_key, label in SECTION_ALIASES.items():
             if src_key in sections and src_key not in seen_keys:
-                rendered_collapsibles.append(render_collapsible(label, sections[src_key]))
+                rendered_collapsibles.append(
+                    render_collapsible(label, linkify_track_refs(sections[src_key]))
+                )
                 seen_keys.add(src_key)
         for heading, content in sections.items():
             if heading in seen_keys:
                 continue
             label = heading.title() if heading.isupper() else heading
-            rendered_collapsibles.append(render_collapsible(label, content))
+            rendered_collapsibles.append(
+                render_collapsible(label, linkify_track_refs(content))
+            )
 
         uuid = TRACK_AUDIO_IDS.get(t.slug)
         fm_fields = {
@@ -952,6 +1016,7 @@ Long-form companion pieces to the album.
         body = strip_source_footer(body)
         # Strip the essay's own top-level title since the frontmatter provides one.
         body = re.sub(r"^# [^\n]*\n(?:## [^\n]*\n)?(?:### [^\n]*\n)?\n*---\n+", "", body, count=1)
+        body = linkify_track_refs(body)
         fm = frontmatter({
             "title": title,
             "weight": weight,
@@ -966,6 +1031,14 @@ def main() -> None:
         t = parse_track(p)
         tracks[t.number] = t
     print(f"Parsed {len(tracks)} tracks")
+
+    # Populate the global track-number → URL map used by linkify_track_refs.
+    # Track 17 is the bonus epilogue (1890), not in the numbered tracklist.
+    TRACK_NUMBER_URLS.clear()
+    for n, t in tracks.items():
+        TRACK_NUMBER_URLS[n] = f"/tracks/{t.slug}/"
+    TRACK_NUMBER_URLS[17] = "/tracks/1890/"
+
     build_home()
     build_about()
     build_mission()

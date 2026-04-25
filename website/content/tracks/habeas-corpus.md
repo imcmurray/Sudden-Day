@@ -115,6 +115,7 @@ Beyond the law...
 
 <details class="track-section">
 <summary>Source Material</summary>
+<div class="track-section-body">
 
 All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly discussions of charter abuses and the Jeremiah Smith case.
 
@@ -133,10 +134,12 @@ The Expositor documented specific cases of fugitives from federal justice being 
 ### Charter as Shield
 > The Nauvoo Charter granted extraordinary powers including habeas corpus authority that could override external legal processes.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Lyric-to-Source Mapping</summary>
+<div class="track-section-body">
 
 | Lyric | Source |
 |-------|--------|
@@ -150,10 +153,12 @@ The Expositor documented specific cases of fugitives from federal justice being 
 | "Will the federal government be quiescent?" | "the constituted authorities of the federal government be quiescent under such circumstances" |
 | "A city-state upon the Mississippi" | Nauvoo's effective autonomy from state and federal authority |
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Producer Notes</summary>
+<div class="track-section-body">
 
 ### What This Song Does
 - Documents charter abuses - habeas corpus twisted to protect fugitives
@@ -185,10 +190,10 @@ The bridge asks the fundamental question: What happens when one city effectively
 "If the law means nothing in Nauvoo / Then the law means nothing at all" - this is the stakes.
 
 ### Connection to Other Tracks
-- **Track 11 "King and Lawgiver"** - The concentration of power that enabled these abuses
-- **Track 12 "The Inquisition"** - Internal dissent silenced; this track shows external accountability blocked
-- **Track 14 "Citizens of Hancock County"** - The call to action; the August elections as remedy
-- **Track 15 "The Burning"** - What happened when the Expositor published these charges
+- **[Track 11](/tracks/king-and-lawgiver/) "King and Lawgiver"** - The concentration of power that enabled these abuses
+- **[Track 12](/tracks/the-inquisition/) "The Inquisition"** - Internal dissent silenced; this track shows external accountability blocked
+- **[Track 14](/tracks/citizens-of-hancock-county/) "Citizens of Hancock County"** - The call to action; the August elections as remedy
+- **[Track 15](/tracks/the-burning/) "The Burning"** - What happened when the Expositor published these charges
 
 ### Act IV Complete
 With "Habeas Corpus," Act IV is complete. The listener now understands how power was maintained:
@@ -201,10 +206,12 @@ With "Habeas Corpus," Act IV is complete. The listener now understands how power
 
 The system was complete: religious authority + civic power + military command + legal immunity = unchecked control.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Historical Context</summary>
+<div class="track-section-body">
 
 The Nauvoo city charter, granted by the Illinois legislature in December 1840, was unusually broad. It gave Nauvoo:
 
@@ -220,10 +227,12 @@ The Expositor's warning - that Nauvoo would become "a sink of refuge for every o
 
 Their solution was political: use the August 1844 elections to elect officials who would repeal or reform the Nauvoo Charter. The destruction of the Expositor press on June 10 ended that plan - and ultimately led to Joseph Smith's arrest and death at Carthage.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Album Flow Note</summary>
+<div class="track-section-body">
 
 **Act IV: The Power** is now complete:
 
@@ -236,16 +245,18 @@ Their solution was political: use the August 1844 elections to elect officials w
 **Transition to Act V:**
 Act IV documented the machinery of control. Act V shows the reckoning:
 
-- Track 14: "Citizens of Hancock County" - Francis Higbee's rallying cry for the August elections
-- Track 15: "The Burning" - June 10, 1844 - the press destroyed
-- Track 16: "Sudden Day" - The truth survives; the epilogue
+- [Track 14](/tracks/citizens-of-hancock-county/): "Citizens of Hancock County" - Francis Higbee's rallying cry for the August elections
+- [Track 15](/tracks/the-burning/): "The Burning" - June 10, 1844 - the press destroyed
+- [Track 16](/tracks/sudden-day/): "Sudden Day" - The truth survives; the epilogue
 
 The album moves from documentation to confrontation to consequence to legacy.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Version History</summary>
+<div class="track-section-body">
 
 ### v1 (Final)
 - Documented habeas corpus abuse with specific reference to charter provisions
@@ -259,4 +270,5 @@ The album moves from documentation to confrontation to consequence to legacy.
 - "The body shall be produced" explains the Latin but may feel expository
 - Bridge is longer - may need tightening in production
 
+</div>
 </details>

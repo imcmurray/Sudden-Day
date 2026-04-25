@@ -113,6 +113,7 @@ Christ alone...
 
 <details class="track-section">
 <summary>Source Material</summary>
+<div class="track-section-body">
 
 All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the Resolutions.
 
@@ -131,10 +132,12 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the 
 ### The Wolf in Sheep's Clothing
 > "Lo! the wolf is in the fold, arrayed in sheep's clothing, and is spreading death and devastation among the saints"
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Lyric-to-Source Mapping</summary>
+<div class="track-section-body">
 
 | Lyric | Source |
 |-------|--------|
@@ -153,10 +156,12 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the 
 | "Keep church and state divided" | Resolution 3's core argument |
 | "Tyranny dressed in a prophet's robe" | "the wolf is in the fold, arrayed in sheep's clothing" |
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Producer Notes</summary>
+<div class="track-section-body">
 
 ### What This Song Does
 - Lists the accumulation of power: Prophet, Mayor, General, Presidential candidate
@@ -172,7 +177,7 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the 
 5. **Male vocals, building intensity** - Defiant, declarative, rallying
 
 ### The Bridge: Violence vs. Vote
-The bridge explicitly commits to democratic means: "Not by violence but by vote." This is historically accurate. The Expositor publishers were organizing for the August 1844 elections. Francis Higbee's letter (Track 14) calls citizens to "prepare for the dreadful conflict in August" - meaning the election, not armed conflict.
+The bridge explicitly commits to democratic means: "Not by violence but by vote." This is historically accurate. The Expositor publishers were organizing for the August 1844 elections. Francis Higbee's letter ([Track 14](/tracks/citizens-of-hancock-county/)) calls citizens to "prepare for the dreadful conflict in August" - meaning the election, not armed conflict.
 
 They weren't revolutionaries. They were using the democratic process to oppose theocratic power. This distinction matters.
 
@@ -186,10 +191,10 @@ By 1844, Joseph Smith simultaneously held:
 No other American had ever held such a concentration of religious, civic, military, and political power. The Expositor writers saw this as fundamentally incompatible with both Christianity ("Christ is our only king") and democracy ("keep church and state separate").
 
 ### Connection to Other Tracks
-- **Track 1 "June 7, 1844"** - "We hazard everything we have" - this song shows what they were opposing
-- **Track 12 "The Inquisition"** - What happened when they opposed: secret trial, excommunication
-- **Track 13 "Habeas Corpus"** - Another abuse of power: using the charter to protect criminals
-- **Track 14 "Citizens of Hancock County"** - Francis Higbee's call to action for the August elections
+- **[Track 1](/tracks/june-7-1844/) "June 7, 1844"** - "We hazard everything we have" - this song shows what they were opposing
+- **[Track 12](/tracks/the-inquisition/) "The Inquisition"** - What happened when they opposed: secret trial, excommunication
+- **[Track 13](/tracks/habeas-corpus/) "Habeas Corpus"** - Another abuse of power: using the charter to protect criminals
+- **[Track 14](/tracks/citizens-of-hancock-county/) "Citizens of Hancock County"** - Francis Higbee's call to action for the August elections
 
 ### Act IV Opening
 This song opens Act IV by naming the political stakes. The listener has seen:
@@ -199,10 +204,12 @@ This song opens Act IV by naming the political stakes. The listener has seen:
 
 Now Act IV asks: How was this power maintained? "King and Lawgiver" answers: by concentrating religious, civic, military, and political authority in one man.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Historical Context</summary>
+<div class="track-section-body">
 
 The Nauvoo city charter, granted by the Illinois legislature in 1840, gave the city extraordinary powers:
 - Its own court system with broad habeas corpus authority
@@ -223,10 +230,12 @@ The Expositor writers saw this concentration of power as:
 
 Their response was democratic action: organize, publish, vote. The destruction of their press three days later proved their warnings prophetic.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Album Flow Note</summary>
+<div class="track-section-body">
 
 **Act IV: The Power** structure:
 
@@ -238,17 +247,19 @@ Their response was democratic action: organize, publish, vote. The destruction o
 
 **Transition from Act III:**
 Act III documented what was taught and extracted. Act IV shows how power was maintained:
-- Concentrate authority (Track 11)
-- Silence dissent (Track 12)
-- Control the legal system (Track 13)
+- Concentrate authority ([Track 11](/tracks/king-and-lawgiver/))
+- Silence dissent ([Track 12](/tracks/the-inquisition/))
+- Control the legal system ([Track 13](/tracks/habeas-corpus/))
 
-**Transition to Track 12:**
+**Transition to [Track 12](/tracks/the-inquisition/):**
 "King and Lawgiver" shows the power structure. "The Inquisition" shows what happened to those who opposed it: William Law, Wilson Law, and Jane Law were tried in secret and excommunicated without being present or informed.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Version History</summary>
+<div class="track-section-body">
 
 ### v1 (Final)
 - Listed the four positions: Prophet, Mayor, General, Presidential candidate
@@ -262,4 +273,5 @@ Act III documented what was taught and extracted. Act IV shows how power was mai
 - "Three thousand strong" is historical but not from Expositor - documented fact
 - Anthemic tone is different from earlier tracks - intentional for protest song energy
 
+</div>
 </details>

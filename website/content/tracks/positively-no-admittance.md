@@ -84,6 +84,7 @@ Not mine...
 
 <details class="track-section">
 <summary>Source Material</summary>
+<div class="track-section-body">
 
 All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844.
 
@@ -108,10 +109,12 @@ All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844.
 ### The Surrender
 > "and replies, God's will be done and not mine."
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Lyric-to-Source Mapping</summary>
+<div class="track-section-body">
 
 | Lyric | Source |
 |-------|--------|
@@ -125,15 +128,17 @@ All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844.
 | "I thought of all the miles / Everything I gave" | "She thinks of the great sacrifice and of the many thousand miles she has traveled" |
 | "God's will be done... not mine" | "and replies, God's will be done and not mine" |
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Producer Notes</summary>
+<div class="track-section-body">
 
 ### What This Song Does
 - Tells the story of ONE moment: the secret room, the impossible choice
 - Ends on the surrender - does NOT show the aftermath
-- Sets up "The Tender Tree" (Track 6) which carries the devastation forward
+- Sets up "The Tender Tree" ([Track 6](/tracks/the-tender-tree/)) which carries the devastation forward
 
 ### Key Production Decisions
 1. **Cut the aftermath material** - "sent away until the talk died down" belongs in "The Tender Tree"
@@ -151,14 +156,16 @@ The bridge from the first draft was generic ("What choice did I have?"). The new
 Damned if you submit, damned if you refuse. That's the trap.
 
 ### Connection to Other Tracks
-- **Track 4 "Ten Thousand Miles"** - Sets up "I thought of all the miles" - the listener needs to feel those miles first
-- **Track 6 "The Tender Tree"** - Carries the aftermath: sent away, dry sorrow, the withering
-- **Track 7 "Under Condemnation"** - Expands on the theological trap introduced in verse 3
+- **[Track 4](/tracks/ten-thousand-miles/) "Ten Thousand Miles"** - Sets up "I thought of all the miles" - the listener needs to feel those miles first
+- **[Track 6](/tracks/the-tender-tree/) "The Tender Tree"** - Carries the aftermath: sent away, dry sorrow, the withering
+- **[Track 7](/tracks/under-condemnation/) "Under Condemnation"** - Expands on the theological trap introduced in verse 3
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Historical Context</summary>
+<div class="track-section-body">
 
 The Nauvoo Expositor was published June 7, 1844 by former high-ranking church members including William Law (Second Counselor in the First Presidency) and Austin Cowles (First Counselor to the Stake President). 
 
@@ -168,10 +175,12 @@ This led directly to Joseph Smith's arrest and murder at Carthage Jail on June 2
 
 The women described in the Expositor's preamble were real. Their names were largely not recorded - they were "sent away for a time, until all is well" and returned "as from a long visit." This song gives voice to their silenced experience.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Version History</summary>
+<div class="track-section-body">
 
 ### v1 (Cut)
 - Too wordy, setup soup in verse 1
@@ -184,4 +193,5 @@ The women described in the Expositor's preamble were real. Their names were larg
 - New verse 3 addresses theological weaponization
 - Ends on surrender with no resolution
 
+</div>
 </details>

@@ -99,6 +99,7 @@ No way home...
 
 <details class="track-section">
 <summary>Source Material</summary>
+<div class="track-section-body">
 
 All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844.
 
@@ -114,10 +115,12 @@ All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844.
 ### The Summons
 > "They are also notified that Brother Joseph will see them soon, and reveal the mysteries of Heaven to their full understanding, which seldom fails to inspire them with new confidence in the Prophet, as well as a great anxiety to know what God has laid up in store for them"
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Lyric-to-Source Mapping</summary>
+<div class="track-section-body">
 
 | Lyric | Source |
 |-------|--------|
@@ -135,14 +138,16 @@ All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844.
 | "reveal the mysteries of heaven" | "reveal the mysteries of Heaven to their full understanding" |
 | "I did not know what waited" | Sets up "Positively No Admittance" |
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Producer Notes</summary>
+<div class="track-section-body">
 
 ### What This Song Does
 - Establishes the hope, faith, and sacrifice BEFORE the betrayal
-- Makes the listener feel those "ten thousand miles" so that when they hear "I thought of all the miles" in Track 5, it lands
+- Makes the listener feel those "ten thousand miles" so that when they hear "I thought of all the miles" in [Track 5](/tracks/positively-no-admittance/), it lands
 - Plants seeds of doubt ("Or so they told me") without being heavy-handed
 - The bridge is a direct handoff to "Positively No Admittance"
 
@@ -156,24 +161,26 @@ All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844.
 "Ten thousand miles" repeats throughout - it's singable, memorable, and directly from the Expositor's language ("many thousand miles"). The repetition emphasizes both the physical distance and the emotional isolation.
 
 ### The Bridge as Transition
-The bridge directly sets up Track 5:
+The bridge directly sets up [Track 5](/tracks/positively-no-admittance/):
 - "They said the Prophet wished to see me" → leads to the secret room
 - "To reveal the mysteries of heaven" → the promise before the trap
 - "I did not know what waited" → the listener does know, creating dramatic irony
 
 ### Connection to Other Tracks
-- **Track 5 "Positively No Admittance"** - This song's bridge leads directly into the secret room scene. The line "I thought of all the miles / Everything I gave" in Track 5 refers back to everything established here.
-- **Track 6 "The Tender Tree"** - The aftermath; "no way home" becomes literal as she's "sent away until the talk died down"
+- **[Track 5](/tracks/positively-no-admittance/) "Positively No Admittance"** - This song's bridge leads directly into the secret room scene. The line "I thought of all the miles / Everything I gave" in [Track 5](/tracks/positively-no-admittance/) refers back to everything established here.
+- **[Track 6](/tracks/the-tender-tree/) "The Tender Tree"** - The aftermath; "no way home" becomes literal as she's "sent away until the talk died down"
 
 ### What We Deliberately Left Out
 - Specific mention of husbands or leaving spouses (not verified in primary sources)
 - Specific countries of origin (the Expositor keeps it general: "foreign climes")
 - Details of the voyage beyond atmospheric imagery
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Historical Context</summary>
+<div class="track-section-body">
 
 Between 1839 and 1846, approximately 4,000 British converts emigrated to Nauvoo. The Twelve Apostles established a shipping agency and organized emigration companies. Converts typically sailed from Liverpool to New Orleans, then traveled up the Mississippi River to Nauvoo.
 
@@ -181,16 +188,19 @@ The Expositor specifically calls out "the Strikers" - members tasked with welcom
 
 The women described in the Expositor had genuinely sacrificed everything - selling possessions, leaving friends and family, crossing an ocean - believing they were gathering to Zion to glorify God. This faith made them vulnerable to exploitation. When faced with the Prophet's demands, they had no resources, no support network, and "no way home."
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Album Flow Note</summary>
+<div class="track-section-body">
 
-**Track 3: "Seven Wives"** → Establishes the public lie (Joseph denying polygamy)
-**Track 4: "Ten Thousand Miles"** → The convert's journey and hope
-**Track 5: "Positively No Admittance"** → The secret room, the coercion
-**Track 6: "The Tender Tree"** → The aftermath, the withering
+**[Track 3](/tracks/seven-wives/): "Seven Wives"** → Establishes the public lie (Joseph denying polygamy)
+**[Track 4](/tracks/ten-thousand-miles/): "Ten Thousand Miles"** → The convert's journey and hope
+**[Track 5](/tracks/positively-no-admittance/): "Positively No Admittance"** → The secret room, the coercion
+**[Track 6](/tracks/the-tender-tree/): "The Tender Tree"** → The aftermath, the withering
 
 This sequence takes the listener from public denial → private hope → private horror → private devastation. The women's arc is complete across these four songs.
 
+</div>
 </details>

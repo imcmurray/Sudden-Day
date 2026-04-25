@@ -96,6 +96,7 @@ From the silence...
 
 <details class="track-section">
 <summary>Source Material</summary>
+<div class="track-section-body">
 
 All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844. This song draws particularly heavily from the Expositor's own language - the original writers were remarkably eloquent in describing the women's devastation.
 
@@ -123,10 +124,12 @@ All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844. T
 ### The Cry for Justice
 > "A departed spirit, once the resident of St. Louis, shall yet cry aloud for vengeance"
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Lyric-to-Source Mapping</summary>
+<div class="track-section-body">
 
 | Lyric | Source |
 |-------|--------|
@@ -154,13 +157,15 @@ All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844. T
 | "And no one knows the cause" | "we strive in vain to recollect the blast or thunder-bolt that could have smitten it with decay" |
 | "A departed spirit / Cries out for vengeance" | "A departed spirit, once the resident of St. Louis, shall yet cry aloud for vengeance" |
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Producer Notes</summary>
+<div class="track-section-body">
 
 ### What This Song Does
-- Completes the women's trilogy: journey (Track 4) → coercion (Track 5) → aftermath (Track 6)
+- Completes the women's trilogy: journey ([Track 4](/tracks/ten-thousand-miles/)) → coercion ([Track 5](/tracks/positively-no-admittance/)) → aftermath ([Track 6](/tracks/the-tender-tree/))
 - Gives voice to the silent suffering the Expositor describes
 - Honors the "departed spirit" from St. Louis - a real woman who died
 - The song structure mirrors the withering: each section gets quieter, sparser, fading
@@ -182,12 +187,12 @@ The same applies to "easy prey/pray to the spoiler" in verse 4 - we use "prey" f
 The Expositor specifically mentions "a departed spirit, once the resident of St. Louis" who "shall yet cry aloud for vengeance." This was a real woman. We don't know her name - she was erased from history. This song is her voice.
 
 ### Connection to Other Tracks
-- **Track 4 "Ten Thousand Miles"** - The hope and sacrifice that made her vulnerable
-- **Track 5 "Positively No Admittance"** - The moment of coercion; "God's will be done, not mine"
-- **Track 6 "The Tender Tree"** - The aftermath; the price she paid
-- **Track 7 "Under Condemnation"** - Expands on the theological trap that enabled all of this
+- **[Track 4](/tracks/ten-thousand-miles/) "Ten Thousand Miles"** - The hope and sacrifice that made her vulnerable
+- **[Track 5](/tracks/positively-no-admittance/) "Positively No Admittance"** - The moment of coercion; "God's will be done, not mine"
+- **[Track 6](/tracks/the-tender-tree/) "The Tender Tree"** - The aftermath; the price she paid
+- **[Track 7](/tracks/under-condemnation/) "Under Condemnation"** - Expands on the theological trap that enabled all of this
 
-### The Women's Arc (Tracks 4-6)
+### The Women's Arc (Tracks [4](/tracks/ten-thousand-miles/)-[6](/tracks/the-tender-tree/))
 These three songs tell one complete story:
 1. **Ten Thousand Miles** - She crosses an ocean, full of faith
 2. **Positively No Admittance** - She's trapped in the secret room, forced to surrender
@@ -197,10 +202,12 @@ The Expositor writers were documenting real suffering. These weren't hypothetica
 
 180 years later, we're singing her story.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Historical Context</summary>
+<div class="track-section-body">
 
 The Nauvoo Expositor's Preamble contains an extended metaphor comparing exploited women to tender trees with worms at their hearts. This was not abstract poetry - it was documentation of observed suffering.
 
@@ -214,10 +221,12 @@ When they died - from "some wintry chill, some casual indisposition" - no one co
 
 This song names what was unnamed.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Album Flow Note</summary>
+<div class="track-section-body">
 
 **Act II: The Women** is now complete:
 
@@ -228,6 +237,7 @@ This song names what was unnamed.
 | 6 | The Tender Tree | Devastation - the aftermath |
 | 7 | Under Condemnation | The theological trap that enabled it all |
 
-Track 7 "Under Condemnation" steps back to explain the mechanism: Jane Law's testimony that women who refused "should be under condemnation before God." This is the doctrinal cage that made escape impossible.
+[Track 7](/tracks/under-condemnation/) "Under Condemnation" steps back to explain the mechanism: Jane Law's testimony that women who refused "should be under condemnation before God." This is the doctrinal cage that made escape impossible.
 
+</div>
 </details>

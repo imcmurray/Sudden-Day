@@ -105,6 +105,7 @@ And he could only find one
 
 <details class="track-section">
 <summary>Source Material</summary>
+<div class="track-section-body">
 
 All lyrics are grounded in the Nauvoo Expositor and Joseph Smith's documented public statements.
 
@@ -126,10 +127,12 @@ All lyrics are grounded in the Nauvoo Expositor and Joseph Smith's documented pu
 ### The Sealing Doctrine
 > "the sealing up of persons to eternal life, against all sins, save that of sheding innocent blood or of consenting thereto"
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Lyric-to-Source Mapping</summary>
+<div class="track-section-body">
 
 | Lyric | Source |
 |-------|--------|
@@ -148,10 +151,12 @@ All lyrics are grounded in the Nauvoo Expositor and Joseph Smith's documented pu
 | "Austin Cowles heard it read aloud" | Austin Cowles' sworn affidavit about the High Council reading |
 | "William knew it in his bones / When the Prophet came for his wife" | William Law's testimony; Joseph's alleged proposition to Jane Law |
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Producer Notes</summary>
+<div class="track-section-body">
 
 ### What This Song Does
 - Contrasts Joseph's public denial with documented private reality
@@ -180,11 +185,11 @@ Joseph preached this sermon on May 26, 1844 - just twelve days before the Exposi
 Some of those followers - William Law, Jane Law, Austin Cowles - had read the revelation themselves. They sat in that congregation and watched him lie. Twelve days later, they published the truth.
 
 ### Connection to Other Tracks
-- **Track 1 "June 7, 1844"** - The declaration that the disease must be known
-- **Track 2 "Forbearance"** - Why they had to speak (private efforts failed)
-- **Track 3 "Seven Wives"** - The specific lie they're exposing
-- **Track 5 "Positively No Admittance"** - What actually happened to the women
-- **Track 8 "The Revelation"** - Austin Cowles' full testimony about what Hyrum read
+- **[Track 1](/tracks/june-7-1844/) "June 7, 1844"** - The declaration that the disease must be known
+- **[Track 2](/tracks/forbearance/) "Forbearance"** - Why they had to speak (private efforts failed)
+- **[Track 3](/tracks/seven-wives/) "Seven Wives"** - The specific lie they're exposing
+- **[Track 5](/tracks/positively-no-admittance/) "Positively No Admittance"** - What actually happened to the women
+- **[Track 8](/tracks/the-revelation/) "The Revelation"** - Austin Cowles' full testimony about what Hyrum read
 
 ### Act I Complete
 With "Seven Wives," Act I is complete. The listener now knows:
@@ -197,10 +202,12 @@ With "Seven Wives," Act I is complete. The listener now knows:
 
 The listener is now prepared for Act II: The Women. They understand the context. Now they'll hear what happened to the victims.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Historical Context</summary>
+<div class="track-section-body">
 
 On May 26, 1844, Joseph Smith preached a sermon in Nauvoo directly denying the practice of plural marriage. This was not ignorance or misunderstanding - he was lying to his own followers while secretly married to dozens of women.
 
@@ -215,10 +222,12 @@ Twelve days later, they published their sworn affidavits. Joseph's own words - "
 
 The historical record now confirms approximately 30-40 plural wives. The Expositor only knew about "the number of ten." Even that was enough to prove the public denial was a lie.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Album Flow Note</summary>
+<div class="track-section-body">
 
 **Act I: The Awakening** is now complete:
 
@@ -229,8 +238,9 @@ The historical record now confirms approximately 30-40 plural wives. The Exposit
 | 3 | Seven Wives | Bitter irony | The lie exposed |
 
 **Transition to Act II:**
-Track 3 ends with the lie. Track 4 begins with a woman crossing an ocean, full of faith.
+[Track 3](/tracks/seven-wives/) ends with the lie. [Track 4](/tracks/ten-thousand-miles/) begins with a woman crossing an ocean, full of faith.
 
 The juxtaposition is intentional: We've just heard him deny having seven wives. Now we're going to meet one of them.
 
+</div>
 </details>

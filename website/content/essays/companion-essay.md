@@ -160,12 +160,12 @@ The power of this album lies in its documentary integrity. We are not making acc
 
 The album is organized into five acts plus an epilogue:
 
-- **Act I: The Awakening** (Tracks 1-3) â€” Who spoke and why
-- **Act II: The Women** (Tracks 4-7) â€” What happened to the victims
-- **Act III: The Revelations** (Tracks 8-10) â€” What was taught in secret
-- **Act IV: The Power** (Tracks 11-13) â€” How control was maintained
-- **Act V: The Reckoning** (Tracks 14-16) â€” The silencing that wasn't
-- **Epilogue** (Track 17) â€” The question that remains
+- **Act I: The Awakening** (Tracks [1](/tracks/june-7-1844/)-[3](/tracks/seven-wives/)) â€” Who spoke and why
+- **Act II: The Women** (Tracks [4](/tracks/ten-thousand-miles/)-[7](/tracks/under-condemnation/)) â€” What happened to the victims
+- **Act III: The Revelations** (Tracks [8](/tracks/the-revelation/)-[10](/tracks/the-great-throat/)) â€” What was taught in secret
+- **Act IV: The Power** (Tracks [11](/tracks/king-and-lawgiver/)-[13](/tracks/habeas-corpus/)) â€” How control was maintained
+- **Act V: The Reckoning** (Tracks [14](/tracks/citizens-of-hancock-county/)-[16](/tracks/sudden-day/)) â€” The silencing that wasn't
+- **Epilogue** ([Track 17](/tracks/1890/)) â€” The question that remains
 
 Each act builds on the last, moving from the whistleblowers' decision to speak, through the women's devastating experiences, into the secret doctrines themselves, then the machinery of power that enabled the abuse, and finally to the destruction of the press and the survival of truth.
 
@@ -181,7 +181,7 @@ The first act introduces the whistleblowers, explains why they broke their silen
 
 ---
 
-## Track 1: "June 7, 1844"
+## [Track 1](/tracks/june-7-1844/): "June 7, 1844"
 
 **The Album Opener**
 
@@ -237,7 +237,7 @@ This song draws primarily from the Expositor's Preamble, using direct quotes whe
 
 ---
 
-## Track 2: "Forbearance"
+## [Track 2](/tracks/forbearance/): "Forbearance"
 
 **The Whistleblowers' Manifesto**
 
@@ -304,7 +304,7 @@ Key sources:
 
 ---
 
-## Track 3: "Seven Wives"
+## [Track 3](/tracks/seven-wives/): "Seven Wives"
 
 **The Public Lie Exposed**
 
@@ -365,9 +365,9 @@ Key sources:
 ### Album Position
 
 With "Seven Wives," Act I is complete. The listener now knows:
-- These are insiders speaking (Track 1)
-- They tried private reformation first and were rejected (Track 2)
-- The central lie was Joseph's public denial of polygamy while secretly practicing it (Track 3)
+- These are insiders speaking ([Track 1](/tracks/june-7-1844/))
+- They tried private reformation first and were rejected ([Track 2](/tracks/forbearance/))
+- The central lie was Joseph's public denial of polygamy while secretly practicing it ([Track 3](/tracks/seven-wives/))
 
 The listener is now prepared for Act II: What happened to the women.
 
@@ -419,7 +419,7 @@ This was documented in 1844 by people who had witnessed it. The songs in Act II 
 
 ---
 
-## Track 4: "Ten Thousand Miles"
+## [Track 4](/tracks/ten-thousand-miles/): "Ten Thousand Miles"
 
 **The Journey to Zion**
 
@@ -477,7 +477,7 @@ Key sources:
 
 ---
 
-## Track 5: "Positively No Admittance"
+## [Track 5](/tracks/positively-no-admittance/): "Positively No Admittance"
 
 **The Secret Room**
 
@@ -579,7 +579,7 @@ Key sources:
 
 ---
 
-## Track 6: "The Tender Tree"
+## [Track 6](/tracks/the-tender-tree/): "The Tender Tree"
 
 **The Aftermath**
 
@@ -650,7 +650,7 @@ This song is almost entirely direct quotation, restructured into singable lines:
 
 ---
 
-## Track 7: "Under Condemnation"
+## [Track 7](/tracks/under-condemnation/): "Under Condemnation"
 
 **The Theological Trapâ€”and Defiance**
 
@@ -706,10 +706,10 @@ Key sources:
 ### Album Position
 
 With "Under Condemnation," Act II is complete. The listener has experienced:
-- The sacrifice and hope of the journey (Track 4)
-- The horror of the coercion (Track 5)
-- The devastation of the aftermath (Track 6)
-- The theological trapâ€”and one woman's defiance (Track 7)
+- The sacrifice and hope of the journey ([Track 4](/tracks/ten-thousand-miles/))
+- The horror of the coercion ([Track 5](/tracks/positively-no-admittance/))
+- The devastation of the aftermath ([Track 6](/tracks/the-tender-tree/))
+- The theological trapâ€”and one woman's defiance ([Track 7](/tracks/under-condemnation/))
 
 The arc moves from hope to horror to devastation to defiance. Not all women submitted. Jane Law said no. This is why Act II doesn't end in despair.
 
@@ -723,7 +723,7 @@ The previous act showed what the secret doctrines *did* to people. This act show
 
 ---
 
-## Track 8: "The Revelation"
+## [Track 8](/tracks/the-revelation/): "The Revelation"
 
 **Austin Cowles' Testimony**
 
@@ -787,7 +787,7 @@ Austin Cowles' affidavit is the primary source for this entire song:
 
 ---
 
-## Track 9: "Many Gods"
+## [Track 9](/tracks/many-gods/): "Many Gods"
 
 **The Polytheism Doctrine**
 
@@ -846,7 +846,7 @@ Key sources:
 
 ---
 
-## Track 10: "The Great Throat"
+## [Track 10](/tracks/the-great-throat/): "The Great Throat"
 
 **Financial Exploitation**
 
@@ -910,9 +910,9 @@ Key sources:
 ### Album Position
 
 With "The Great Throat," Act III is complete. The listener now knows what was taught in secret:
-- Plural marriage, sealed for eternity, with biblical justification (Track 8)
-- Many gods, with our God subject to law and capable of falling (Track 9)
-- Financial exploitation through the gathering doctrine (Track 10)
+- Plural marriage, sealed for eternity, with biblical justification ([Track 8](/tracks/the-revelation/))
+- Many gods, with our God subject to law and capable of falling ([Track 9](/tracks/many-gods/))
+- Financial exploitation through the gathering doctrine ([Track 10](/tracks/the-great-throat/))
 
 Spiritual exploitation. Theological innovation. Financial extraction. The trifecta of the "disease" the Expositor documented.
 
@@ -926,7 +926,7 @@ The previous acts showed the abuses. This act shows the machinery that enabled t
 
 ---
 
-## Track 11: "King and Lawgiver"
+## [Track 11](/tracks/king-and-lawgiver/): "King and Lawgiver"
 
 **Political Ambitions**
 
@@ -981,7 +981,7 @@ Key sources:
 
 ---
 
-## Track 12: "The Inquisition"
+## [Track 12](/tracks/the-inquisition/): "The Inquisition"
 
 **The Secret Trial**
 
@@ -1029,7 +1029,7 @@ Key sources:
 
 ---
 
-## Track 13: "Habeas Corpus"
+## [Track 13](/tracks/habeas-corpus/): "Habeas Corpus"
 
 **Charter Abuses**
 
@@ -1077,9 +1077,9 @@ Key sources:
 ### Album Position
 
 With "Habeas Corpus," Act IV is complete. The listener now understands how power was maintained:
-- Concentration of religious, civic, military, and political authority (Track 11)
-- Silencing internal dissent through secret trials (Track 12)
-- Blocking external accountability through charter abuse (Track 13)
+- Concentration of religious, civic, military, and political authority ([Track 11](/tracks/king-and-lawgiver/))
+- Silencing internal dissent through secret trials ([Track 12](/tracks/the-inquisition/))
+- Blocking external accountability through charter abuse ([Track 13](/tracks/habeas-corpus/))
 
 The system was complete: unchecked authority enabled unchecked abuse.
 
@@ -1093,7 +1093,7 @@ The final act of the main album. A rallying cry, a burning, and the survival of 
 
 ---
 
-## Track 14: "Citizens of Hancock County"
+## [Track 14](/tracks/citizens-of-hancock-county/): "Citizens of Hancock County"
 
 **Francis Higbee's Rallying Cry**
 
@@ -1139,7 +1139,7 @@ Key sources from Francis Higbee's letter:
 
 ---
 
-## Track 15: "The Burning"
+## [Track 15](/tracks/the-burning/): "The Burning"
 
 **June 10, 1844**
 
@@ -1190,7 +1190,7 @@ The Expositor's prophecy: "Men solace themselves by saying the facts slumber in 
 
 ---
 
-## Track 16: "Sudden Day"
+## [Track 16](/tracks/sudden-day/): "Sudden Day"
 
 **The Truth Survives**
 
@@ -1218,9 +1218,9 @@ The chorus declares:
 
 The song callbacks to every earlier track:
 
-> "Jane Law still says no" (Track 7)
-> "Austin Cowles dares not teach" (Track 8)
-> "The great throat still swallows" (Track 10)
+> "Jane Law still says no" ([Track 7](/tracks/under-condemnation/))
+> "Austin Cowles dares not teach" ([Track 8](/tracks/the-revelation/))
+> "The great throat still swallows" ([Track 10](/tracks/the-great-throat/))
 
 These aren't just historical figures. Their testimonies live on.
 
@@ -1249,7 +1249,7 @@ The Expositor's prophecy provides the song's structure:
 
 # EPILOGUE
 
-## Track 17: "1890"
+## [Track 17](/tracks/1890/): "1890"
 
 **The Question That Remains**
 
@@ -1406,7 +1406,7 @@ The whistleblowers hazarded everythingâ€”"particularly property, and probab
 
 **Chauncey L. Higbee** went on to a distinguished legal and political career. He served in the Illinois House of Representatives (1854), the Illinois Senate (1858-1861), and as a circuit court judge (1861) and appellate court judge (1877). A school in Pittsfield, Illinois was named after him. He died on December 7, 1884, at age 63.
 
-**Francis M. Higbee**, whose rallying cry to the "Citizens of Hancock County" became Track 14, settled in Pleasant Hill, Pike County, Illinois.
+**Francis M. Higbee**, whose rallying cry to the "Citizens of Hancock County" became [Track 14](/tracks/citizens-of-hancock-county/), settled in Pleasant Hill, Pike County, Illinois.
 
 They survived. They scattered across Illinois and Iowa. They built new lives. But they never recanted. The Expositor remained their testimonyâ€”a document they had signed knowing the cost, preserved for 180 years.
 
@@ -1540,7 +1540,7 @@ If you have the ability to hear the album, here are suggestions for how to exper
 
 **Act II alone.** The four songs of Act II form a complete emotional journey and can stand alone as a suite. Journey, coercion, devastation, defiance. This is the heart of the album.
 
-**The Epilogue separately.** Track 17 is intentionally set apart from the main album. It breaks the historical frame and speaks in a modern voice. Listen to the main sixteen songs first, then return to the epilogue when you're ready to ask uncomfortable questions about the present.
+**The Epilogue separately.** [Track 17](/tracks/1890/) is intentionally set apart from the main album. It breaks the historical frame and speaks in a modern voice. Listen to the main sixteen songs first, then return to the epilogue when you're ready to ask uncomfortable questions about the present.
 
 ---
 

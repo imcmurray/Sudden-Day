@@ -113,6 +113,7 @@ Erased from time...
 
 <details class="track-section">
 <summary>Source Material</summary>
+<div class="track-section-body">
 
 All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the Preamble's discussion of the secret trial.
 
@@ -131,10 +132,12 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the 
 ### False Testimony
 > "condemned on the testimony of a man that had confessed himself a liar"
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Lyric-to-Source Mapping</summary>
+<div class="track-section-body">
 
 | Lyric | Source |
 |-------|--------|
@@ -153,10 +156,12 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the 
 | "No one here is safe" | Implied warning from the Expositor's argument |
 | "Your name erased from time" | The effect of excommunication - erasure from the community |
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Producer Notes</summary>
+<div class="track-section-body">
 
 ### What This Song Does
 - Documents the secret trial of April 18, 1844
@@ -188,18 +193,20 @@ The horror here isn't just excommunication - it's the process:
 This is institutional terror. Anyone could be next. The bridge makes this explicit: "Today they came for William Law / Tomorrow for your faith."
 
 ### Connection to Other Tracks
-- **Track 7 "Under Condemnation"** - Jane Law's defiance; now we see the consequence
-- **Track 11 "King and Lawgiver"** - The power structure that enabled secret trials
-- **Track 13 "Habeas Corpus"** - Another abuse of institutional power
-- **Track 14 "Citizens of Hancock County"** - The call to action in response
+- **[Track 7](/tracks/under-condemnation/) "Under Condemnation"** - Jane Law's defiance; now we see the consequence
+- **[Track 11](/tracks/king-and-lawgiver/) "King and Lawgiver"** - The power structure that enabled secret trials
+- **[Track 13](/tracks/habeas-corpus/) "Habeas Corpus"** - Another abuse of institutional power
+- **[Track 14](/tracks/citizens-of-hancock-county/) "Citizens of Hancock County"** - The call to action in response
 
 ### The Laws' Response
 William, Wilson, and Jane Law responded to their secret excommunication by publishing the Expositor. They didn't slink away - they documented everything. This song is part of that documentation.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Historical Context</summary>
+<div class="track-section-body">
 
 On April 18, 1844, a church council met in secret to try William Law (Second Counselor in the First Presidency), his brother Wilson Law (brigadier general in the Nauvoo Legion), and Jane Law (William's wife).
 
@@ -213,10 +220,12 @@ The Expositor's comparison to the Spanish Inquisition was not casual. Pope Innoc
 
 Their warning proved prophetic. Less than three months after the secret trial, Joseph Smith (as mayor) would order the destruction of their press - another act of power without due process.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Album Flow Note</summary>
+<div class="track-section-body">
 
 **Act IV: The Power** structure:
 
@@ -226,16 +235,18 @@ Their warning proved prophetic. Less than three months after the secret trial, J
 | 12 | The Inquisition | Secret trial - silencing internal dissent |
 | 13 | Habeas Corpus | Charter abuses - legal sanctuary for crimes |
 
-**Transition from Track 11:**
+**Transition from [Track 11](/tracks/king-and-lawgiver/):**
 "King and Lawgiver" showed the accumulation of power. "The Inquisition" shows how that power was used: to silence dissent through secret trials.
 
-**Transition to Track 13:**
+**Transition to [Track 13](/tracks/habeas-corpus/):**
 "The Inquisition" covers internal dissent (excommunicating critics). "Habeas Corpus" covers external accountability (protecting fugitives from federal law). Both show the same pattern: using institutional power to evade justice.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Version History</summary>
+<div class="track-section-body">
 
 ### v1 (Final)
 - Documented the April 18, 1844 secret trial
@@ -249,4 +260,5 @@ Their warning proved prophetic. Less than three months after the secret trial, J
 - "Erased from time" is interpretive but captures the effect of excommunication
 - Bridge's "today/tomorrow" structure is classic protest song form
 
+</div>
 </details>

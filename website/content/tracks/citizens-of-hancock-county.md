@@ -113,6 +113,7 @@ Take your stand!
 
 <details class="track-section">
 <summary>Source Material</summary>
+<div class="track-section-body">
 
 All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly Francis Higbee's letter "To the Citizens of Hancock County."
 
@@ -131,10 +132,12 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly Fran
 ### The Charter Repeal
 > Call for unconditional repeal of the Nauvoo Charter
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Lyric-to-Source Mapping</summary>
+<div class="track-section-body">
 
 | Lyric | Source |
 |-------|--------|
@@ -148,10 +151,12 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly Fran
 | "Come to the rescue" | "We therefore call upon you to come to the rescue" |
 | "Not with rifles, not with sabers / But with the ballot" | Implied - Higbee's call was for electoral action, not violence |
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Producer Notes</summary>
+<div class="track-section-body">
 
 ### What This Song Does
 - Adapts Francis Higbee's actual letter into a rallying cry
@@ -176,20 +181,22 @@ The verse "Not with rifles, not with sabers / But with the ballot and the vow" m
 Higbee compared Joseph Smith to Nero and Caligula - Roman emperors infamous for tyranny and excess. This wasn't subtle. He called Joseph "one of the blackest and basest scoundrels" in human history. The song preserves this rhetoric because it captures the intensity of the moment.
 
 ### Connection to Other Tracks
-- **Track 11 "King and Lawgiver"** - The political critique; this is the call to action
-- **Track 13 "Habeas Corpus"** - The charter abuses; this calls for charter repeal
-- **Track 15 "The Burning"** - What happened three days after this call went out
-- **Track 1 "June 7, 1844"** - "We hazard everything we have" - now we see the hazard realized
+- **[Track 11](/tracks/king-and-lawgiver/) "King and Lawgiver"** - The political critique; this is the call to action
+- **[Track 13](/tracks/habeas-corpus/) "Habeas Corpus"** - The charter abuses; this calls for charter repeal
+- **[Track 15](/tracks/the-burning/) "The Burning"** - What happened three days after this call went out
+- **[Track 1](/tracks/june-7-1844/) "June 7, 1844"** - "We hazard everything we have" - now we see the hazard realized
 
 ### Act V Opening
 This song opens Act V with the Expositor's proposed solution. The listeners have seen the abuses (Acts II-IV). Now they hear the remedy: democratic action, charter repeal, the August elections.
 
 But the listener knows what's coming. Three days later, the press burned.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Historical Context</summary>
+<div class="track-section-body">
 
 Francis M. Higbee was a former Mormon missionary who had become disillusioned with Joseph Smith's leadership. His letter "To the Citizens of Hancock County" was one of the most inflammatory pieces in the Expositor.
 
@@ -210,10 +217,12 @@ The timeline:
 
 The destruction of the press short-circuited the democratic process Higbee had called for. Instead of a ballot-box victory, the conflict escalated to violence and murder.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Album Flow Note</summary>
+<div class="track-section-body">
 
 **Act V: The Reckoning** structure:
 
@@ -224,17 +233,19 @@ The destruction of the press short-circuited the democratic process Higbee had c
 | 16 | Sudden Day | The truth survives - epilogue |
 
 **Transition from Act IV:**
-Act IV documented the machinery of control. Track 14 opens Act V with the proposed remedy: political action, charter repeal, the August elections.
+Act IV documented the machinery of control. [Track 14](/tracks/citizens-of-hancock-county/) opens Act V with the proposed remedy: political action, charter repeal, the August elections.
 
-**Transition to Track 15:**
-Track 14 ends with a rallying cry: "Take your stand!" Track 15 answers with fire. Three days after the Expositor published, Joseph Smith ordered the press destroyed. The democratic solution died in flames.
+**Transition to [Track 15](/tracks/the-burning/):**
+[Track 14](/tracks/citizens-of-hancock-county/) ends with a rallying cry: "Take your stand!" [Track 15](/tracks/the-burning/) answers with fire. Three days after the Expositor published, Joseph Smith ordered the press destroyed. The democratic solution died in flames.
 
-The juxtaposition is devastating: hope → destruction → but then... Track 16 shows the truth survived anyway.
+The juxtaposition is devastating: hope → destruction → but then... [Track 16](/tracks/sudden-day/) shows the truth survived anyway.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Version History</summary>
+<div class="track-section-body">
 
 ### v1 (Final)
 - Adapted Francis Higbee's letter into rallying anthem
@@ -248,4 +259,5 @@ The juxtaposition is devastating: hope → destruction → but then... Track 16 
 - "Dreadful conflict" meant the election, not violence - this is clear in verse 3
 - Very high energy compared to rest of album - intentional for rally-cry function
 
+</div>
 </details>

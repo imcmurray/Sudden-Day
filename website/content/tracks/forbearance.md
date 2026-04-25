@@ -101,6 +101,7 @@ Let the truth be known...
 
 <details class="track-section">
 <summary>Source Material</summary>
+<div class="track-section-body">
 
 All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844.
 
@@ -128,10 +129,12 @@ All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844.
 ### The Wolf at the Pulpit
 > "Lo! the wolf is in the fold, arrayed in sheep's clothing, and is spreading death and devastation among the saints"
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Lyric-to-Source Mapping</summary>
+<div class="track-section-body">
 
 | Lyric | Source |
 |-------|--------|
@@ -155,10 +158,12 @@ All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844.
 | "The wolf stands at the pulpit" | "the wolf is in the fold, arrayed in sheep's clothing" |
 | "The sheep begin to die" | "spreading death and devastation among the saints" |
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Producer Notes</summary>
+<div class="track-section-body">
 
 ### What This Song Does
 - Explains WHY the whistleblowers went public - they tried private reformation first
@@ -187,10 +192,10 @@ This song lets Joseph condemn himself through his own words:
 We don't have to attack him. We just quote him.
 
 ### Connection to Other Tracks
-- **Track 1 "June 7, 1844"** - Introduces "forbearance has ceased to be a virtue"
-- **Track 2 "Forbearance"** - Expands on that line, explains the private efforts that failed
-- **Track 3 "Seven Wives"** - The specific lie they're exposing
-- **Track 12 "The Inquisition"** - What happened when they spoke up: secret trial, excommunication
+- **[Track 1](/tracks/june-7-1844/) "June 7, 1844"** - Introduces "forbearance has ceased to be a virtue"
+- **[Track 2](/tracks/forbearance/) "Forbearance"** - Expands on that line, explains the private efforts that failed
+- **[Track 3](/tracks/seven-wives/) "Seven Wives"** - The specific lie they're exposing
+- **[Track 12](/tracks/the-inquisition/) "The Inquisition"** - What happened when they spoke up: secret trial, excommunication
 
 ### The Emotional Journey of Act I
 | Track | Emotion | Focus |
@@ -206,10 +211,12 @@ By the end of Act I, the listener understands:
 
 Then Act II hits: the women's stories. The listener is prepared.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Historical Context</summary>
+<div class="track-section-body">
 
 The Expositor publishers didn't want to go public. They tried private reformation first.
 
@@ -225,10 +232,12 @@ The Hell quotes are particularly revealing. Joseph told his inner circle that th
 
 This is a man who had stopped believing his own message - or who believed he was above it.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Album Flow Note</summary>
+<div class="track-section-body">
 
 **Act I: The Awakening** sequence:
 
@@ -242,4 +251,5 @@ This is a man who had stopped believing his own message - or who believed he was
 
 Answer: Because they tried everything else first, and he laughed at them.
 
+</div>
 </details>

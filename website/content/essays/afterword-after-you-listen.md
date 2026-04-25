@@ -53,7 +53,7 @@ This album names what was unnamed. It sings what was silenced. The St. Louis spi
 
 ## THE QUESTION THAT REMAINS
 
-The album could have ended with triumph. Track 16, "Sudden Day," declares victory: the truth survived. The disease is known. Lo, it is sudden day.
+The album could have ended with triumph. [Track 16](/tracks/sudden-day/), "Sudden Day," declares victory: the truth survived. The disease is known. Lo, it is sudden day.
 
 But we added an epilogue. Because the story isn't over.
 

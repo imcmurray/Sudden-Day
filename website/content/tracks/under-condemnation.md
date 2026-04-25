@@ -113,6 +113,7 @@ I will not bow...
 
 <details class="track-section">
 <summary>Source Material</summary>
+<div class="track-section-body">
 
 All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly Jane Law's affidavit and the Preamble.
 
@@ -134,10 +135,12 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly Jane
 ### The Impossible Choice
 > "She is thunder-struck, faints recovers, and refuses. The Prophet damns her if she rejects. She thinks of the great sacrifice... and replies, God's will be done and not mine."
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Lyric-to-Source Mapping</summary>
+<div class="track-section-body">
 
 | Lyric | Source |
 |-------|--------|
@@ -153,10 +156,12 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly Jane
 | "Jane Law read those words / And Jane Law said no" | Jane Law's testimony - she read the revelation and refused Joseph's advances |
 | "Jane Law stood beside her husband" | Jane and William Law published the Expositor together |
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Producer Notes</summary>
+<div class="track-section-body">
 
 ### What This Song Does
 - Exposes the theological trap: damned for refusing, damned for allowing
@@ -173,7 +178,7 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly Jane
 5. **Female vocals throughout** - This is the women's voice, specifically Jane Law's
 
 ### The Defiance Decision
-The earlier songs in Act II (Tracks 4-6) show women who submitted, who were "sent away," who withered. This song is different because Jane Law was different. She:
+The earlier songs in Act II (Tracks [4](/tracks/ten-thousand-miles/)-[6](/tracks/the-tender-tree/)) show women who submitted, who were "sent away," who withered. This song is different because Jane Law was different. She:
 - Read the revelation with her own eyes
 - Was allegedly propositioned by Joseph himself
 - Refused
@@ -191,10 +196,10 @@ This line is colloquial and modern. Options:
 **Decision:** Keep it. The colloquialism grounds the song in emotional reality. These women weren't speaking in formal theology - they were trapped and desperate.
 
 ### Connection to Other Tracks
-- **Track 4 "Ten Thousand Miles"** - The journey that made them vulnerable
-- **Track 5 "Positively No Admittance"** - The coercion in the secret room
-- **Track 6 "The Tender Tree"** - The aftermath for those who submitted
-- **Track 7 "Under Condemnation"** - The theological mechanism AND the resistance
+- **[Track 4](/tracks/ten-thousand-miles/) "Ten Thousand Miles"** - The journey that made them vulnerable
+- **[Track 5](/tracks/positively-no-admittance/) "Positively No Admittance"** - The coercion in the secret room
+- **[Track 6](/tracks/the-tender-tree/) "The Tender Tree"** - The aftermath for those who submitted
+- **[Track 7](/tracks/under-condemnation/) "Under Condemnation"** - The theological mechanism AND the resistance
 
 ### The Women's Arc Complete
 
@@ -207,10 +212,12 @@ This line is colloquial and modern. Options:
 
 The arc moves from hope to horror to devastation - then ends with defiance. Not all women submitted. Jane Law said no. This song is why Act II doesn't end in despair.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Historical Context</summary>
+<div class="track-section-body">
 
 Jane Law was the wife of William Law, Second Counselor in the First Presidency. According to William Law's later testimony, Joseph Smith propositioned Jane to become a plural wife. She refused.
 
@@ -228,10 +235,12 @@ Jane Law broke every one of these chains. She refused Joseph. She stood with Wil
 
 The Expositor was destroyed three days later. But Jane Law's words survived.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Album Flow Note</summary>
+<div class="track-section-body">
 
 **Act II: The Women** is now complete:
 
@@ -247,12 +256,14 @@ Act II ends with defiance: "I will not bow to blasphemy dressed up as heaven's c
 
 Act III opens with the doctrines themselves - what was taught in secret. The listener has seen what these teachings DID to women. Now they'll hear what those teachings WERE.
 
-Track 8 "The Revelation" - Austin Cowles' testimony about what Hyrum read in the High Council. The doctrine laid bare.
+[Track 8](/tracks/the-revelation/) "The Revelation" - Austin Cowles' testimony about what Hyrum read in the High Council. The doctrine laid bare.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Version History</summary>
+<div class="track-section-body">
 
 ### v1 (Final)
 - Established the theological trap in verses 1-2
@@ -266,4 +277,5 @@ Track 8 "The Revelation" - Austin Cowles' testimony about what Hyrum read in the
 - "Either way I'm beat" - colloquial but effective
 - Defiant ending is earned by Jane Law's actual history
 
+</div>
 </details>

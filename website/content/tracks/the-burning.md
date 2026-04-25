@@ -114,6 +114,7 @@ You cannot burn a name...
 
 <details class="track-section">
 <summary>Source Material</summary>
+<div class="track-section-body">
 
 This song draws from documented historical events and the Nauvoo Expositor's own language.
 
@@ -138,10 +139,12 @@ The destruction of the press led to:
 3. Joseph's arrest and transfer to Carthage Jail
 4. The mob attack that killed Joseph and Hyrum Smith
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Lyric-to-Source Mapping</summary>
+<div class="track-section-body">
 
 | Lyric | Source |
 |-------|--------|
@@ -156,24 +159,26 @@ The destruction of the press led to:
 | "Seventeen days later / At Carthage they would fall" | June 10 to June 27 = 17 days |
 | "Lo, it is sudden day" | Direct quote from Expositor preamble |
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Producer Notes</summary>
+<div class="track-section-body">
 
 ### What This Song Does
 - Documents June 10, 1844 - the destruction of the press
 - Shows the chain of consequence: burning → riot charges → Carthage → death
 - The central irony: trying to silence truth amplified it
 - "You cannot burn a story" - the thesis of the entire album
-- Bridges to Track 16 with "Lo, it is sudden day"
+- Bridges to [Track 16](/tracks/sudden-day/) with "Lo, it is sudden day"
 
 ### Key Production Decisions
 1. **Cinematic build** - This is the climax; it needs to feel epic
 2. **Male and female vocals** - Bringing together the voices from throughout the album
 3. **Strings and percussion** - Full arrangement by the final chorus
 4. **"You cannot burn a name" as the anchor** - The central truth
-5. **Outro whispers "sudden day"** - Direct handoff to Track 16
+5. **Outro whispers "sudden day"** - Direct handoff to [Track 16](/tracks/sudden-day/)
 
 ### The Central Irony
 The men who destroyed the press created the conditions for their own deaths. The story they tried to kill became unkillable. The Expositor they burned is still being read - and now sung - 180 years later.
@@ -195,17 +200,19 @@ This song holds two tragedies together:
 Neither is celebrated. Both are documented. The song finds its resolution not in either death but in the survival of truth: "the story lives in every mouth / And beats in every heart."
 
 ### Connection to Other Tracks
-- **Track 1 "June 7, 1844"** - "We hazard everything we have" - this is the hazard realized
-- **Track 14 "Citizens of Hancock County"** - The democratic solution that was short-circuited
-- **Track 16 "Sudden Day"** - The truth survives; the album's resolution
+- **[Track 1](/tracks/june-7-1844/) "June 7, 1844"** - "We hazard everything we have" - this is the hazard realized
+- **[Track 14](/tracks/citizens-of-hancock-county/) "Citizens of Hancock County"** - The democratic solution that was short-circuited
+- **[Track 16](/tracks/sudden-day/) "Sudden Day"** - The truth survives; the album's resolution
 
 ### The Outro
 The song ends with "Lo, it is sudden day..." - a direct quote from the Expositor's preamble, and the title of the final track. This creates a seamless transition to the album's epilogue.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Historical Context</summary>
+<div class="track-section-body">
 
 On June 10, 1844, three days after the Nauvoo Expositor published its single issue, the Nauvoo City Council met in emergency session. They declared the newspaper a "public nuisance" - a legal designation that allowed for its destruction.
 
@@ -233,10 +240,12 @@ The Expositor had predicted this: "Men solace themselves by saying the facts slu
 
 180 years later, sudden day continues.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Album Flow Note</summary>
+<div class="track-section-body">
 
 **Act V: The Reckoning** structure:
 
@@ -246,31 +255,34 @@ The Expositor had predicted this: "Men solace themselves by saying the facts slu
 | 15 | The Burning | The destruction - tragedy |
 | 16 | Sudden Day | The survival - resolution |
 
-**Transition from Track 14:**
-Track 14 ends with hope: "Take your stand!" 
-Track 15 answers with fire: three days later, the press burned.
+**Transition from [Track 14](/tracks/citizens-of-hancock-county/):**
+[Track 14](/tracks/citizens-of-hancock-county/) ends with hope: "Take your stand!" 
+[Track 15](/tracks/the-burning/) answers with fire: three days later, the press burned.
 
-**Transition to Track 16:**
-Track 15 ends with "Lo, it is sudden day..."
-Track 16 opens with that promise fulfilled: the truth survived.
+**Transition to [Track 16](/tracks/sudden-day/):**
+[Track 15](/tracks/the-burning/) ends with "Lo, it is sudden day..."
+[Track 16](/tracks/sudden-day/) opens with that promise fulfilled: the truth survived.
 
 This is the album's emotional climax. The flames, the death, the apparent triumph of tyranny - and then the whispered promise that truth outlasts fire.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Version History</summary>
+<div class="track-section-body">
 
 ### v1 (Final)
 - Documented the June 10 destruction with historical specificity
 - "You cannot burn a story" as central thesis
 - Bridge shows the chain of consequence to Carthage
 - Final chorus resolves toward truth's survival
-- Outro hands off to Track 16 with "sudden day"
+- Outro hands off to [Track 16](/tracks/sudden-day/) with "sudden day"
 
 ### Concerns Noted (for future revision if needed)
 - Song is longer than others (4:00-4:30) - intentional for climax
 - Carthage reference may need historical context for some listeners
 - Dual male/female vocals may be challenging in production
 
+</div>
 </details>

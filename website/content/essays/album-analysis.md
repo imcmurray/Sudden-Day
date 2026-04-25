@@ -154,26 +154,26 @@ Each song includes:
 
 | Phrase | Origin | Appears In |
 |--------|--------|------------|
-| "Forbearance has ceased to be a virtue" | Preamble | Tracks 1, 2 |
-| "Thunder-struck" | Preamble | Tracks 5, 16 |
-| "Positively no admittance" | Preamble | Track 5 |
-| "The tender tree" | Preamble | Tracks 6, 16 |
-| "God's will be done, not mine" | Preamble | Track 5 |
-| "The one great throat" | Preamble | Tracks 10, 16 |
-| "King and lawgiver" | Resolution 12 | Track 11 |
-| "Sudden day" | Preamble | Tracks 15, 16 |
-| "The remedy cannot be applied unless the disease is known" | Preamble | Tracks 1, 16 |
-| "A departed spirit cries for vengeance" | Preamble | Tracks 6, 16 |
+| "Forbearance has ceased to be a virtue" | Preamble | Tracks [1](/tracks/june-7-1844/), [2](/tracks/forbearance/) |
+| "Thunder-struck" | Preamble | Tracks [5](/tracks/positively-no-admittance/), [16](/tracks/sudden-day/) |
+| "Positively no admittance" | Preamble | [Track 5](/tracks/positively-no-admittance/) |
+| "The tender tree" | Preamble | Tracks [6](/tracks/the-tender-tree/), [16](/tracks/sudden-day/) |
+| "God's will be done, not mine" | Preamble | [Track 5](/tracks/positively-no-admittance/) |
+| "The one great throat" | Preamble | Tracks [10](/tracks/the-great-throat/), [16](/tracks/sudden-day/) |
+| "King and lawgiver" | Resolution 12 | [Track 11](/tracks/king-and-lawgiver/) |
+| "Sudden day" | Preamble | Tracks [15](/tracks/the-burning/), [16](/tracks/sudden-day/) |
+| "The remedy cannot be applied unless the disease is known" | Preamble | Tracks [1](/tracks/june-7-1844/), [16](/tracks/sudden-day/) |
+| "A departed spirit cries for vengeance" | Preamble | Tracks [6](/tracks/the-tender-tree/), [16](/tracks/sudden-day/) |
 
 ### Character Threads:
 
 | Character | First Appears | Returns In |
 |-----------|---------------|------------|
-| Jane Law | Track 3 (mentioned) | Tracks 7, 12, 16 |
-| Austin Cowles | Track 3 (mentioned) | Tracks 8, 16 |
-| William Law | Track 3 (mentioned) | Track 12 |
-| The St. Louis Spirit | Track 6 | Track 16 |
-| The Foreign Converts | Track 4 | Tracks 5, 6, 9, 10, 16 |
+| Jane Law | [Track 3](/tracks/seven-wives/) (mentioned) | Tracks [7](/tracks/under-condemnation/), [12](/tracks/the-inquisition/), [16](/tracks/sudden-day/) |
+| Austin Cowles | [Track 3](/tracks/seven-wives/) (mentioned) | Tracks [8](/tracks/the-revelation/), [16](/tracks/sudden-day/) |
+| William Law | [Track 3](/tracks/seven-wives/) (mentioned) | [Track 12](/tracks/the-inquisition/) |
+| The St. Louis Spirit | [Track 6](/tracks/the-tender-tree/) | [Track 16](/tracks/sudden-day/) |
+| The Foreign Converts | [Track 4](/tracks/ten-thousand-miles/) | Tracks [5](/tracks/positively-no-admittance/), [6](/tracks/the-tender-tree/), [9](/tracks/many-gods/), [10](/tracks/the-great-throat/), [16](/tracks/sudden-day/) |
 
 ---
 
@@ -190,7 +190,7 @@ Each song includes:
 
 ### What We Wouldn't Change
 
-1. **The Women's Arc (Tracks 4-7)** - The heart of the album. Progression is exactly right.
+1. **The Women's Arc (Tracks [4](/tracks/ten-thousand-miles/)-[7](/tracks/under-condemnation/))** - The heart of the album. Progression is exactly right.
 2. **The verbatim Expositor language** - Every direct quote strengthens the song.
 3. **The "ten" decision** - We're telling the Expositor's story.
 4. **Jane Law's defiance** - Earned by history.
@@ -228,7 +228,7 @@ The album follows this exact progression across four songs.
 
 The Expositor mentions "a departed spirit, once the resident of St. Louis, shall yet cry aloud for vengeance." This was a real woman. She died. We don't know her name.
 
-Track 6 ("The Tender Tree") and Track 16 ("Sudden Day") give her a voice. The album is, in part, her vengeance - not through violence, but through truth.
+[Track 6](/tracks/the-tender-tree/) ("The Tender Tree") and [Track 16](/tracks/sudden-day/) ("Sudden Day") give her a voice. The album is, in part, her vengeance - not through violence, but through truth.
 
 ---
 
@@ -236,14 +236,14 @@ Track 6 ("The Tender Tree") and Track 16 ("Sudden Day") give her a voice. The al
 
 | Date | Event | Album Reference |
 |------|-------|-----------------|
-| 1840 | Nauvoo Charter granted | Track 13 |
-| 1841-1844 | Secret plural marriages | Tracks 3, 4-7, 8 |
-| April 18, 1844 | Secret trial of the Laws | Track 12 |
-| May 26, 1844 | Joseph's "seven wives" sermon | Track 3 |
-| June 7, 1844 | Expositor published | Track 1 |
-| June 10, 1844 | Press destroyed | Track 15 |
-| June 27, 1844 | Carthage killings | Track 15 |
-| 180 years later | This album | Track 16 |
+| 1840 | Nauvoo Charter granted | [Track 13](/tracks/habeas-corpus/) |
+| 1841-1844 | Secret plural marriages | Tracks [3](/tracks/seven-wives/), [4](/tracks/ten-thousand-miles/)-7, 8 |
+| April 18, 1844 | Secret trial of the Laws | [Track 12](/tracks/the-inquisition/) |
+| May 26, 1844 | Joseph's "seven wives" sermon | [Track 3](/tracks/seven-wives/) |
+| June 7, 1844 | Expositor published | [Track 1](/tracks/june-7-1844/) |
+| June 10, 1844 | Press destroyed | [Track 15](/tracks/the-burning/) |
+| June 27, 1844 | Carthage killings | [Track 15](/tracks/the-burning/) |
+| 180 years later | This album | [Track 16](/tracks/sudden-day/) |
 
 ---
 
@@ -256,7 +256,7 @@ Track 6 ("The Tender Tree") and Track 16 ("Sudden Day") give her a voice. The al
 **Sound palette:** Americana, folk rock, building intensity
 **Vocal approach:** Male vocals throughout (the whistleblowers' voice)
 
-**Key achievement:** By the end of Track 3, the listener knows:
+**Key achievement:** By the end of [Track 3](/tracks/seven-wives/), the listener knows:
 - These are insiders, not enemies
 - They tried private reformation first
 - Joseph chose dignity over repentance
@@ -278,7 +278,7 @@ Track 6 ("The Tender Tree") and Track 16 ("Sudden Day") give her a voice. The al
 **Sound palette:** Varied - testimonial folk, philosophical progressive folk, sardonic blues
 **Vocal approach:** Male vocals (the witnesses' voice)
 
-**Key achievement:** Lists the actual content of secret teachings without editorializing. Austin Cowles' testimony (Track 8) reads like courtroom testimony. The doctrines condemn themselves.
+**Key achievement:** Lists the actual content of secret teachings without editorializing. Austin Cowles' testimony ([Track 8](/tracks/the-revelation/)) reads like courtroom testimony. The doctrines condemn themselves.
 
 ### Act IV: The Power
 
@@ -287,7 +287,7 @@ Track 6 ("The Tender Tree") and Track 16 ("Sudden Day") give her a voice. The al
 **Sound palette:** Driving, urgent, building dread, protest energy
 **Vocal approach:** Male vocals
 
-**Key achievement:** Three mechanisms documented: concentration of authority (Track 11), silencing dissent (Track 12), blocking accountability (Track 13). The system laid bare.
+**Key achievement:** Three mechanisms documented: concentration of authority ([Track 11](/tracks/king-and-lawgiver/)), silencing dissent ([Track 12](/tracks/the-inquisition/)), blocking accountability ([Track 13](/tracks/habeas-corpus/)). The system laid bare.
 
 ### Act V: The Reckoning
 
@@ -296,7 +296,7 @@ Track 6 ("The Tender Tree") and Track 16 ("Sudden Day") give her a voice. The al
 **Sound palette:** Rousing to cinematic to sweeping resolution
 **Vocal approach:** Male (14), both voices converging (15-16)
 
-**Key achievement:** The emotional climax (Track 15) and resolution (Track 16). The album ends not in tragedy but in the survival of truth. "You cannot burn a story / You cannot burn a name."
+**Key achievement:** The emotional climax ([Track 15](/tracks/the-burning/)) and resolution ([Track 16](/tracks/sudden-day/)). The album ends not in tragedy but in the survival of truth. "You cannot burn a story / You cannot burn a name."
 
 ---
 

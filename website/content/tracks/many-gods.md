@@ -113,6 +113,7 @@ One God...
 
 <details class="track-section">
 <summary>Source Material</summary>
+<div class="track-section-body">
 
 All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the Preamble's discussion of doctrinal innovations.
 
@@ -131,10 +132,12 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the 
 ### Rejection of the Doctrine
 > "We do not want to be partakers in doctrines so damnable, or to be sharers in their damnation"
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Lyric-to-Source Mapping</summary>
+<div class="track-section-body">
 
 | Lyric | Source |
 |-------|--------|
@@ -150,10 +153,12 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the 
 | "doctrines damnable" | "doctrines so damnable" |
 | "I will not partake in damnation" | "We do not want to be partakers in doctrines so damnable, or to be sharers in their damnation" |
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Producer Notes</summary>
+<div class="track-section-body">
 
 ### What This Song Does
 - Exposes the polytheism doctrine - gods above God, God subject to law
@@ -167,7 +172,7 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the 
 2. **Philosophical tone** - This is heady material; the delivery should feel like wrestling with ideas
 3. **"One God" as the anchor** - The outro returns to Christian orthodoxy as the rejection of polytheism
 4. **Bridge connects to Act II** - "Crossed the ocean" ties back to the converts' sacrifice
-5. **Male vocals** - Continuing the testimonial voice from Track 8
+5. **Male vocals** - Continuing the testimonial voice from [Track 8](/tracks/the-revelation/)
 
 ### The Bridge Decision
 The bridge explicitly connects to the convert experience from Act II: "This is not the faith I crossed the ocean for." This is interpretive - the Expositor doesn't make this connection directly - but it serves the album's continuity.
@@ -180,10 +185,10 @@ Verse 3 references the teaching that men could become gods ("rise to godhood of 
 This doctrine (now known as "exaltation" or "eternal progression") became a central LDS teaching. In 1844, it was secret and scandalous.
 
 ### Connection to Other Tracks
-- **Track 8 "The Revelation"** - The plural marriage doctrine; this is the other secret teaching
-- **Track 4 "Ten Thousand Miles"** - The converts who "crossed the ocean" for a faith that was secretly something else
-- **Track 10 "The Great Throat"** - Financial exploitation; another hidden abuse
-- **Track 3 "Seven Wives"** - "Taught secretly, denied openly" applies to this doctrine too
+- **[Track 8](/tracks/the-revelation/) "The Revelation"** - The plural marriage doctrine; this is the other secret teaching
+- **[Track 4](/tracks/ten-thousand-miles/) "Ten Thousand Miles"** - The converts who "crossed the ocean" for a faith that was secretly something else
+- **[Track 10](/tracks/the-great-throat/) "The Great Throat"** - Financial exploitation; another hidden abuse
+- **[Track 3](/tracks/seven-wives/) "Seven Wives"** - "Taught secretly, denied openly" applies to this doctrine too
 
 ### The Theological Stakes
 For 19th-century Christians, the Expositor's charges were explosive:
@@ -193,10 +198,12 @@ For 19th-century Christians, the Expositor's charges were explosive:
 
 This wasn't just scandal - it was heresy. The Expositor writers saw themselves as defending Christianity itself against innovation.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Historical Context</summary>
+<div class="track-section-body">
 
 The "King Follett Discourse" (April 7, 1844 - two months before the Expositor) publicly introduced some of these ideas, but much of the teaching had been done privately. The Expositor writers had heard the full version in closed settings.
 
@@ -210,10 +217,12 @@ For converts who had come from traditional Christianity - crossing oceans, leavi
 
 The Expositor called this "speaking of God in an impious and irreverent manner" and listed it among the "doctrines so damnable" they refused to partake in.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Album Flow Note</summary>
+<div class="track-section-body">
 
 **Act III: The Revelations** structure:
 
@@ -223,20 +232,22 @@ The Expositor called this "speaking of God in an impious and irreverent manner" 
 | 9 | Many Gods | Polytheism doctrine |
 | 10 | The Great Throat | Financial exploitation |
 
-**Transition from Track 8:**
-Track 8 exposed the plural marriage revelation. Track 9 exposes the other secret doctrine: the teaching of many gods.
+**Transition from [Track 8](/tracks/the-revelation/):**
+[Track 8](/tracks/the-revelation/) exposed the plural marriage revelation. [Track 9](/tracks/many-gods/) exposes the other secret doctrine: the teaching of many gods.
 
 Both tracks follow the same pattern: taught secretly, denied openly, witnessed by insiders who could not stay silent.
 
-**Transition to Track 10:**
-Tracks 8-9 cover theological innovations. Track 10 shifts to financial exploitation - "the gathering in haste" and "the one great throat" that swallowed the saints' wealth.
+**Transition to [Track 10](/tracks/the-great-throat/):**
+Tracks [8](/tracks/the-revelation/)-[9](/tracks/many-gods/) cover theological innovations. [Track 10](/tracks/the-great-throat/) shifts to financial exploitation - "the gathering in haste" and "the one great throat" that swallowed the saints' wealth.
 
 The pattern: secret doctrines (8-9) enabled secret exploitation (10).
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Version History</summary>
+<div class="track-section-body">
 
 ### v1 (Final)
 - Established the polytheism doctrine from Expositor sources
@@ -250,4 +261,5 @@ The pattern: secret doctrines (8-9) enabled secret exploitation (10).
 - Bridge's "crossed the ocean" is interpretive connection to Act II
 - Both serve album continuity while staying true to Expositor's spirit
 
+</div>
 </details>

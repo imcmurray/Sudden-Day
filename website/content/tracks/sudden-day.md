@@ -121,6 +121,7 @@ The remedy applied...
 
 <details class="track-section">
 <summary>Source Material</summary>
+<div class="track-section-body">
 
 All lyrics are grounded in the Nauvoo Expositor, June 7, 1844.
 
@@ -133,10 +134,12 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844.
 ### The Album's Thesis
 > "The remedy can never be applied, unless the disease is known"
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Lyric-to-Source Mapping</summary>
+<div class="track-section-body">
 
 | Lyric | Source |
 |-------|--------|
@@ -145,19 +148,21 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844.
 | "The dark deeds shall be known" | "the dark deeds of foul fiends shall be exposed" |
 | "From the house-tops it is shown" | "exposed from the house-tops" |
 | "A departed spirit cries for vengeance" | "A departed spirit, once the resident of St. Louis, shall yet cry aloud for vengeance" |
-| "The tender tree" | Track 6 / Expositor's metaphor for broken women |
-| "Thunder-struck" | Track 5 / Expositor's word for the women's reaction |
-| "Jane Law still says no" | Track 7 / Jane Law's defiance |
-| "Austin Cowles dares not teach" | Track 8 / "I dared not teach or administer such laws" |
-| "The great throat still swallows" | Track 10 / "the one great throat, from whence there is no return" |
-| "Everyone who crossed the ocean" | Track 4 / The foreign converts |
-| "Everyone who died unnamed" | Track 6 / The St. Louis spirit and unnamed women |
+| "The tender tree" | [Track 6](/tracks/the-tender-tree/) / Expositor's metaphor for broken women |
+| "Thunder-struck" | [Track 5](/tracks/positively-no-admittance/) / Expositor's word for the women's reaction |
+| "Jane Law still says no" | [Track 7](/tracks/under-condemnation/) / Jane Law's defiance |
+| "Austin Cowles dares not teach" | [Track 8](/tracks/the-revelation/) / "I dared not teach or administer such laws" |
+| "The great throat still swallows" | [Track 10](/tracks/the-great-throat/) / "the one great throat, from whence there is no return" |
+| "Everyone who crossed the ocean" | [Track 4](/tracks/ten-thousand-miles/) / The foreign converts |
+| "Everyone who died unnamed" | [Track 6](/tracks/the-tender-tree/) / The St. Louis spirit and unnamed women |
 | "The remedy can never be applied / Unless the disease is known" | Direct quote - the album's thesis |
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Producer Notes</summary>
+<div class="track-section-body">
 
 ### What This Song Does
 - Takes the Expositor's own words and fulfills them
@@ -179,13 +184,13 @@ The song references earlier tracks, showing this is one unified story:
 
 | Reference | Track |
 |-----------|-------|
-| "The tender tree" | Track 6 - The Tender Tree |
-| "Thunder-struck" | Track 5 - Positively No Admittance |
-| "Jane Law still says no" | Track 7 - Under Condemnation |
-| "Austin Cowles dares not teach" | Track 8 - The Revelation |
-| "The great throat still swallows" | Track 10 - The Great Throat |
-| "Everyone who crossed the ocean" | Track 4 - Ten Thousand Miles |
-| "Died unnamed" | Track 6 - The St. Louis spirit |
+| "The tender tree" | [Track 6](/tracks/the-tender-tree/) - The Tender Tree |
+| "Thunder-struck" | [Track 5](/tracks/positively-no-admittance/) - Positively No Admittance |
+| "Jane Law still says no" | [Track 7](/tracks/under-condemnation/) - Under Condemnation |
+| "Austin Cowles dares not teach" | [Track 8](/tracks/the-revelation/) - The Revelation |
+| "The great throat still swallows" | [Track 10](/tracks/the-great-throat/) - The Great Throat |
+| "Everyone who crossed the ocean" | [Track 4](/tracks/ten-thousand-miles/) - Ten Thousand Miles |
+| "Died unnamed" | [Track 6](/tracks/the-tender-tree/) - The St. Louis spirit |
 
 These callbacks remind the listener of everything they've heard. The album is one story, and this song gathers all its threads.
 
@@ -207,10 +212,12 @@ The systems the Expositor exposed didn't die with Joseph Smith. The work continu
 ### Connection to Other Tracks
 This song connects to EVERY other track on the album. It's the culmination, the gathering, the resolution. Every story told across 15 songs converges here in the promise that truth survives.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Historical Context</summary>
+<div class="track-section-body">
 
 The Nauvoo Expositor published once, on June 7, 1844. Three days later, it was destroyed. Seventeen days after that, Joseph Smith was dead.
 
@@ -230,10 +237,12 @@ The Expositor's final line was both warning and promise: "The remedy can never b
 
 This album is part of making the disease known. This song is the declaration that sudden day continues.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Album Flow Note</summary>
+<div class="track-section-body">
 
 **Act V: The Reckoning** is now complete:
 
@@ -254,13 +263,15 @@ This album is part of making the disease known. This song is the declaration tha
 | V | The silencing that wasn't | Fire couldn't kill the story |
 
 **Final Transition:**
-Track 15 ends in flames and whispers "Lo, it is sudden day..."
-Track 16 answers: Yes. It is. And we're still singing.
+[Track 15](/tracks/the-burning/) ends in flames and whispers "Lo, it is sudden day..."
+[Track 16](/tracks/sudden-day/) answers: Yes. It is. And we're still singing.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Version History</summary>
+<div class="track-section-body">
 
 ### v1 (Final)
 - Built from Expositor's "sudden day" prophecy
@@ -274,14 +285,17 @@ Track 16 answers: Yes. It is. And we're still singing.
 - Many callbacks may feel like "greatest hits" - intentional for closure
 - "One hundred eighty years" dates the song - acceptable, grounds it in present
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>The Album Is Complete</summary>
+<div class="track-section-body">
 
 **Sudden Day: Songs from the Nauvoo Expositor**
 16 tracks across 5 acts
 Every lyric traceable to primary sources
 The Expositor will not die in history
 
+</div>
 </details>

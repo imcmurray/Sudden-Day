@@ -113,6 +113,7 @@ I dared not...
 
 <details class="track-section">
 <summary>Source Material</summary>
+<div class="track-section-body">
 
 All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly Austin Cowles' sworn affidavit.
 
@@ -133,10 +134,12 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly Aust
 ### The Refusal
 > "I dared not teach or administer such laws"
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Lyric-to-Source Mapping</summary>
+<div class="track-section-body">
 
 | Lyric | Source |
 |-------|--------|
@@ -154,10 +157,12 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly Aust
 | "Or consenting it be done" | "or of consenting thereto" |
 | "I dared not teach such doctrine" | "I dared not teach or administer such laws" |
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Producer Notes</summary>
+<div class="track-section-body">
 
 ### What This Song Does
 - Puts Austin Cowles on the witness stand - first-person sworn testimony
@@ -185,11 +190,11 @@ This interpretation serves the song's emotional arc while staying true to the sp
 "I could not say amen" is not from the Expositor but captures the moment of dissent. In LDS practice, "amen" signifies agreement and ratification. Cowles heard the revelation read and could not affirm it. The phrase makes this rupture singable.
 
 ### Connection to Other Tracks
-- **Track 3 "Seven Wives"** - Joseph's public denial; this song shows what was taught privately
-- **Track 5 "Positively No Admittance"** - The women experienced what this doctrine enabled
-- **Track 7 "Under Condemnation"** - Jane Law's testimony about the same revelation
-- **Track 9 "Many Gods"** - Another secret doctrine exposed
-- **Track 12 "The Inquisition"** - What happened to those who wouldn't stay silent
+- **[Track 3](/tracks/seven-wives/) "Seven Wives"** - Joseph's public denial; this song shows what was taught privately
+- **[Track 5](/tracks/positively-no-admittance/) "Positively No Admittance"** - The women experienced what this doctrine enabled
+- **[Track 7](/tracks/under-condemnation/) "Under Condemnation"** - Jane Law's testimony about the same revelation
+- **[Track 9](/tracks/many-gods/) "Many Gods"** - Another secret doctrine exposed
+- **[Track 12](/tracks/the-inquisition/) "The Inquisition"** - What happened to those who wouldn't stay silent
 
 ### Act III Opening
 This song opens Act III by shifting from stories to doctrines. The listener has seen:
@@ -198,10 +203,12 @@ This song opens Act III by shifting from stories to doctrines. The listener has 
 
 Now Act III asks: What were they actually teaching? "The Revelation" answers with Austin Cowles' sworn testimony - the doctrine of plural wives, read aloud in the High Council, which he "dared not teach."
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Historical Context</summary>
+<div class="track-section-body">
 
 Austin Cowles was First Counselor to the Nauvoo Stake President and a member of the High Council. His position gave him access to the inner workings of church governance.
 
@@ -219,10 +226,12 @@ The four doctrines Cowles listed:
 
 The fourth doctrine is particularly significant: those sealed could be forgiven "all sins" except shedding innocent blood. This created a theological framework for impunity.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Album Flow Note</summary>
+<div class="track-section-body">
 
 **Act III: The Revelations** structure:
 
@@ -235,15 +244,17 @@ The fourth doctrine is particularly significant: those sealed could be forgiven 
 **Transition from Act II:**
 Act II ended with Jane Law's defiance: "I will not bow to blasphemy dressed up as heaven's claim!"
 
-Track 8 picks up the thread: What was that blasphemy? Austin Cowles heard it read aloud. Now the listener will too.
+[Track 8](/tracks/the-revelation/) picks up the thread: What was that blasphemy? Austin Cowles heard it read aloud. Now the listener will too.
 
-**Transition to Track 9:**
-Track 8 covers the plural marriage revelation. Track 9 shifts to another secret doctrine: the teaching of "many gods" above the God of Christianity. Different doctrine, same pattern - taught secretly, denied openly.
+**Transition to [Track 9](/tracks/many-gods/):**
+[Track 8](/tracks/the-revelation/) covers the plural marriage revelation. [Track 9](/tracks/many-gods/) shifts to another secret doctrine: the teaching of "many gods" above the God of Christianity. Different doctrine, same pattern - taught secretly, denied openly.
 
+</div>
 </details>
 
 <details class="track-section">
 <summary>Version History</summary>
+<div class="track-section-body">
 
 ### v1 (Final)
 - Established testimonial structure with Austin Cowles as first-person witness
@@ -257,4 +268,5 @@ Track 8 covers the plural marriage revelation. Track 9 shifts to another secret 
 - "Amen" refrain is thematic rather than quoted
 - Both serve the song while staying true to the testimony's spirit
 
+</div>
 </details>

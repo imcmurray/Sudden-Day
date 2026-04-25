@@ -154,43 +154,38 @@
   background: var(--tertiary);
 }
 
-/* The element directly after <summary> sits flush against the summary;
-   add a spacer by padding the body region instead. We achieve that by
-   wrapping the inner content in a flex/block container — but since
-   markdown content is rendered as raw children, just pad the details
-   children individually with margin tweaks. */
+/* The body wrapper holds the padding so that edge-styled descendants
+   (blockquote borders, table cells) don't crash against the rounded
+   container. */
 
-.track-section[open] > *:not(summary) {
-  padding: 0 1.25rem;
+.track-section-body {
+  padding: .35rem 1.25rem 1rem;
 }
 
-.track-section[open] > *:not(summary):first-of-type {
-  padding-top: .25rem;
-}
+/* Tighter spacing for headings and the first/last block so the body
+   doesn't end with redundant whitespace. */
 
-.track-section[open] > *:not(summary):last-child {
-  padding-bottom: 1rem;
-}
-
-/* Tighter spacing for headings and lists inside collapsibles so they
-   don't fight the rounded container. */
-
-.track-section h3,
-.track-section h4 {
+.track-section-body h3,
+.track-section-body h4 {
   margin-top: 1.25rem;
   margin-bottom: .5rem;
   font-size: 1.05rem;
 }
 
-.track-section h3:first-child,
-.track-section h4:first-child {
+.track-section-body > :first-child,
+.track-section-body > h3:first-child,
+.track-section-body > h4:first-child {
   margin-top: 0;
 }
 
-.track-section table {
+.track-section-body > :last-child {
+  margin-bottom: 0;
+}
+
+.track-section-body table {
   margin: .75rem 0;
 }
 
-.track-section blockquote {
+.track-section-body blockquote {
   margin: .75rem 0;
 }

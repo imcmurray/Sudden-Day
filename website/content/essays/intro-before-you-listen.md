@@ -84,27 +84,27 @@ Their stories are not history. They are warnings.
 
 The album is structured in five acts:
 
-**Act I: The Awakening** (Tracks 1-3)
+**Act I: The Awakening** (Tracks [1](/tracks/june-7-1844/)-[3](/tracks/seven-wives/))
 *Who spoke and why*
 The whistleblowers introduce themselves, explain why they broke their silence, and expose the central lie.
 
-**Act II: The Women** (Tracks 4-7)
+**Act II: The Women** (Tracks [4](/tracks/ten-thousand-miles/)-[7](/tracks/under-condemnation/))
 *What happened to the victims*
 A woman crosses an ocean full of faith. She is summoned to a secret room. She surrenders. She withers. Another refuses - and fights back.
 
-**Act III: The Revelations** (Tracks 8-10)
+**Act III: The Revelations** (Tracks [8](/tracks/the-revelation/)-[10](/tracks/the-great-throat/))
 *What was taught in secret*
 The actual doctrines, read aloud by witnesses. Plural marriage. Many gods. Financial schemes. Taught secretly, denied openly.
 
-**Act IV: The Power** (Tracks 11-13)
+**Act IV: The Power** (Tracks [11](/tracks/king-and-lawgiver/)-[13](/tracks/habeas-corpus/))
 *How control was maintained*
 Prophet. Mayor. General. Presidential candidate. Secret trials. Charter abuses. The machinery of unchecked authority.
 
-**Act V: The Reckoning** (Tracks 14-16)
+**Act V: The Reckoning** (Tracks [14](/tracks/citizens-of-hancock-county/)-[16](/tracks/sudden-day/))
 *The silencing that wasn't*
 A rallying cry. A burning press. And the truth that survived.
 
-**Epilogue** (Track 17)
+**Epilogue** ([Track 17](/tracks/1890/))
 *The question that remains*
 1890 ended the practice. But the revelation is still scripture. The fundamentalists still practice. Could it come back?
 
