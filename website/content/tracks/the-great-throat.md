@@ -167,7 +167,7 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the 
 - "The great throat" is the Expositor's own metaphor - devastating imagery
 - Connects to Act II: "Ten thousand miles you traveled" - the same converts, now fleeced
 - Sardonic tone - this is a con being exposed, delivered with bitter irony
-- Completes Act III's trilogy of exploitation: spiritual ([Track 8](/tracks/the-revelation/)), theological ([Track 9](/tracks/many-gods/)), financial ([Track 10](/tracks/the-great-throat/))
+- Completes Act III's trilogy of exploitation: spiritual ([Track 8](/tracks/the-revelation/)), theological ([Track 9](/tracks/many-gods/)), financial (Track 10)
 
 ### Key Production Decisions
 1. **Blues-influenced groove** - Different feel from the folk ballads; this is a con exposed
@@ -183,13 +183,13 @@ The bridge explicitly ties back to "Ten Thousand Miles" ([Track 4](/tracks/ten-t
 - "You came here to be lions" - the hope
 - "Every cent you gathered / Was gathered up and lost" - the betrayal
 
-This creates album continuity: the same women who crossed oceans for God were then financially exploited. The spiritual abuse (Act II) and financial abuse ([Track 10](/tracks/the-great-throat/)) happened to the same people.
+This creates album continuity: the same women who crossed oceans for God were then financially exploited. The spiritual abuse (Act II) and financial abuse (Track 10) happened to the same people.
 
 ### The Tone Shift
 This song has a different feel from the rest of Act III:
 - [Track 8](/tracks/the-revelation/) "The Revelation" - Serious, testimonial
 - [Track 9](/tracks/many-gods/) "Many Gods" - Philosophical, questioning
-- [Track 10](/tracks/the-great-throat/) "The Great Throat" - Sardonic, bitter, almost a dark blues
+- Track 10 "The Great Throat" - Sardonic, bitter, almost a dark blues
 
 The tonal shift is intentional. The financial exploitation is so blatant, so brazen, that a straight folk delivery would feel wrong. The sardonic edge lets the absurdity land.
 

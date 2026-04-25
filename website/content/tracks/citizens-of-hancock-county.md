@@ -233,10 +233,10 @@ The destruction of the press short-circuited the democratic process Higbee had c
 | 16 | Sudden Day | The truth survives - epilogue |
 
 **Transition from Act IV:**
-Act IV documented the machinery of control. [Track 14](/tracks/citizens-of-hancock-county/) opens Act V with the proposed remedy: political action, charter repeal, the August elections.
+Act IV documented the machinery of control. Track 14 opens Act V with the proposed remedy: political action, charter repeal, the August elections.
 
 **Transition to [Track 15](/tracks/the-burning/):**
-[Track 14](/tracks/citizens-of-hancock-county/) ends with a rallying cry: "Take your stand!" [Track 15](/tracks/the-burning/) answers with fire. Three days after the Expositor published, Joseph Smith ordered the press destroyed. The democratic solution died in flames.
+Track 14 ends with a rallying cry: "Take your stand!" [Track 15](/tracks/the-burning/) answers with fire. Three days after the Expositor published, Joseph Smith ordered the press destroyed. The democratic solution died in flames.
 
 The juxtaposition is devastating: hope → destruction → but then... [Track 16](/tracks/sudden-day/) shows the truth survived anyway.
 

@@ -233,12 +233,12 @@ The Expositor called this "speaking of God in an impious and irreverent manner" 
 | 10 | The Great Throat | Financial exploitation |
 
 **Transition from [Track 8](/tracks/the-revelation/):**
-[Track 8](/tracks/the-revelation/) exposed the plural marriage revelation. [Track 9](/tracks/many-gods/) exposes the other secret doctrine: the teaching of many gods.
+[Track 8](/tracks/the-revelation/) exposed the plural marriage revelation. Track 9 exposes the other secret doctrine: the teaching of many gods.
 
 Both tracks follow the same pattern: taught secretly, denied openly, witnessed by insiders who could not stay silent.
 
 **Transition to [Track 10](/tracks/the-great-throat/):**
-Tracks [8](/tracks/the-revelation/)-[9](/tracks/many-gods/) cover theological innovations. [Track 10](/tracks/the-great-throat/) shifts to financial exploitation - "the gathering in haste" and "the one great throat" that swallowed the saints' wealth.
+Tracks [8](/tracks/the-revelation/)-9 cover theological innovations. [Track 10](/tracks/the-great-throat/) shifts to financial exploitation - "the gathering in haste" and "the one great throat" that swallowed the saints' wealth.
 
 The pattern: secret doctrines (8-9) enabled secret exploitation (10).
 

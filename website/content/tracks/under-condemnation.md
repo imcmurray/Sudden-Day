@@ -199,7 +199,7 @@ This line is colloquial and modern. Options:
 - **[Track 4](/tracks/ten-thousand-miles/) "Ten Thousand Miles"** - The journey that made them vulnerable
 - **[Track 5](/tracks/positively-no-admittance/) "Positively No Admittance"** - The coercion in the secret room
 - **[Track 6](/tracks/the-tender-tree/) "The Tender Tree"** - The aftermath for those who submitted
-- **[Track 7](/tracks/under-condemnation/) "Under Condemnation"** - The theological mechanism AND the resistance
+- **Track 7 "Under Condemnation"** - The theological mechanism AND the resistance
 
 ### The Women's Arc Complete
 

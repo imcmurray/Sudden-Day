@@ -264,7 +264,7 @@ This album is part of making the disease known. This song is the declaration tha
 
 **Final Transition:**
 [Track 15](/tracks/the-burning/) ends in flames and whispers "Lo, it is sudden day..."
-[Track 16](/tracks/sudden-day/) answers: Yes. It is. And we're still singing.
+Track 16 answers: Yes. It is. And we're still singing.
 
 </div>
 </details>

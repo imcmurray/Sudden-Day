@@ -196,7 +196,7 @@ The women described in the Expositor had genuinely sacrificed everything - selli
 <div class="track-section-body">
 
 **[Track 3](/tracks/seven-wives/): "Seven Wives"** → Establishes the public lie (Joseph denying polygamy)
-**[Track 4](/tracks/ten-thousand-miles/): "Ten Thousand Miles"** → The convert's journey and hope
+**Track 4: "Ten Thousand Miles"** → The convert's journey and hope
 **[Track 5](/tracks/positively-no-admittance/): "Positively No Admittance"** → The secret room, the coercion
 **[Track 6](/tracks/the-tender-tree/): "The Tender Tree"** → The aftermath, the withering
 

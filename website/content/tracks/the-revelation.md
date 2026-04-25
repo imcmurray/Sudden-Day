@@ -244,10 +244,10 @@ The fourth doctrine is particularly significant: those sealed could be forgiven 
 **Transition from Act II:**
 Act II ended with Jane Law's defiance: "I will not bow to blasphemy dressed up as heaven's claim!"
 
-[Track 8](/tracks/the-revelation/) picks up the thread: What was that blasphemy? Austin Cowles heard it read aloud. Now the listener will too.
+Track 8 picks up the thread: What was that blasphemy? Austin Cowles heard it read aloud. Now the listener will too.
 
 **Transition to [Track 9](/tracks/many-gods/):**
-[Track 8](/tracks/the-revelation/) covers the plural marriage revelation. [Track 9](/tracks/many-gods/) shifts to another secret doctrine: the teaching of "many gods" above the God of Christianity. Different doctrine, same pattern - taught secretly, denied openly.
+Track 8 covers the plural marriage revelation. [Track 9](/tracks/many-gods/) shifts to another secret doctrine: the teaching of "many gods" above the God of Christianity. Different doctrine, same pattern - taught secretly, denied openly.
 
 </div>
 </details>

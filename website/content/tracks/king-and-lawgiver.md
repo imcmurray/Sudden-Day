@@ -247,7 +247,7 @@ Their response was democratic action: organize, publish, vote. The destruction o
 
 **Transition from Act III:**
 Act III documented what was taught and extracted. Act IV shows how power was maintained:
-- Concentrate authority ([Track 11](/tracks/king-and-lawgiver/))
+- Concentrate authority (Track 11)
 - Silence dissent ([Track 12](/tracks/the-inquisition/))
 - Control the legal system ([Track 13](/tracks/habeas-corpus/))
 

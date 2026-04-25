@@ -257,10 +257,10 @@ The Expositor had predicted this: "Men solace themselves by saying the facts slu
 
 **Transition from [Track 14](/tracks/citizens-of-hancock-county/):**
 [Track 14](/tracks/citizens-of-hancock-county/) ends with hope: "Take your stand!" 
-[Track 15](/tracks/the-burning/) answers with fire: three days later, the press burned.
+Track 15 answers with fire: three days later, the press burned.
 
 **Transition to [Track 16](/tracks/sudden-day/):**
-[Track 15](/tracks/the-burning/) ends with "Lo, it is sudden day..."
+Track 15 ends with "Lo, it is sudden day..."
 [Track 16](/tracks/sudden-day/) opens with that promise fulfilled: the truth survived.
 
 This is the album's emotional climax. The flames, the death, the apparent triumph of tyranny - and then the whispered promise that truth outlasts fire.

@@ -193,7 +193,7 @@ We don't have to attack him. We just quote him.
 
 ### Connection to Other Tracks
 - **[Track 1](/tracks/june-7-1844/) "June 7, 1844"** - Introduces "forbearance has ceased to be a virtue"
-- **[Track 2](/tracks/forbearance/) "Forbearance"** - Expands on that line, explains the private efforts that failed
+- **Track 2 "Forbearance"** - Expands on that line, explains the private efforts that failed
 - **[Track 3](/tracks/seven-wives/) "Seven Wives"** - The specific lie they're exposing
 - **[Track 12](/tracks/the-inquisition/) "The Inquisition"** - What happened when they spoke up: secret trial, excommunication
 

@@ -399,7 +399,7 @@ def build_extra_track_pages() -> None:
             body = strip_source_footer(body)
             # Strip the essay's own leading title block; frontmatter provides it.
             body = re.sub(r"^# [^\n]*\n(?:## [^\n]*\n)?(?:### [^\n]*\n)?\n*---\n+", "", body, count=1)
-            body = linkify_track_refs(body)
+            body = linkify_track_refs(body, self_url=f"/tracks/{slug}/")
             content = "{{< player >}}\n\n" + body
         else:
             content = "{{< player >}}\n\n" + info["description"] + "\n"
@@ -434,18 +434,29 @@ COLLAPSIBLE_ORDER = [
 TRACK_NUMBER_URLS: dict[int, str] = {}
 
 
-def linkify_track_refs(body: str) -> str:
+def linkify_track_refs(body: str, self_url: str | None = None) -> str:
     """Convert plain `Track N`, `Tracks N–M`, and `Tracks N, M, …` references
-    to markdown links pointing at the corresponding track pages. Skips
-    occurrences that are already inside a markdown link (`[Track N](…)`)."""
+    to markdown links pointing at the corresponding track pages.
+
+    Skips occurrences already inside a markdown link (`[Track N](…)`).
+    When `self_url` matches the link target, the reference is left as
+    plain text — there's no point linking the page to itself."""
 
     def _link(n: int) -> str | None:
         url = TRACK_NUMBER_URLS.get(n)
-        return f"[Track {n}]({url})" if url else None
+        if not url:
+            return None
+        if self_url and url == self_url:
+            return f"Track {n}"
+        return f"[Track {n}]({url})"
 
     def _bare_link(n: int) -> str | None:
         url = TRACK_NUMBER_URLS.get(n)
-        return f"[{n}]({url})" if url else None
+        if not url:
+            return None
+        if self_url and url == self_url:
+            return str(n)
+        return f"[{n}]({url})"
 
     def repl_range(m: re.Match) -> str:
         a, b = int(m.group(1)), int(m.group(2))
@@ -550,13 +561,16 @@ def build_track_pages(tracks: dict[int, Track]) -> None:
 
         # Collect collapsibles in canonical order, then anything unrecognized.
         # Bodies are passed through linkify_track_refs so cross-track
-        # references like "Track 12" become live links.
+        # references like "Track 12" become live links. Self-references
+        # (e.g. "Track 11" on /tracks/king-and-lawgiver/) are left as
+        # plain text — no point linking a page to itself.
+        self_url = f"/tracks/{t.slug}/"
         rendered_collapsibles: list[str] = []
         seen_keys: set[str] = {"SONG OVERVIEW", "FINAL LYRICS"}
         for src_key, label in SECTION_ALIASES.items():
             if src_key in sections and src_key not in seen_keys:
                 rendered_collapsibles.append(
-                    render_collapsible(label, linkify_track_refs(sections[src_key]))
+                    render_collapsible(label, linkify_track_refs(sections[src_key], self_url))
                 )
                 seen_keys.add(src_key)
         for heading, content in sections.items():
@@ -564,7 +578,7 @@ def build_track_pages(tracks: dict[int, Track]) -> None:
                 continue
             label = heading.title() if heading.isupper() else heading
             rendered_collapsibles.append(
-                render_collapsible(label, linkify_track_refs(content))
+                render_collapsible(label, linkify_track_refs(content, self_url))
             )
 
         uuid = TRACK_AUDIO_IDS.get(t.slug)

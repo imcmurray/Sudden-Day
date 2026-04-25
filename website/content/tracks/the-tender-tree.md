@@ -165,7 +165,7 @@ All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844. T
 <div class="track-section-body">
 
 ### What This Song Does
-- Completes the women's trilogy: journey ([Track 4](/tracks/ten-thousand-miles/)) → coercion ([Track 5](/tracks/positively-no-admittance/)) → aftermath ([Track 6](/tracks/the-tender-tree/))
+- Completes the women's trilogy: journey ([Track 4](/tracks/ten-thousand-miles/)) → coercion ([Track 5](/tracks/positively-no-admittance/)) → aftermath (Track 6)
 - Gives voice to the silent suffering the Expositor describes
 - Honors the "departed spirit" from St. Louis - a real woman who died
 - The song structure mirrors the withering: each section gets quieter, sparser, fading
@@ -189,10 +189,10 @@ The Expositor specifically mentions "a departed spirit, once the resident of St.
 ### Connection to Other Tracks
 - **[Track 4](/tracks/ten-thousand-miles/) "Ten Thousand Miles"** - The hope and sacrifice that made her vulnerable
 - **[Track 5](/tracks/positively-no-admittance/) "Positively No Admittance"** - The moment of coercion; "God's will be done, not mine"
-- **[Track 6](/tracks/the-tender-tree/) "The Tender Tree"** - The aftermath; the price she paid
+- **Track 6 "The Tender Tree"** - The aftermath; the price she paid
 - **[Track 7](/tracks/under-condemnation/) "Under Condemnation"** - Expands on the theological trap that enabled all of this
 
-### The Women's Arc (Tracks [4](/tracks/ten-thousand-miles/)-[6](/tracks/the-tender-tree/))
+### The Women's Arc (Tracks [4](/tracks/ten-thousand-miles/)-6)
 These three songs tell one complete story:
 1. **Ten Thousand Miles** - She crosses an ocean, full of faith
 2. **Positively No Admittance** - She's trapped in the secret room, forced to surrender

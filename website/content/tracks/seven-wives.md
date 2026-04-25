@@ -187,7 +187,7 @@ Some of those followers - William Law, Jane Law, Austin Cowles - had read the re
 ### Connection to Other Tracks
 - **[Track 1](/tracks/june-7-1844/) "June 7, 1844"** - The declaration that the disease must be known
 - **[Track 2](/tracks/forbearance/) "Forbearance"** - Why they had to speak (private efforts failed)
-- **[Track 3](/tracks/seven-wives/) "Seven Wives"** - The specific lie they're exposing
+- **Track 3 "Seven Wives"** - The specific lie they're exposing
 - **[Track 5](/tracks/positively-no-admittance/) "Positively No Admittance"** - What actually happened to the women
 - **[Track 8](/tracks/the-revelation/) "The Revelation"** - Austin Cowles' full testimony about what Hyrum read
 
@@ -238,7 +238,7 @@ The historical record now confirms approximately 30-40 plural wives. The Exposit
 | 3 | Seven Wives | Bitter irony | The lie exposed |
 
 **Transition to Act II:**
-[Track 3](/tracks/seven-wives/) ends with the lie. [Track 4](/tracks/ten-thousand-miles/) begins with a woman crossing an ocean, full of faith.
+Track 3 ends with the lie. [Track 4](/tracks/ten-thousand-miles/) begins with a woman crossing an ocean, full of faith.
 
 The juxtaposition is intentional: We've just heard him deny having seven wives. Now we're going to meet one of them.
 
