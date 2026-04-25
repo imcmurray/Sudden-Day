@@ -198,11 +198,6 @@ All lyrics are grounded in the Preamble and Resolutions of the Nauvoo Expositor,
 4. **The chorus carries the date** - "June seventh, eighteen forty-four" anchors everything in history.
 5. **Ends on the thesis** - "The disease is known" is the last thing listeners hear before the album unfolds.
 
-### Potential Concerns (To Monitor in Suno)
-- Verse 1's formal language may be challenging to sing naturally
-- "Eighteen forty-four" might scan awkwardly - watch for rhythm issues
-- The chorus is idea-dense - may need tightening if it feels cluttered
-
 ### The Whistleblowers
 This song speaks in the collective voice of the Expositor's publishers:
 - **William Law** - Second Counselor in the First Presidency (Joseph's right hand)

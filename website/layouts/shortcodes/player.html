@@ -1,22 +1,22 @@
-{{- $url := .Page.Params.suno_url -}}
+{{- $url := .Page.Params.audio_url -}}
 {{- if $url -}}
 {{- if or (hasPrefix $url "https://suno.com/") (hasPrefix $url "https://app.suno.ai/") -}}
-<div class="suno-player-wrapper">
-  <div class="suno-player">
+<div class="audio-player-wrapper">
+  <div class="audio-player">
     <iframe
       src="{{ $url }}"
       width="100%"
       height="200"
       style="border-radius:12px;border:none"
       loading="lazy"
-      title="Song Audio Player - {{ .Page.Title }}"
+      title="Audio player — {{ .Page.Title }}"
       sandbox="allow-scripts allow-same-origin allow-popups"
       referrerpolicy="strict-origin-when-cross-origin"></iframe>
   </div>
 </div>
 {{- else -}}
-<div class="suno-placeholder"><p>Invalid audio source</p></div>
+<div class="audio-placeholder"><p>Invalid audio source</p></div>
 {{- end -}}
 {{- else -}}
-<div class="suno-placeholder"><p>Audio coming soon.</p></div>
+<div class="audio-placeholder"><p>Audio coming soon.</p></div>
 {{- end -}}

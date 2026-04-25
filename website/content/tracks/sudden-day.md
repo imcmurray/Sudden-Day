@@ -6,26 +6,23 @@ summary = "They burned the press but not the truth. Lo, it is sudden day. The da
 weight = 16
 acts = ["Act V — The Reckoning"]
 tags = ["Sweeping folk", "triumphant yet mournful", "male and female vocals", "full arrangement", "orchestral elements", "anthemic", "resolution", "hopeful"]
-suno_url = "https://suno.com/embed/d8a6d046-e086-4e8a-b636-a2b1f6577907"
+showtoc = false
+audio_url = "https://suno.com/embed/d8a6d046-e086-4e8a-b636-a2b1f6577907"
 +++
-{{< suno >}}
+{{< player >}}
+<div class="track-meta">
+  <p class="track-caption">They burned the press but not the truth. Lo, it is sudden day. The dark deeds of foul fiends shall be exposed from the house-tops. A departed spirit cries for vengeance.</p>
+  <dl class="track-meta-list">
+  <div class="track-meta-row"><dt>Act</dt><dd>Act V — The Reckoning</dd></div>
+  <div class="track-meta-row"><dt>Style</dt><dd>Sweeping folk, triumphant yet mournful, male and female vocals, full arrangement, orchestral elements, anthemic, resolution, hopeful, building to climax then resolving to quiet</dd></div>
+  <div class="track-meta-row"><dt>Runtime</dt><dd>4:30-5:00</dd></div>
+  <div class="track-meta-row"><dt>Role</dt><dd>Epilogue - the truth survives</dd></div>
+  </dl>
+</div>
 
-## SONG OVERVIEW
+<div class="track-lyrics">
 
-**Title:** Sudden Day
-**Album Position:** Track 16 (Album Closer)
-**Act:** V - The Reckoning
-**Role:** Epilogue - the truth survives
-
-**Caption:** They burned the press but not the truth. Lo, it is sudden day. The dark deeds of foul fiends shall be exposed from the house-tops. A departed spirit cries for vengeance.
-
-**Style:** `Sweeping folk, triumphant yet mournful, male and female vocals, full arrangement, orchestral elements, anthemic, resolution, hopeful, building to climax then resolving to quiet`
-
-**Runtime Target:** 4:30-5:00
-
----
-
-## FINAL LYRICS
+## Lyrics
 
 ```
 [Gentle Intro - from ashes]
@@ -120,9 +117,10 @@ The remedy applied...
 [End]
 ```
 
----
+</div>
 
-## SOURCE MATERIAL FROM THE NAUVOO EXPOSITOR
+<details class="track-section">
+<summary>Source Material</summary>
 
 All lyrics are grounded in the Nauvoo Expositor, June 7, 1844.
 
@@ -135,9 +133,10 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844.
 ### The Album's Thesis
 > "The remedy can never be applied, unless the disease is known"
 
----
+</details>
 
-## LYRIC-TO-SOURCE MAPPING
+<details class="track-section">
+<summary>Lyric-to-Source Mapping</summary>
 
 | Lyric | Source |
 |-------|--------|
@@ -155,9 +154,10 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844.
 | "Everyone who died unnamed" | Track 6 / The St. Louis spirit and unnamed women |
 | "The remedy can never be applied / Unless the disease is known" | Direct quote - the album's thesis |
 
----
+</details>
 
-## PRODUCER NOTES
+<details class="track-section">
+<summary>Producer Notes</summary>
 
 ### What This Song Does
 - Takes the Expositor's own words and fulfills them
@@ -207,9 +207,10 @@ The systems the Expositor exposed didn't die with Joseph Smith. The work continu
 ### Connection to Other Tracks
 This song connects to EVERY other track on the album. It's the culmination, the gathering, the resolution. Every story told across 15 songs converges here in the promise that truth survives.
 
----
+</details>
 
-## HISTORICAL CONTEXT
+<details class="track-section">
+<summary>Historical Context</summary>
 
 The Nauvoo Expositor published once, on June 7, 1844. Three days later, it was destroyed. Seventeen days after that, Joseph Smith was dead.
 
@@ -229,9 +230,10 @@ The Expositor's final line was both warning and promise: "The remedy can never b
 
 This album is part of making the disease known. This song is the declaration that sudden day continues.
 
----
+</details>
 
-## ALBUM FLOW NOTE
+<details class="track-section">
+<summary>Album Flow Note</summary>
 
 **Act V: The Reckoning** is now complete:
 
@@ -255,9 +257,10 @@ This album is part of making the disease known. This song is the declaration tha
 Track 15 ends in flames and whispers "Lo, it is sudden day..."
 Track 16 answers: Yes. It is. And we're still singing.
 
----
+</details>
 
-## VERSION HISTORY
+<details class="track-section">
+<summary>Version History</summary>
 
 ### v1 (Final)
 - Built from Expositor's "sudden day" prophecy
@@ -271,11 +274,14 @@ Track 16 answers: Yes. It is. And we're still singing.
 - Many callbacks may feel like "greatest hits" - intentional for closure
 - "One hundred eighty years" dates the song - acceptable, grounds it in present
 
----
+</details>
 
-## THE ALBUM IS COMPLETE
+<details class="track-section">
+<summary>The Album Is Complete</summary>
 
 **Sudden Day: Songs from the Nauvoo Expositor**
 16 tracks across 5 acts
 Every lyric traceable to primary sources
 The Expositor will not die in history
+
+</details>

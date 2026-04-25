@@ -41,10 +41,9 @@ ACTS = {
     "V":   {"title": "Act V — The Reckoning",     "subtitle": "The silencing that wasn't",           "tracks": [14, 15, 16]},
 }
 
-# Suno embed UUIDs per slug. Resolved from user-supplied /s/<shortid> share URLs
-# by following the 307 redirect to /song/<uuid>. Embeds live at
-# https://suno.com/embed/<uuid>.
-SUNO_UUIDS = {
+# Audio embed IDs per slug. Resolved from user-supplied /s/<shortid> share URLs
+# by following the 307 redirect to the canonical /song/<uuid> form.
+TRACK_AUDIO_IDS = {
     "june-7-1844":               "fcb8d616-61f5-448d-bd4a-847c23677b7d",
     "forbearance":               "cc51bd8c-695e-4536-9b3f-2135543650e4",
     "seven-wives":               "86691f97-49c0-4c6a-b492-6cbcb5570ea2",
@@ -65,7 +64,7 @@ SUNO_UUIDS = {
 
 # Act-level theme songs. Embedded on the act's own page (not surfaced as
 # a standalone /tracks/ page, since only some acts have one).
-SUNO_UUIDS_ACT = {
+ACT_AUDIO_IDS = {
     "V": "ff4ea206-0d85-4071-83ef-84d2f9ba8d51",  # "The Reckoning"
 }
 
@@ -81,7 +80,7 @@ EXTRA_TRACKS = {
     },
 }
 
-def suno_url(uuid: str) -> str:
+def audio_url(uuid: str) -> str:
     return f"https://suno.com/embed/{uuid}"
 
 
@@ -364,14 +363,14 @@ The album is built as five acts, each a movement in the story.
 
 def build_act_pages(tracks: dict[int, Track]) -> None:
     for roman, info in ACTS.items():
-        uuid = SUNO_UUIDS_ACT.get(roman)
+        uuid = ACT_AUDIO_IDS.get(roman)
         fm_fields: dict = {"title": info["title"]}
         if uuid:
-            fm_fields["suno_url"] = suno_url(uuid)
+            fm_fields["audio_url"] = audio_url(uuid)
         lines = [frontmatter(fm_fields)]
         lines.append(f"*{info['subtitle']}*\n")
         if uuid:
-            lines.append("{{< suno >}}\n")
+            lines.append("{{< player >}}\n")
         for n in info["tracks"]:
             t = tracks[n]
             lines.append(f"### [Track {t.number:02d} — {t.title}](/tracks/{t.slug}/)")
@@ -392,7 +391,7 @@ def build_extra_track_pages() -> None:
             "summary": info["description"],
             "weight": info["weight"],
             "tags": ["bonus track"],
-            "suno_url": suno_url(info["uuid"]),
+            "audio_url": audio_url(info["uuid"]),
         })
         if info.get("source_essay"):
             src = ESSAYS / info["source_essay"]
@@ -400,10 +399,87 @@ def build_extra_track_pages() -> None:
             body = strip_source_footer(body)
             # Strip the essay's own leading title block; frontmatter provides it.
             body = re.sub(r"^# [^\n]*\n(?:## [^\n]*\n)?(?:### [^\n]*\n)?\n*---\n+", "", body, count=1)
-            content = "{{< suno >}}\n\n" + body
+            content = "{{< player >}}\n\n" + body
         else:
-            content = "{{< suno >}}\n\n" + info["description"] + "\n"
+            content = "{{< player >}}\n\n" + info["description"] + "\n"
         write(SITE / "tracks" / f"{slug}.md", fm + content)
+
+
+SECTION_ALIASES = {
+    "SOURCE MATERIAL FROM THE NAUVOO EXPOSITOR": "Source Material",
+    "SOURCE MATERIAL":                            "Source Material",
+    "LYRIC-TO-SOURCE MAPPING":                    "Lyric-to-Source Mapping",
+    "PRODUCER NOTES":                             "Producer Notes",
+    "HISTORICAL CONTEXT":                         "Historical Context",
+    "ALBUM FLOW NOTE":                            "Album Flow Note",
+    "VERSION HISTORY":                            "Version History",
+    "THE ALBUM IS COMPLETE":                      "The Album Is Complete",
+}
+
+# Order in which collapsible sections appear on the page.
+COLLAPSIBLE_ORDER = [
+    "Source Material",
+    "Lyric-to-Source Mapping",
+    "Producer Notes",
+    "Historical Context",
+    "Album Flow Note",
+    "Version History",
+    "The Album Is Complete",
+]
+
+
+def parse_track_sections(body: str) -> dict[str, str]:
+    """Split a track essay body into a dict keyed by H2 heading.
+
+    Input is the essay body after `strip_source_footer` and after the
+    leading `# TITLE / ## Track N` block has been removed. Sections are
+    separated by `## HEADING` lines and a `---` rule. Each section's
+    content is returned with surrounding rule lines and outer whitespace
+    trimmed."""
+    parts = re.split(r"(?m)^##[ \t]+(.+?)\s*$", body)
+    out: dict[str, str] = {}
+    for i in range(1, len(parts), 2):
+        heading = parts[i].strip()
+        content = parts[i + 1] if i + 1 < len(parts) else ""
+        # Strip leading blank lines, leading `---` rule, trailing `---` rule.
+        content = re.sub(r"\A\s*\n", "", content)
+        content = re.sub(r"\n+---\s*\n*\Z", "", content)
+        content = content.strip()
+        out[heading] = content
+    return out
+
+
+def render_track_meta(t: Track) -> str:
+    """Render the always-visible metadata strip at the top of a track page."""
+    rows: list[str] = []
+    rows.append(f'  <div class="track-meta-row"><dt>Act</dt><dd>{ACTS[t.act_roman]["title"]}</dd></div>')
+    if t.style:
+        rows.append(f'  <div class="track-meta-row"><dt>Style</dt><dd>{t.style}</dd></div>')
+    if t.runtime:
+        rows.append(f'  <div class="track-meta-row"><dt>Runtime</dt><dd>{t.runtime}</dd></div>')
+    if t.role:
+        rows.append(f'  <div class="track-meta-row"><dt>Role</dt><dd>{t.role}</dd></div>')
+    body = []
+    body.append('<div class="track-meta">')
+    if t.caption:
+        body.append(f'  <p class="track-caption">{t.caption}</p>')
+    body.append('  <dl class="track-meta-list">')
+    body.extend(rows)
+    body.append('  </dl>')
+    body.append('</div>')
+    return "\n".join(body) + "\n"
+
+
+def render_collapsible(label: str, content: str) -> str:
+    """Wrap a section in a <details> block. The blank lines around the
+    inner content are required for Goldmark to re-enter markdown
+    parsing inside the raw-HTML element."""
+    return (
+        f'<details class="track-section">\n'
+        f'<summary>{label}</summary>\n\n'
+        f'{content}\n\n'
+        f'</details>\n'
+    )
 
 
 def build_track_pages(tracks: dict[int, Track]) -> None:
@@ -411,6 +487,23 @@ def build_track_pages(tracks: dict[int, Track]) -> None:
         body = strip_source_footer(t.body)
         # Drop the duplicate first two heading lines; Hugo will render frontmatter title.
         body = re.sub(r"^# .+?\n## Track \d+ - Act [IVX]+:[^\n]*\n### From[^\n]*\n+---\n+", "", body, count=1)
+
+        sections = parse_track_sections(body)
+
+        # Collect collapsibles in canonical order, then anything unrecognized.
+        rendered_collapsibles: list[str] = []
+        seen_keys: set[str] = {"SONG OVERVIEW", "FINAL LYRICS"}
+        for src_key, label in SECTION_ALIASES.items():
+            if src_key in sections and src_key not in seen_keys:
+                rendered_collapsibles.append(render_collapsible(label, sections[src_key]))
+                seen_keys.add(src_key)
+        for heading, content in sections.items():
+            if heading in seen_keys:
+                continue
+            label = heading.title() if heading.isupper() else heading
+            rendered_collapsibles.append(render_collapsible(label, content))
+
+        uuid = TRACK_AUDIO_IDS.get(t.slug)
         fm_fields = {
             "title": f"Track {t.number:02d} — {t.title}",
             "linkTitle": t.title,
@@ -419,15 +512,27 @@ def build_track_pages(tracks: dict[int, Track]) -> None:
             "weight": t.number,
             "acts": [ACTS[t.act_roman]["title"]],
             "tags": [s.strip() for s in t.style.split(",") if s.strip()][:8] if t.style else [],
+            "showtoc": False,
         }
-        uuid = SUNO_UUIDS.get(t.slug)
         if uuid:
-            fm_fields["suno_url"] = suno_url(uuid)
+            fm_fields["audio_url"] = audio_url(uuid)
         fm = frontmatter(fm_fields)
-        # Inject the Suno player at the top of the body so it sits above the
-        # song overview section on the rendered page.
-        prefix = "{{< suno >}}\n\n" if uuid else ""
-        write(SITE / "tracks" / f"{t.slug}.md", fm + prefix + body)
+
+        out: list[str] = []
+        if uuid:
+            out.append("{{< player >}}\n")
+        out.append(render_track_meta(t))
+        lyrics = sections.get("FINAL LYRICS", "").strip()
+        if lyrics:
+            out.append('\n<div class="track-lyrics">\n\n')
+            out.append("## Lyrics\n\n")
+            out.append(lyrics)
+            out.append("\n\n</div>\n")
+        if rendered_collapsibles:
+            out.append("\n")
+            out.append("\n".join(rendered_collapsibles))
+
+        write(SITE / "tracks" / f"{t.slug}.md", fm + "".join(out))
 
 
 def build_mission() -> None:
@@ -886,7 +991,7 @@ def build_listen_page(tracks: dict[int, Track]) -> None:
     entries: list[dict] = []
     for n in sorted(tracks.keys()):
         t = tracks[n]
-        uuid = SUNO_UUIDS.get(t.slug)
+        uuid = TRACK_AUDIO_IDS.get(t.slug)
         if not uuid:
             continue
         entries.append({
@@ -900,7 +1005,7 @@ def build_listen_page(tracks: dict[int, Track]) -> None:
             "style":  t.style,
             "role":   t.role,
             "runtime": t.runtime,
-            "sunoUrl": suno_url(uuid),
+            "audioUrl": audio_url(uuid),
             "trackUrl": f"/tracks/{t.slug}/",
         })
     # Extras bucket: bonus tracks and act-level theme tracks, grouped
@@ -921,10 +1026,10 @@ def build_listen_page(tracks: dict[int, Track]) -> None:
             "style":  "",
             "role":   "Bonus / epilogue",
             "runtime": "",
-            "sunoUrl": suno_url(info["uuid"]),
+            "audioUrl": audio_url(info["uuid"]),
             "trackUrl": f"/tracks/{slug}/",
         })
-    for roman, uuid in SUNO_UUIDS_ACT.items():
+    for roman, uuid in ACT_AUDIO_IDS.items():
         info = ACTS[roman]
         theme_title = info["title"].split("—", 1)[1].strip() if "—" in info["title"] else info["title"]
         entries.append({
@@ -938,7 +1043,7 @@ def build_listen_page(tracks: dict[int, Track]) -> None:
             "style":  "",
             "role":   f"Theme / overture for {info['title']}",
             "runtime": "",
-            "sunoUrl": suno_url(uuid),
+            "audioUrl": audio_url(uuid),
             "trackUrl": f"/acts/{roman_slug(roman)}/",
         })
 

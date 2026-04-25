@@ -1,17 +1,17 @@
-.suno-player-wrapper {
+.audio-player-wrapper {
   margin: 1.5rem 0 2rem;
 }
-.suno-player {
+.audio-player {
   border-radius: 12px;
   overflow: hidden;
   background: var(--entry);
 }
-.suno-player iframe {
+.audio-player iframe {
   display: block;
   width: 100%;
   border: none;
 }
-.suno-placeholder {
+.audio-placeholder {
   margin: 1.5rem 0 2rem;
   padding: 1.5rem;
   border-radius: 12px;

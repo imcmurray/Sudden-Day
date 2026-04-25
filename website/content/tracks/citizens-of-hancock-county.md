@@ -6,26 +6,23 @@ summary = "Francis Higbee's letter to his neighbors. Arise in the majesty of you
 weight = 14
 acts = ["Act V — The Reckoning"]
 tags = ["Rousing Americana", "anthemic", "male vocals", "building throughout", "full band by end", "call to arms", "passionate", "urgent"]
-suno_url = "https://suno.com/embed/825725af-90d7-4993-b88f-6bd81cbf72e7"
+showtoc = false
+audio_url = "https://suno.com/embed/825725af-90d7-4993-b88f-6bd81cbf72e7"
 +++
-{{< suno >}}
+{{< player >}}
+<div class="track-meta">
+  <p class="track-caption">Francis Higbee's letter to his neighbors. Arise in the majesty of your strength. The August election approaches. This is the dreadful conflict.</p>
+  <dl class="track-meta-list">
+  <div class="track-meta-row"><dt>Act</dt><dd>Act V — The Reckoning</dd></div>
+  <div class="track-meta-row"><dt>Style</dt><dd>Rousing Americana, anthemic, male vocals, building throughout, full band by end, call to arms, passionate, urgent, folk rock, protest energy</dd></div>
+  <div class="track-meta-row"><dt>Runtime</dt><dd>3:30-4:00</dd></div>
+  <div class="track-meta-row"><dt>Role</dt><dd>Francis Higbee's rallying cry - call to action</dd></div>
+  </dl>
+</div>
 
-## SONG OVERVIEW
+<div class="track-lyrics">
 
-**Title:** Citizens of Hancock County
-**Album Position:** Track 14
-**Act:** V - The Reckoning
-**Role:** Francis Higbee's rallying cry - call to action
-
-**Caption:** Francis Higbee's letter to his neighbors. Arise in the majesty of your strength. The August election approaches. This is the dreadful conflict.
-
-**Style:** `Rousing Americana, anthemic, male vocals, building throughout, full band by end, call to arms, passionate, urgent, folk rock, protest energy`
-
-**Runtime Target:** 3:30-4:00
-
----
-
-## FINAL LYRICS
+## Lyrics
 
 ```
 [Rousing Intro]
@@ -112,9 +109,10 @@ Take your stand!
 [End]
 ```
 
----
+</div>
 
-## SOURCE MATERIAL FROM THE NAUVOO EXPOSITOR
+<details class="track-section">
+<summary>Source Material</summary>
 
 All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly Francis Higbee's letter "To the Citizens of Hancock County."
 
@@ -133,9 +131,10 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly Fran
 ### The Charter Repeal
 > Call for unconditional repeal of the Nauvoo Charter
 
----
+</details>
 
-## LYRIC-TO-SOURCE MAPPING
+<details class="track-section">
+<summary>Lyric-to-Source Mapping</summary>
 
 | Lyric | Source |
 |-------|--------|
@@ -149,9 +148,10 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly Fran
 | "Come to the rescue" | "We therefore call upon you to come to the rescue" |
 | "Not with rifles, not with sabers / But with the ballot" | Implied - Higbee's call was for electoral action, not violence |
 
----
+</details>
 
-## PRODUCER NOTES
+<details class="track-section">
+<summary>Producer Notes</summary>
 
 ### What This Song Does
 - Adapts Francis Higbee's actual letter into a rallying cry
@@ -186,9 +186,10 @@ This song opens Act V with the Expositor's proposed solution. The listeners have
 
 But the listener knows what's coming. Three days later, the press burned.
 
----
+</details>
 
-## HISTORICAL CONTEXT
+<details class="track-section">
+<summary>Historical Context</summary>
 
 Francis M. Higbee was a former Mormon missionary who had become disillusioned with Joseph Smith's leadership. His letter "To the Citizens of Hancock County" was one of the most inflammatory pieces in the Expositor.
 
@@ -209,9 +210,10 @@ The timeline:
 
 The destruction of the press short-circuited the democratic process Higbee had called for. Instead of a ballot-box victory, the conflict escalated to violence and murder.
 
----
+</details>
 
-## ALBUM FLOW NOTE
+<details class="track-section">
+<summary>Album Flow Note</summary>
 
 **Act V: The Reckoning** structure:
 
@@ -229,9 +231,10 @@ Track 14 ends with a rallying cry: "Take your stand!" Track 15 answers with fire
 
 The juxtaposition is devastating: hope → destruction → but then... Track 16 shows the truth survived anyway.
 
----
+</details>
 
-## VERSION HISTORY
+<details class="track-section">
+<summary>Version History</summary>
 
 ### v1 (Final)
 - Adapted Francis Higbee's letter into rallying anthem
@@ -244,3 +247,5 @@ The juxtaposition is devastating: hope → destruction → but then... Track 16 
 - Nero/Caligula reference may feel hyperbolic to modern listeners - but it's historically accurate
 - "Dreadful conflict" meant the election, not violence - this is clear in verse 3
 - Very high energy compared to rest of album - intentional for rally-cry function
+
+</details>

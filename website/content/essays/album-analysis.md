@@ -73,9 +73,9 @@ tags = ["analysis"]
 ### Song Document Template
 
 Each song includes:
-- Final Suno-ready lyrics with metatags
-- Style description (500 char max for Suno)
-- Caption for Suno upload
+- Final lyrics with section metatags
+- Style description
+- Caption
 - Complete source material from the Expositor
 - Lyric-to-source mapping table
 - Producer notes on key decisions
@@ -391,7 +391,7 @@ Key sections referenced:
 ### Immediate Production Steps
 
 1. Apply the four minor revisions noted above
-2. Generate songs in Suno using documented styles
+2. Generate songs using the documented styles
 3. Create cover art (printing press imagery, fire/flames, 1844 typography)
 4. Compile on SoundCloud
 5. Prepare YouTube channel content for Secular Songs

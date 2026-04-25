@@ -6,26 +6,23 @@ summary = "Prophet. Mayor. General. Presidential candidate. \"We will not acknow
 weight = 11
 acts = ["Act IV — The Power"]
 tags = ["Anthemic folk rock", "defiant", "male vocals", "building power", "drums entering", "acoustic to electric", "protest song energy", "Americana"]
-suno_url = "https://suno.com/embed/10228a53-bc0e-443f-89f5-0768105a323d"
+showtoc = false
+audio_url = "https://suno.com/embed/10228a53-bc0e-443f-89f5-0768105a323d"
 +++
-{{< suno >}}
+{{< player >}}
+<div class="track-meta">
+  <p class="track-caption">Prophet. Mayor. General. Presidential candidate. "We will not acknowledge any man as king or lawgiver to the church. Christ is our only king."</p>
+  <dl class="track-meta-list">
+  <div class="track-meta-row"><dt>Act</dt><dd>Act IV — The Power</dd></div>
+  <div class="track-meta-row"><dt>Style</dt><dd>Anthemic folk rock, defiant, male vocals, building power, drums entering, acoustic to electric, protest song energy, Americana, driving rhythm</dd></div>
+  <div class="track-meta-row"><dt>Runtime</dt><dd>3:30-4:00</dd></div>
+  <div class="track-meta-row"><dt>Role</dt><dd>Political ambitions - church and state merging</dd></div>
+  </dl>
+</div>
 
-## SONG OVERVIEW
+<div class="track-lyrics">
 
-**Title:** King and Lawgiver
-**Album Position:** Track 11
-**Act:** IV - The Power
-**Role:** Political ambitions - church and state merging
-
-**Caption:** Prophet. Mayor. General. Presidential candidate. "We will not acknowledge any man as king or lawgiver to the church. Christ is our only king."
-
-**Style:** `Anthemic folk rock, defiant, male vocals, building power, drums entering, acoustic to electric, protest song energy, Americana, driving rhythm`
-
-**Runtime Target:** 3:30-4:00
-
----
-
-## FINAL LYRICS
+## Lyrics
 
 ```
 [Driving Intro]
@@ -112,9 +109,10 @@ Christ alone...
 [End]
 ```
 
----
+</div>
 
-## SOURCE MATERIAL FROM THE NAUVOO EXPOSITOR
+<details class="track-section">
+<summary>Source Material</summary>
 
 All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the Resolutions.
 
@@ -133,9 +131,10 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the 
 ### The Wolf in Sheep's Clothing
 > "Lo! the wolf is in the fold, arrayed in sheep's clothing, and is spreading death and devastation among the saints"
 
----
+</details>
 
-## LYRIC-TO-SOURCE MAPPING
+<details class="track-section">
+<summary>Lyric-to-Source Mapping</summary>
 
 | Lyric | Source |
 |-------|--------|
@@ -154,9 +153,10 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the 
 | "Keep church and state divided" | Resolution 3's core argument |
 | "Tyranny dressed in a prophet's robe" | "the wolf is in the fold, arrayed in sheep's clothing" |
 
----
+</details>
 
-## PRODUCER NOTES
+<details class="track-section">
+<summary>Producer Notes</summary>
 
 ### What This Song Does
 - Lists the accumulation of power: Prophet, Mayor, General, Presidential candidate
@@ -199,9 +199,10 @@ This song opens Act IV by naming the political stakes. The listener has seen:
 
 Now Act IV asks: How was this power maintained? "King and Lawgiver" answers: by concentrating religious, civic, military, and political authority in one man.
 
----
+</details>
 
-## HISTORICAL CONTEXT
+<details class="track-section">
+<summary>Historical Context</summary>
 
 The Nauvoo city charter, granted by the Illinois legislature in 1840, gave the city extraordinary powers:
 - Its own court system with broad habeas corpus authority
@@ -222,9 +223,10 @@ The Expositor writers saw this concentration of power as:
 
 Their response was democratic action: organize, publish, vote. The destruction of their press three days later proved their warnings prophetic.
 
----
+</details>
 
-## ALBUM FLOW NOTE
+<details class="track-section">
+<summary>Album Flow Note</summary>
 
 **Act IV: The Power** structure:
 
@@ -243,9 +245,10 @@ Act III documented what was taught and extracted. Act IV shows how power was mai
 **Transition to Track 12:**
 "King and Lawgiver" shows the power structure. "The Inquisition" shows what happened to those who opposed it: William Law, Wilson Law, and Jane Law were tried in secret and excommunicated without being present or informed.
 
----
+</details>
 
-## VERSION HISTORY
+<details class="track-section">
+<summary>Version History</summary>
 
 ### v1 (Final)
 - Listed the four positions: Prophet, Mayor, General, Presidential candidate
@@ -258,3 +261,5 @@ Act III documented what was taught and extracted. Act IV shows how power was mai
 - Pre-chorus uses archaic language ("disapprobate, discountenance") - intentional but may affect singability
 - "Three thousand strong" is historical but not from Expositor - documented fact
 - Anthemic tone is different from earlier tracks - intentional for protest song energy
+
+</details>

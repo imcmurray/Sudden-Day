@@ -6,26 +6,23 @@ summary = "They preached sacrifice. They preached gathering. The wealth flowed i
 weight = 10
 acts = ["Act III — The Revelations"]
 tags = ["Blues-influenced folk", "sardonic", "male vocals", "groove-based", "acoustic guitar", "upright bass", "wry delivery", "accusatory"]
-suno_url = "https://suno.com/embed/b81dd2e3-fdfb-4a2a-930e-574f75754cec"
+showtoc = false
+audio_url = "https://suno.com/embed/b81dd2e3-fdfb-4a2a-930e-574f75754cec"
 +++
-{{< suno >}}
+{{< player >}}
+<div class="track-meta">
+  <p class="track-caption">They preached sacrifice. They preached gathering. The wealth flowed in and was swallowed by one great throat, from whence there was no return.</p>
+  <dl class="track-meta-list">
+  <div class="track-meta-row"><dt>Act</dt><dd>Act III — The Revelations</dd></div>
+  <div class="track-meta-row"><dt>Style</dt><dd>Blues-influenced folk, sardonic, male vocals, groove-based, acoustic guitar, upright bass, wry delivery, accusatory, dark humor</dd></div>
+  <div class="track-meta-row"><dt>Runtime</dt><dd>3:30-4:00</dd></div>
+  <div class="track-meta-row"><dt>Role</dt><dd>Financial exploitation - the gathering as grift</dd></div>
+  </dl>
+</div>
 
-## SONG OVERVIEW
+<div class="track-lyrics">
 
-**Title:** The Great Throat
-**Album Position:** Track 10
-**Act:** III - The Revelations
-**Role:** Financial exploitation - the gathering as grift
-
-**Caption:** They preached sacrifice. They preached gathering. The wealth flowed in and was swallowed by one great throat, from whence there was no return.
-
-**Style:** `Blues-influenced folk, sardonic, male vocals, groove-based, acoustic guitar, upright bass, wry delivery, accusatory, dark humor`
-
-**Runtime Target:** 3:30-4:00
-
----
-
-## FINAL LYRICS
+## Lyrics
 
 ```
 [Groove Intro]
@@ -110,9 +107,10 @@ No return...
 [End]
 ```
 
----
+</div>
 
-## SOURCE MATERIAL FROM THE NAUVOO EXPOSITOR
+<details class="track-section">
+<summary>Source Material</summary>
 
 All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the Preamble's discussion of financial exploitation.
 
@@ -134,9 +132,10 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the 
 ### Worse Than Before
 > "in a very short time, they are reduced to a worse condition than that from which they had just emigrated"
 
----
+</details>
 
-## LYRIC-TO-SOURCE MAPPING
+<details class="track-section">
+<summary>Lyric-to-Source Mapping</summary>
 
 | Lyric | Source |
 |-------|--------|
@@ -153,9 +152,10 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the 
 | "Ten thousand miles you traveled" | Connection to Track 4 - the converts' journey |
 | "You sold your mother's ring" | Direct callback to Track 4's sacrifice |
 
----
+</details>
 
-## PRODUCER NOTES
+<details class="track-section">
+<summary>Producer Notes</summary>
 
 ### What This Song Does
 - Exposes the financial scheme: gather converts, sell them overpriced land
@@ -205,9 +205,10 @@ With "The Great Throat," Act III is complete. The listener now knows what was ta
 
 The pattern: secret doctrines enabled secret exploitation. The converts came for salvation and were drained - spiritually, theologically, financially.
 
----
+</details>
 
-## HISTORICAL CONTEXT
+<details class="track-section">
+<summary>Historical Context</summary>
 
 The Nauvoo economy was largely controlled by church leadership. Converts were encouraged to "gather to Zion" - selling their property abroad and bringing their wealth to Nauvoo. Upon arrival, they found:
 
@@ -225,9 +226,10 @@ This was particularly devastating for foreign converts who had:
 
 The financial exploitation worked in tandem with the spiritual coercion documented in Act II. Women who had been propositioned, coerced, and "sent away" were also being financially drained. The system extracted everything.
 
----
+</details>
 
-## ALBUM FLOW NOTE
+<details class="track-section">
+<summary>Album Flow Note</summary>
 
 **Act III: The Revelations** is now complete:
 
@@ -246,9 +248,10 @@ Act III documented what was taught and how wealth was extracted. Act IV shifts t
 
 The pattern continues: secret doctrines → financial extraction → political power → silencing dissent.
 
----
+</details>
 
-## VERSION HISTORY
+<details class="track-section">
+<summary>Version History</summary>
 
 ### v1 (Final)
 - Established the financial scheme from Expositor sources
@@ -261,3 +264,5 @@ The pattern continues: secret doctrines → financial extraction → political p
 - Tone is notably different from Tracks 8-9; intentional but worth monitoring
 - "Swallowed up the widows" is interpretive but consistent with documented targeting of vulnerable
 - "Children and your wife" in final chorus may be too broad; could tighten
+
+</details>

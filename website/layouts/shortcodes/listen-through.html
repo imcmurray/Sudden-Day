@@ -9,7 +9,7 @@
       height="200"
       style="border-radius:12px;border:none;display:block"
       loading="eager"
-      title="Sudden Day — sequential player"
+      title="Sudden Day — sequential audio player"
       sandbox="allow-scripts allow-same-origin allow-popups"
       referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
@@ -257,8 +257,8 @@
     if (i < 0 || i >= data.length) return;
     current = i;
     var e = data[i];
-    iframe.src = e.sunoUrl;
-    iframe.title = 'Suno player — ' + (e.title || '');
+    iframe.src = e.audioUrl;
+    iframe.title = 'Audio player — ' + (e.title || '');
     actEl.textContent    = e.act || '';
     actSubEl.textContent = e.actSubtitle || '';
     titleEl.textContent  = e.title || '';

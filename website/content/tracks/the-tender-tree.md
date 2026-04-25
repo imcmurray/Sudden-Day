@@ -6,26 +6,23 @@ summary = "Sent away until the talk died down. Robbed of what only death can res
 weight = 6
 acts = ["Act II — The Women"]
 tags = ["Sparse folk", "mournful", "female vocals", "slow", "acoustic guitar", "cello", "ethereal", "grief-laden"]
-suno_url = "https://suno.com/embed/febfa13b-8e0f-4d8f-b149-f6c10e4d2018"
+showtoc = false
+audio_url = "https://suno.com/embed/febfa13b-8e0f-4d8f-b149-f6c10e4d2018"
 +++
-{{< suno >}}
+{{< player >}}
+<div class="track-meta">
+  <p class="track-caption">Sent away until the talk died down. Robbed of what only death can restore. Dry sorrow drinks her blood.</p>
+  <dl class="track-meta-list">
+  <div class="track-meta-row"><dt>Act</dt><dd>Act II — The Women</dd></div>
+  <div class="track-meta-row"><dt>Style</dt><dd>Sparse folk, mournful, female vocals, slow, acoustic guitar, cello, ethereal, grief-laden, atmospheric, fading, haunting, minimal</dd></div>
+  <div class="track-meta-row"><dt>Runtime</dt><dd>3:30-4:00</dd></div>
+  <div class="track-meta-row"><dt>Role</dt><dd>The aftermath - the withering</dd></div>
+  </dl>
+</div>
 
-## SONG OVERVIEW
+<div class="track-lyrics">
 
-**Title:** The Tender Tree
-**Album Position:** Track 6
-**Act:** II - The Women
-**Role:** The aftermath - the withering
-
-**Caption:** Sent away until the talk died down. Robbed of what only death can restore. Dry sorrow drinks her blood.
-
-**Style:** `Sparse folk, mournful, female vocals, slow, acoustic guitar, cello, ethereal, grief-laden, atmospheric, fading, haunting, minimal`
-
-**Runtime Target:** 3:30-4:00
-
----
-
-## FINAL LYRICS
+## Lyrics
 
 ```
 [Sparse Intro]
@@ -95,9 +92,10 @@ From the silence...
 [Fade to End]
 ```
 
----
+</div>
 
-## SOURCE MATERIAL FROM THE NAUVOO EXPOSITOR
+<details class="track-section">
+<summary>Source Material</summary>
 
 All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844. This song draws particularly heavily from the Expositor's own language - the original writers were remarkably eloquent in describing the women's devastation.
 
@@ -125,9 +123,10 @@ All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844. T
 ### The Cry for Justice
 > "A departed spirit, once the resident of St. Louis, shall yet cry aloud for vengeance"
 
----
+</details>
 
-## LYRIC-TO-SOURCE MAPPING
+<details class="track-section">
+<summary>Lyric-to-Source Mapping</summary>
 
 | Lyric | Source |
 |-------|--------|
@@ -155,9 +154,10 @@ All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844. T
 | "And no one knows the cause" | "we strive in vain to recollect the blast or thunder-bolt that could have smitten it with decay" |
 | "A departed spirit / Cries out for vengeance" | "A departed spirit, once the resident of St. Louis, shall yet cry aloud for vengeance" |
 
----
+</details>
 
-## PRODUCER NOTES
+<details class="track-section">
+<summary>Producer Notes</summary>
 
 ### What This Song Does
 - Completes the women's trilogy: journey (Track 4) → coercion (Track 5) → aftermath (Track 6)
@@ -197,9 +197,10 @@ The Expositor writers were documenting real suffering. These weren't hypothetica
 
 180 years later, we're singing her story.
 
----
+</details>
 
-## HISTORICAL CONTEXT
+<details class="track-section">
+<summary>Historical Context</summary>
 
 The Nauvoo Expositor's Preamble contains an extended metaphor comparing exploited women to tender trees with worms at their hearts. This was not abstract poetry - it was documentation of observed suffering.
 
@@ -213,9 +214,10 @@ When they died - from "some wintry chill, some casual indisposition" - no one co
 
 This song names what was unnamed.
 
----
+</details>
 
-## ALBUM FLOW NOTE
+<details class="track-section">
+<summary>Album Flow Note</summary>
 
 **Act II: The Women** is now complete:
 
@@ -227,3 +229,5 @@ This song names what was unnamed.
 | 7 | Under Condemnation | The theological trap that enabled it all |
 
 Track 7 "Under Condemnation" steps back to explain the mechanism: Jane Law's testimony that women who refused "should be under condemnation before God." This is the doctrinal cage that made escape impossible.
+
+</details>

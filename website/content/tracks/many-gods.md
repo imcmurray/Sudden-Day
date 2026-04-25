@@ -6,26 +6,23 @@ summary = "They taught there were innumerable gods above our God. That He could 
 weight = 9
 acts = ["Act III — The Revelations"]
 tags = ["Progressive folk", "building complexity", "male vocals", "philosophical", "acoustic to fuller arrangement", "questioning", "expansive then collapsing", "atmospheric"]
-suno_url = "https://suno.com/embed/a5ca0607-8880-4fee-89e6-d22566a8db2c"
+showtoc = false
+audio_url = "https://suno.com/embed/a5ca0607-8880-4fee-89e6-d22566a8db2c"
 +++
-{{< suno >}}
+{{< player >}}
+<div class="track-meta">
+  <p class="track-caption">They taught there were innumerable gods above our God. That He could fall. That we could rise. They called it progression. The Expositor called it blasphemy.</p>
+  <dl class="track-meta-list">
+  <div class="track-meta-row"><dt>Act</dt><dd>Act III — The Revelations</dd></div>
+  <div class="track-meta-row"><dt>Style</dt><dd>Progressive folk, building complexity, male vocals, philosophical, acoustic to fuller arrangement, questioning, expansive then collapsing, atmospheric</dd></div>
+  <div class="track-meta-row"><dt>Runtime</dt><dd>3:30-4:00</dd></div>
+  <div class="track-meta-row"><dt>Role</dt><dd>The polytheism doctrine - theological earthquake</dd></div>
+  </dl>
+</div>
 
-## SONG OVERVIEW
+<div class="track-lyrics">
 
-**Title:** Many Gods
-**Album Position:** Track 9
-**Act:** III - The Revelations
-**Role:** The polytheism doctrine - theological earthquake
-
-**Caption:** They taught there were innumerable gods above our God. That He could fall. That we could rise. They called it progression. The Expositor called it blasphemy.
-
-**Style:** `Progressive folk, building complexity, male vocals, philosophical, acoustic to fuller arrangement, questioning, expansive then collapsing, atmospheric`
-
-**Runtime Target:** 3:30-4:00
-
----
-
-## FINAL LYRICS
+## Lyrics
 
 ```
 [Expansive Intro]
@@ -112,9 +109,10 @@ One God...
 [End]
 ```
 
----
+</div>
 
-## SOURCE MATERIAL FROM THE NAUVOO EXPOSITOR
+<details class="track-section">
+<summary>Source Material</summary>
 
 All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the Preamble's discussion of doctrinal innovations.
 
@@ -133,9 +131,10 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the 
 ### Rejection of the Doctrine
 > "We do not want to be partakers in doctrines so damnable, or to be sharers in their damnation"
 
----
+</details>
 
-## LYRIC-TO-SOURCE MAPPING
+<details class="track-section">
+<summary>Lyric-to-Source Mapping</summary>
 
 | Lyric | Source |
 |-------|--------|
@@ -151,9 +150,10 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the 
 | "doctrines damnable" | "doctrines so damnable" |
 | "I will not partake in damnation" | "We do not want to be partakers in doctrines so damnable, or to be sharers in their damnation" |
 
----
+</details>
 
-## PRODUCER NOTES
+<details class="track-section">
+<summary>Producer Notes</summary>
 
 ### What This Song Does
 - Exposes the polytheism doctrine - gods above God, God subject to law
@@ -193,9 +193,10 @@ For 19th-century Christians, the Expositor's charges were explosive:
 
 This wasn't just scandal - it was heresy. The Expositor writers saw themselves as defending Christianity itself against innovation.
 
----
+</details>
 
-## HISTORICAL CONTEXT
+<details class="track-section">
+<summary>Historical Context</summary>
 
 The "King Follett Discourse" (April 7, 1844 - two months before the Expositor) publicly introduced some of these ideas, but much of the teaching had been done privately. The Expositor writers had heard the full version in closed settings.
 
@@ -209,9 +210,10 @@ For converts who had come from traditional Christianity - crossing oceans, leavi
 
 The Expositor called this "speaking of God in an impious and irreverent manner" and listed it among the "doctrines so damnable" they refused to partake in.
 
----
+</details>
 
-## ALBUM FLOW NOTE
+<details class="track-section">
+<summary>Album Flow Note</summary>
 
 **Act III: The Revelations** structure:
 
@@ -231,9 +233,10 @@ Tracks 8-9 cover theological innovations. Track 10 shifts to financial exploitat
 
 The pattern: secret doctrines (8-9) enabled secret exploitation (10).
 
----
+</details>
 
-## VERSION HISTORY
+<details class="track-section">
+<summary>Version History</summary>
 
 ### v1 (Final)
 - Established the polytheism doctrine from Expositor sources
@@ -246,3 +249,5 @@ The pattern: secret doctrines (8-9) enabled secret exploitation (10).
 - Exaltation doctrine in verse 3 is implied rather than directly quoted
 - Bridge's "crossed the ocean" is interpretive connection to Act II
 - Both serve album continuity while staying true to Expositor's spirit
+
+</details>

@@ -6,26 +6,23 @@ summary = "A room with a warning on the door. An oath sworn under penalty of dea
 weight = 5
 acts = ["Act II — The Women"]
 tags = ["Dark folk", "haunting", "female vocals", "sparse", "minor key", "acoustic guitar", "cello", "slow"]
-suno_url = "https://suno.com/embed/c54441ec-b558-4552-ba54-5c1089cf9867"
+showtoc = false
+audio_url = "https://suno.com/embed/c54441ec-b558-4552-ba54-5c1089cf9867"
 +++
-{{< suno >}}
+{{< player >}}
+<div class="track-meta">
+  <p class="track-caption">A room with a warning on the door. An oath sworn under penalty of death. "God has revealed that you are mine."</p>
+  <dl class="track-meta-list">
+  <div class="track-meta-row"><dt>Act</dt><dd>Act II — The Women</dd></div>
+  <div class="track-meta-row"><dt>Style</dt><dd>Dark folk, haunting, female vocals, sparse, minor key, acoustic guitar, cello, slow, intimate, devastating, emotional</dd></div>
+  <div class="track-meta-row"><dt>Runtime</dt><dd>3:00-3:30</dd></div>
+  <div class="track-meta-row"><dt>Role</dt><dd>The secret room - the coercion</dd></div>
+  </dl>
+</div>
 
-## SONG OVERVIEW
+<div class="track-lyrics">
 
-**Title:** Positively No Admittance
-**Album Position:** Track 5
-**Act:** II - The Women
-**Role:** The secret room - the coercion
-
-**Caption:** A room with a warning on the door. An oath sworn under penalty of death. "God has revealed that you are mine."
-
-**Style:** `Dark folk, haunting, female vocals, sparse, minor key, acoustic guitar, cello, slow, intimate, devastating, emotional`
-
-**Runtime Target:** 3:00-3:30
-
----
-
-## FINAL LYRICS
+## Lyrics
 
 ```
 [Sparse Intro]
@@ -83,9 +80,10 @@ Not mine...
 [Fade to End]
 ```
 
----
+</div>
 
-## SOURCE MATERIAL FROM THE NAUVOO EXPOSITOR
+<details class="track-section">
+<summary>Source Material</summary>
 
 All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844.
 
@@ -110,9 +108,10 @@ All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844.
 ### The Surrender
 > "and replies, God's will be done and not mine."
 
----
+</details>
 
-## LYRIC-TO-SOURCE MAPPING
+<details class="track-section">
+<summary>Lyric-to-Source Mapping</summary>
 
 | Lyric | Source |
 |-------|--------|
@@ -126,9 +125,10 @@ All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844.
 | "I thought of all the miles / Everything I gave" | "She thinks of the great sacrifice and of the many thousand miles she has traveled" |
 | "God's will be done... not mine" | "and replies, God's will be done and not mine" |
 
----
+</details>
 
-## PRODUCER NOTES
+<details class="track-section">
+<summary>Producer Notes</summary>
 
 ### What This Song Does
 - Tells the story of ONE moment: the secret room, the impossible choice
@@ -155,9 +155,23 @@ Damned if you submit, damned if you refuse. That's the trap.
 - **Track 6 "The Tender Tree"** - Carries the aftermath: sent away, dry sorrow, the withering
 - **Track 7 "Under Condemnation"** - Expands on the theological trap introduced in verse 3
 
----
+</details>
 
-## VERSION HISTORY
+<details class="track-section">
+<summary>Historical Context</summary>
+
+The Nauvoo Expositor was published June 7, 1844 by former high-ranking church members including William Law (Second Counselor in the First Presidency) and Austin Cowles (First Counselor to the Stake President). 
+
+Three days later, on June 10, 1844, Joseph Smith (as mayor) ordered the press destroyed. A marshal and approximately 100 men removed the press, scattered the type, and burned remaining copies.
+
+This led directly to Joseph Smith's arrest and murder at Carthage Jail on June 27, 1844.
+
+The women described in the Expositor's preamble were real. Their names were largely not recorded - they were "sent away for a time, until all is well" and returned "as from a long visit." This song gives voice to their silenced experience.
+
+</details>
+
+<details class="track-section">
+<summary>Version History</summary>
 
 ### v1 (Cut)
 - Too wordy, setup soup in verse 1
@@ -170,14 +184,4 @@ Damned if you submit, damned if you refuse. That's the trap.
 - New verse 3 addresses theological weaponization
 - Ends on surrender with no resolution
 
----
-
-## HISTORICAL CONTEXT
-
-The Nauvoo Expositor was published June 7, 1844 by former high-ranking church members including William Law (Second Counselor in the First Presidency) and Austin Cowles (First Counselor to the Stake President). 
-
-Three days later, on June 10, 1844, Joseph Smith (as mayor) ordered the press destroyed. A marshal and approximately 100 men removed the press, scattered the type, and burned remaining copies.
-
-This led directly to Joseph Smith's arrest and murder at Carthage Jail on June 27, 1844.
-
-The women described in the Expositor's preamble were real. Their names were largely not recorded - they were "sent away for a time, until all is well" and returned "as from a long visit." This song gives voice to their silenced experience.
+</details>

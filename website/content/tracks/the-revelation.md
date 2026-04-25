@@ -6,26 +6,23 @@ summary = "Austin Cowles sat in the High Council when Hyrum read the revelation.
 weight = 8
 acts = ["Act III — The Revelations"]
 tags = ["Folk", "storytelling", "male vocals", "serious tone", "acoustic guitar", "deliberate pacing", "testimonial", "building conviction"]
-suno_url = "https://suno.com/embed/e8fc7980-ad1b-4367-b20e-a067dc1a131f"
+showtoc = false
+audio_url = "https://suno.com/embed/e8fc7980-ad1b-4367-b20e-a067dc1a131f"
 +++
-{{< suno >}}
+{{< player >}}
+<div class="track-meta">
+  <p class="track-caption">Austin Cowles sat in the High Council when Hyrum read the revelation. Plural wives. Sealing against all sins. He could not teach such laws.</p>
+  <dl class="track-meta-list">
+  <div class="track-meta-row"><dt>Act</dt><dd>Act III — The Revelations</dd></div>
+  <div class="track-meta-row"><dt>Style</dt><dd>Folk, storytelling, male vocals, serious tone, acoustic guitar, deliberate pacing, testimonial, building conviction, Americana</dd></div>
+  <div class="track-meta-row"><dt>Runtime</dt><dd>3:30-4:00</dd></div>
+  <div class="track-meta-row"><dt>Role</dt><dd>The High Council testimony - what Hyrum read aloud</dd></div>
+  </dl>
+</div>
 
-## SONG OVERVIEW
+<div class="track-lyrics">
 
-**Title:** The Revelation
-**Album Position:** Track 8
-**Act:** III - The Revelations
-**Role:** The High Council testimony - what Hyrum read aloud
-
-**Caption:** Austin Cowles sat in the High Council when Hyrum read the revelation. Plural wives. Sealing against all sins. He could not teach such laws.
-
-**Style:** `Folk, storytelling, male vocals, serious tone, acoustic guitar, deliberate pacing, testimonial, building conviction, Americana`
-
-**Runtime Target:** 3:30-4:00
-
----
-
-## FINAL LYRICS
+## Lyrics
 
 ```
 [Deliberate Intro]
@@ -112,9 +109,10 @@ I dared not...
 [End]
 ```
 
----
+</div>
 
-## SOURCE MATERIAL FROM THE NAUVOO EXPOSITOR
+<details class="track-section">
+<summary>Source Material</summary>
 
 All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly Austin Cowles' sworn affidavit.
 
@@ -135,9 +133,10 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly Aust
 ### The Refusal
 > "I dared not teach or administer such laws"
 
----
+</details>
 
-## LYRIC-TO-SOURCE MAPPING
+<details class="track-section">
+<summary>Lyric-to-Source Mapping</summary>
 
 | Lyric | Source |
 |-------|--------|
@@ -155,9 +154,10 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly Aust
 | "Or consenting it be done" | "or of consenting thereto" |
 | "I dared not teach such doctrine" | "I dared not teach or administer such laws" |
 
----
+</details>
 
-## PRODUCER NOTES
+<details class="track-section">
+<summary>Producer Notes</summary>
 
 ### What This Song Does
 - Puts Austin Cowles on the witness stand - first-person sworn testimony
@@ -198,9 +198,10 @@ This song opens Act III by shifting from stories to doctrines. The listener has 
 
 Now Act III asks: What were they actually teaching? "The Revelation" answers with Austin Cowles' sworn testimony - the doctrine of plural wives, read aloud in the High Council, which he "dared not teach."
 
----
+</details>
 
-## HISTORICAL CONTEXT
+<details class="track-section">
+<summary>Historical Context</summary>
 
 Austin Cowles was First Counselor to the Nauvoo Stake President and a member of the High Council. His position gave him access to the inner workings of church governance.
 
@@ -218,9 +219,10 @@ The four doctrines Cowles listed:
 
 The fourth doctrine is particularly significant: those sealed could be forgiven "all sins" except shedding innocent blood. This created a theological framework for impunity.
 
----
+</details>
 
-## ALBUM FLOW NOTE
+<details class="track-section">
+<summary>Album Flow Note</summary>
 
 **Act III: The Revelations** structure:
 
@@ -238,9 +240,10 @@ Track 8 picks up the thread: What was that blasphemy? Austin Cowles heard it rea
 **Transition to Track 9:**
 Track 8 covers the plural marriage revelation. Track 9 shifts to another secret doctrine: the teaching of "many gods" above the God of Christianity. Different doctrine, same pattern - taught secretly, denied openly.
 
----
+</details>
 
-## VERSION HISTORY
+<details class="track-section">
+<summary>Version History</summary>
 
 ### v1 (Final)
 - Established testimonial structure with Austin Cowles as first-person witness
@@ -253,3 +256,5 @@ Track 8 covers the plural marriage revelation. Track 9 shifts to another secret 
 - Bridge is interpretive rather than directly sourced
 - "Amen" refrain is thematic rather than quoted
 - Both serve the song while staying true to the testimony's spirit
+
+</details>

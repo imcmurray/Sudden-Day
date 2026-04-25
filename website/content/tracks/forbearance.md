@@ -6,26 +6,23 @@ summary = "They begged him to repent. He said he'd rather be damned. Now forbear
 weight = 2
 acts = ["Act I — The Awakening"]
 tags = ["Folk rock", "Americana", "building intensity", "male vocals", "righteous anger", "acoustic to electric", "stomping rhythm", "raw emotion"]
-suno_url = "https://suno.com/embed/cc51bd8c-695e-4536-9b3f-2135543650e4"
+showtoc = false
+audio_url = "https://suno.com/embed/cc51bd8c-695e-4536-9b3f-2135543650e4"
 +++
-{{< suno >}}
+{{< player >}}
+<div class="track-meta">
+  <p class="track-caption">They begged him to repent. He said he'd rather be damned. Now forbearance has ceased to be a virtue.</p>
+  <dl class="track-meta-list">
+  <div class="track-meta-row"><dt>Act</dt><dd>Act I — The Awakening</dd></div>
+  <div class="track-meta-row"><dt>Style</dt><dd>Folk rock, Americana, building intensity, male vocals, righteous anger, acoustic to electric, stomping rhythm, raw emotion, defiant</dd></div>
+  <div class="track-meta-row"><dt>Runtime</dt><dd>3:30-4:00</dd></div>
+  <div class="track-meta-row"><dt>Role</dt><dd>The whistleblowers' manifesto - why they had to speak</dd></div>
+  </dl>
+</div>
 
-## SONG OVERVIEW
+<div class="track-lyrics">
 
-**Title:** Forbearance
-**Album Position:** Track 2
-**Act:** I - The Awakening
-**Role:** The whistleblowers' manifesto - why they had to speak
-
-**Caption:** They begged him to repent. He said he'd rather be damned. Now forbearance has ceased to be a virtue.
-
-**Style:** `Folk rock, Americana, building intensity, male vocals, righteous anger, acoustic to electric, stomping rhythm, raw emotion, defiant`
-
-**Runtime Target:** 3:30-4:00
-
----
-
-## FINAL LYRICS
+## Lyrics
 
 ```
 [Building Intro]
@@ -100,9 +97,10 @@ Let the truth be known...
 [End]
 ```
 
----
+</div>
 
-## SOURCE MATERIAL FROM THE NAUVOO EXPOSITOR
+<details class="track-section">
+<summary>Source Material</summary>
 
 All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844.
 
@@ -130,9 +128,10 @@ All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844.
 ### The Wolf at the Pulpit
 > "Lo! the wolf is in the fold, arrayed in sheep's clothing, and is spreading death and devastation among the saints"
 
----
+</details>
 
-## LYRIC-TO-SOURCE MAPPING
+<details class="track-section">
+<summary>Lyric-to-Source Mapping</summary>
 
 | Lyric | Source |
 |-------|--------|
@@ -156,9 +155,10 @@ All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844.
 | "The wolf stands at the pulpit" | "the wolf is in the fold, arrayed in sheep's clothing" |
 | "The sheep begin to die" | "spreading death and devastation among the saints" |
 
----
+</details>
 
-## PRODUCER NOTES
+<details class="track-section">
+<summary>Producer Notes</summary>
 
 ### What This Song Does
 - Explains WHY the whistleblowers went public - they tried private reformation first
@@ -206,9 +206,10 @@ By the end of Act I, the listener understands:
 
 Then Act II hits: the women's stories. The listener is prepared.
 
----
+</details>
 
-## HISTORICAL CONTEXT
+<details class="track-section">
+<summary>Historical Context</summary>
 
 The Expositor publishers didn't want to go public. They tried private reformation first.
 
@@ -224,9 +225,10 @@ The Hell quotes are particularly revealing. Joseph told his inner circle that th
 
 This is a man who had stopped believing his own message - or who believed he was above it.
 
----
+</details>
 
-## ALBUM FLOW NOTE
+<details class="track-section">
+<summary>Album Flow Note</summary>
 
 **Act I: The Awakening** sequence:
 
@@ -239,3 +241,5 @@ This is a man who had stopped believing his own message - or who believed he was
 "Forbearance" is the emotional engine of Act I. It answers the question every listener will have: "Why would insiders turn on their own prophet?"
 
 Answer: Because they tried everything else first, and he laughed at them.
+
+</details>

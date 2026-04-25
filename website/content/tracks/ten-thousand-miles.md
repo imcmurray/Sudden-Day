@@ -6,26 +6,23 @@ summary = "She crossed the ocean to find God. She left everything behind. She di
 weight = 4
 acts = ["Act II — The Women"]
 tags = ["Folk ballad", "Celtic influence", "female vocals", "hopeful turning melancholy", "acoustic guitar", "violin", "gentle build", "emotional"]
-suno_url = "https://suno.com/embed/8e147196-5f20-463d-8ddd-d0577b9ba69c"
+showtoc = false
+audio_url = "https://suno.com/embed/8e147196-5f20-463d-8ddd-d0577b9ba69c"
 +++
-{{< suno >}}
+{{< player >}}
+<div class="track-meta">
+  <p class="track-caption">She crossed the ocean to find God. She left everything behind. She didn't know what waited.</p>
+  <dl class="track-meta-list">
+  <div class="track-meta-row"><dt>Act</dt><dd>Act II — The Women</dd></div>
+  <div class="track-meta-row"><dt>Style</dt><dd>Folk ballad, Celtic influence, female vocals, hopeful turning melancholy, acoustic guitar, violin, gentle build, emotional, bittersweet, atmospheric</dd></div>
+  <div class="track-meta-row"><dt>Runtime</dt><dd>3:30-4:00</dd></div>
+  <div class="track-meta-row"><dt>Role</dt><dd>The journey to Zion - hope before the fall</dd></div>
+  </dl>
+</div>
 
-## SONG OVERVIEW
+<div class="track-lyrics">
 
-**Title:** Ten Thousand Miles
-**Album Position:** Track 4
-**Act:** II - The Women
-**Role:** The journey to Zion - hope before the fall
-
-**Caption:** She crossed the ocean to find God. She left everything behind. She didn't know what waited.
-
-**Style:** `Folk ballad, Celtic influence, female vocals, hopeful turning melancholy, acoustic guitar, violin, gentle build, emotional, bittersweet, atmospheric`
-
-**Runtime Target:** 3:30-4:00
-
----
-
-## FINAL LYRICS
+## Lyrics
 
 ```
 [Gentle Intro]
@@ -98,9 +95,10 @@ No way home...
 [Fade to End]
 ```
 
----
+</div>
 
-## SOURCE MATERIAL FROM THE NAUVOO EXPOSITOR
+<details class="track-section">
+<summary>Source Material</summary>
 
 All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844.
 
@@ -116,9 +114,10 @@ All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844.
 ### The Summons
 > "They are also notified that Brother Joseph will see them soon, and reveal the mysteries of Heaven to their full understanding, which seldom fails to inspire them with new confidence in the Prophet, as well as a great anxiety to know what God has laid up in store for them"
 
----
+</details>
 
-## LYRIC-TO-SOURCE MAPPING
+<details class="track-section">
+<summary>Lyric-to-Source Mapping</summary>
 
 | Lyric | Source |
 |-------|--------|
@@ -136,9 +135,10 @@ All lyrics are grounded in the Preamble of the Nauvoo Expositor, June 7, 1844.
 | "reveal the mysteries of heaven" | "reveal the mysteries of Heaven to their full understanding" |
 | "I did not know what waited" | Sets up "Positively No Admittance" |
 
----
+</details>
 
-## PRODUCER NOTES
+<details class="track-section">
+<summary>Producer Notes</summary>
 
 ### What This Song Does
 - Establishes the hope, faith, and sacrifice BEFORE the betrayal
@@ -170,9 +170,10 @@ The bridge directly sets up Track 5:
 - Specific countries of origin (the Expositor keeps it general: "foreign climes")
 - Details of the voyage beyond atmospheric imagery
 
----
+</details>
 
-## HISTORICAL CONTEXT
+<details class="track-section">
+<summary>Historical Context</summary>
 
 Between 1839 and 1846, approximately 4,000 British converts emigrated to Nauvoo. The Twelve Apostles established a shipping agency and organized emigration companies. Converts typically sailed from Liverpool to New Orleans, then traveled up the Mississippi River to Nauvoo.
 
@@ -180,9 +181,10 @@ The Expositor specifically calls out "the Strikers" - members tasked with welcom
 
 The women described in the Expositor had genuinely sacrificed everything - selling possessions, leaving friends and family, crossing an ocean - believing they were gathering to Zion to glorify God. This faith made them vulnerable to exploitation. When faced with the Prophet's demands, they had no resources, no support network, and "no way home."
 
----
+</details>
 
-## ALBUM FLOW NOTE
+<details class="track-section">
+<summary>Album Flow Note</summary>
 
 **Track 3: "Seven Wives"** → Establishes the public lie (Joseph denying polygamy)
 **Track 4: "Ten Thousand Miles"** → The convert's journey and hope
@@ -190,3 +192,5 @@ The women described in the Expositor had genuinely sacrificed everything - selli
 **Track 6: "The Tender Tree"** → The aftermath, the withering
 
 This sequence takes the listener from public denial → private hope → private horror → private devastation. The women's arc is complete across these four songs.
+
+</details>

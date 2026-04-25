@@ -6,26 +6,23 @@ summary = "\"What a thing it is for a man to be accused of having seven wives, w
 weight = 3
 acts = ["Act I — The Awakening"]
 tags = ["Dark folk", "sardonic", "minor key", "acoustic guitar", "sparse arrangement", "male vocals", "bitter", "ironic"]
-suno_url = "https://suno.com/embed/86691f97-49c0-4c6a-b492-6cbcb5570ea2"
+showtoc = false
+audio_url = "https://suno.com/embed/86691f97-49c0-4c6a-b492-6cbcb5570ea2"
 +++
-{{< suno >}}
+{{< player >}}
+<div class="track-meta">
+  <p class="track-caption">"What a thing it is for a man to be accused of having seven wives, when I can only find one." He stood at the pulpit and lied.</p>
+  <dl class="track-meta-list">
+  <div class="track-meta-row"><dt>Act</dt><dd>Act I — The Awakening</dd></div>
+  <div class="track-meta-row"><dt>Style</dt><dd>Dark folk, sardonic, minor key, acoustic guitar, sparse arrangement, male vocals, bitter, ironic, storytelling, slow burn</dd></div>
+  <div class="track-meta-row"><dt>Runtime</dt><dd>3:00-3:30</dd></div>
+  <div class="track-meta-row"><dt>Role</dt><dd>The public lie vs. private truth - bitter irony</dd></div>
+  </dl>
+</div>
 
-## SONG OVERVIEW
+<div class="track-lyrics">
 
-**Title:** Seven Wives
-**Album Position:** Track 3
-**Act:** I - The Awakening
-**Role:** The public lie vs. private truth - bitter irony
-
-**Caption:** "What a thing it is for a man to be accused of having seven wives, when I can only find one." He stood at the pulpit and lied.
-
-**Style:** `Dark folk, sardonic, minor key, acoustic guitar, sparse arrangement, male vocals, bitter, ironic, storytelling, slow burn`
-
-**Runtime Target:** 3:00-3:30
-
----
-
-## FINAL LYRICS
+## Lyrics
 
 ```
 [Sparse Intro - almost mocking]
@@ -104,9 +101,10 @@ And he could only find one
 [End]
 ```
 
----
+</div>
 
-## SOURCE MATERIAL FROM THE NAUVOO EXPOSITOR
+<details class="track-section">
+<summary>Source Material</summary>
 
 All lyrics are grounded in the Nauvoo Expositor and Joseph Smith's documented public statements.
 
@@ -128,9 +126,10 @@ All lyrics are grounded in the Nauvoo Expositor and Joseph Smith's documented pu
 ### The Sealing Doctrine
 > "the sealing up of persons to eternal life, against all sins, save that of sheding innocent blood or of consenting thereto"
 
----
+</details>
 
-## LYRIC-TO-SOURCE MAPPING
+<details class="track-section">
+<summary>Lyric-to-Source Mapping</summary>
 
 | Lyric | Source |
 |-------|--------|
@@ -149,9 +148,10 @@ All lyrics are grounded in the Nauvoo Expositor and Joseph Smith's documented pu
 | "Austin Cowles heard it read aloud" | Austin Cowles' sworn affidavit about the High Council reading |
 | "William knew it in his bones / When the Prophet came for his wife" | William Law's testimony; Joseph's alleged proposition to Jane Law |
 
----
+</details>
 
-## PRODUCER NOTES
+<details class="track-section">
+<summary>Producer Notes</summary>
 
 ### What This Song Does
 - Contrasts Joseph's public denial with documented private reality
@@ -197,9 +197,10 @@ With "Seven Wives," Act I is complete. The listener now knows:
 
 The listener is now prepared for Act II: The Women. They understand the context. Now they'll hear what happened to the victims.
 
----
+</details>
 
-## HISTORICAL CONTEXT
+<details class="track-section">
+<summary>Historical Context</summary>
 
 On May 26, 1844, Joseph Smith preached a sermon in Nauvoo directly denying the practice of plural marriage. This was not ignorance or misunderstanding - he was lying to his own followers while secretly married to dozens of women.
 
@@ -214,9 +215,10 @@ Twelve days later, they published their sworn affidavits. Joseph's own words - "
 
 The historical record now confirms approximately 30-40 plural wives. The Expositor only knew about "the number of ten." Even that was enough to prove the public denial was a lie.
 
----
+</details>
 
-## ALBUM FLOW NOTE
+<details class="track-section">
+<summary>Album Flow Note</summary>
 
 **Act I: The Awakening** is now complete:
 
@@ -230,3 +232,5 @@ The historical record now confirms approximately 30-40 plural wives. The Exposit
 Track 3 ends with the lie. Track 4 begins with a woman crossing an ocean, full of faith.
 
 The juxtaposition is intentional: We've just heard him deny having seven wives. Now we're going to meet one of them.
+
+</details>

@@ -6,26 +6,23 @@ summary = "Fugitives fled to Nauvoo and found protection. The Mayor's court over
 weight = 13
 acts = ["Act IV — The Power"]
 tags = ["Driving folk rock", "urgent", "male vocals", "faster tempo", "acoustic guitar with percussion", "journalistic", "exposÃ© energy", "Americana"]
-suno_url = "https://suno.com/embed/f38f731a-e341-4420-88cb-e5f696dbce96"
+showtoc = false
+audio_url = "https://suno.com/embed/f38f731a-e341-4420-88cb-e5f696dbce96"
 +++
-{{< suno >}}
+{{< player >}}
+<div class="track-meta">
+  <p class="track-caption">Fugitives fled to Nauvoo and found protection. The Mayor's court overruled federal warrants. "A sink of refuge for every offender who can carry in spoils enough to buy protection."</p>
+  <dl class="track-meta-list">
+  <div class="track-meta-row"><dt>Act</dt><dd>Act IV — The Power</dd></div>
+  <div class="track-meta-row"><dt>Style</dt><dd>Driving folk rock, urgent, male vocals, faster tempo, acoustic guitar with percussion, journalistic, exposÃ© energy, Americana</dd></div>
+  <div class="track-meta-row"><dt>Runtime</dt><dd>3:30-4:00</dd></div>
+  <div class="track-meta-row"><dt>Role</dt><dd>Charter abuses - Nauvoo as sanctuary for criminals</dd></div>
+  </dl>
+</div>
 
-## SONG OVERVIEW
+<div class="track-lyrics">
 
-**Title:** Habeas Corpus
-**Album Position:** Track 13
-**Act:** IV - The Power
-**Role:** Charter abuses - Nauvoo as sanctuary for criminals
-
-**Caption:** Fugitives fled to Nauvoo and found protection. The Mayor's court overruled federal warrants. "A sink of refuge for every offender who can carry in spoils enough to buy protection."
-
-**Style:** `Driving folk rock, urgent, male vocals, faster tempo, acoustic guitar with percussion, journalistic, exposÃ© energy, Americana`
-
-**Runtime Target:** 3:30-4:00
-
----
-
-## FINAL LYRICS
+## Lyrics
 
 ```
 [Urgent Intro]
@@ -114,9 +111,10 @@ Beyond the law...
 [End]
 ```
 
----
+</div>
 
-## SOURCE MATERIAL FROM THE NAUVOO EXPOSITOR
+<details class="track-section">
+<summary>Source Material</summary>
 
 All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly discussions of charter abuses and the Jeremiah Smith case.
 
@@ -135,9 +133,10 @@ The Expositor documented specific cases of fugitives from federal justice being 
 ### Charter as Shield
 > The Nauvoo Charter granted extraordinary powers including habeas corpus authority that could override external legal processes.
 
----
+</details>
 
-## LYRIC-TO-SOURCE MAPPING
+<details class="track-section">
+<summary>Lyric-to-Source Mapping</summary>
 
 | Lyric | Source |
 |-------|--------|
@@ -151,9 +150,10 @@ The Expositor documented specific cases of fugitives from federal justice being 
 | "Will the federal government be quiescent?" | "the constituted authorities of the federal government be quiescent under such circumstances" |
 | "A city-state upon the Mississippi" | Nauvoo's effective autonomy from state and federal authority |
 
----
+</details>
 
-## PRODUCER NOTES
+<details class="track-section">
+<summary>Producer Notes</summary>
 
 ### What This Song Does
 - Documents charter abuses - habeas corpus twisted to protect fugitives
@@ -201,9 +201,10 @@ With "Habeas Corpus," Act IV is complete. The listener now understands how power
 
 The system was complete: religious authority + civic power + military command + legal immunity = unchecked control.
 
----
+</details>
 
-## HISTORICAL CONTEXT
+<details class="track-section">
+<summary>Historical Context</summary>
 
 The Nauvoo city charter, granted by the Illinois legislature in December 1840, was unusually broad. It gave Nauvoo:
 
@@ -219,9 +220,10 @@ The Expositor's warning - that Nauvoo would become "a sink of refuge for every o
 
 Their solution was political: use the August 1844 elections to elect officials who would repeal or reform the Nauvoo Charter. The destruction of the Expositor press on June 10 ended that plan - and ultimately led to Joseph Smith's arrest and death at Carthage.
 
----
+</details>
 
-## ALBUM FLOW NOTE
+<details class="track-section">
+<summary>Album Flow Note</summary>
 
 **Act IV: The Power** is now complete:
 
@@ -240,9 +242,10 @@ Act IV documented the machinery of control. Act V shows the reckoning:
 
 The album moves from documentation to confrontation to consequence to legacy.
 
----
+</details>
 
-## VERSION HISTORY
+<details class="track-section">
+<summary>Version History</summary>
 
 ### v1 (Final)
 - Documented habeas corpus abuse with specific reference to charter provisions
@@ -255,3 +258,5 @@ The album moves from documentation to confrontation to consequence to legacy.
 - Legal language ("habeas corpus") may be unfamiliar to some listeners
 - "The body shall be produced" explains the Latin but may feel expository
 - Bridge is longer - may need tightening in production
+
+</details>

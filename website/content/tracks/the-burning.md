@@ -6,26 +6,23 @@ summary = "One hundred men. Scattered type. The flames consuming truth. Three da
 weight = 15
 acts = ["Act V — The Reckoning"]
 tags = ["Cinematic folk", "dramatic", "male and female vocals", "building intensity", "strings", "percussion", "flames as metaphor", "tragic"]
-suno_url = "https://suno.com/embed/299d3f95-ab0a-44b3-9c9d-f38443f07865"
+showtoc = false
+audio_url = "https://suno.com/embed/299d3f95-ab0a-44b3-9c9d-f38443f07865"
 +++
-{{< suno >}}
+{{< player >}}
+<div class="track-meta">
+  <p class="track-caption">One hundred men. Scattered type. The flames consuming truth. Three days later, they printed their last word with fire. Seventeen days later, Carthage.</p>
+  <dl class="track-meta-list">
+  <div class="track-meta-row"><dt>Act</dt><dd>Act V — The Reckoning</dd></div>
+  <div class="track-meta-row"><dt>Style</dt><dd>Cinematic folk, dramatic, male and female vocals, building intensity, strings, percussion, flames as metaphor, tragic, powerful, anthemic resolution</dd></div>
+  <div class="track-meta-row"><dt>Runtime</dt><dd>4:00-4:30</dd></div>
+  <div class="track-meta-row"><dt>Role</dt><dd>June 10, 1844 - the destruction of the press</dd></div>
+  </dl>
+</div>
 
-## SONG OVERVIEW
+<div class="track-lyrics">
 
-**Title:** The Burning
-**Album Position:** Track 15
-**Act:** V - The Reckoning
-**Role:** June 10, 1844 - the destruction of the press
-
-**Caption:** One hundred men. Scattered type. The flames consuming truth. Three days later, they printed their last word with fire. Seventeen days later, Carthage.
-
-**Style:** `Cinematic folk, dramatic, male and female vocals, building intensity, strings, percussion, flames as metaphor, tragic, powerful, anthemic resolution`
-
-**Runtime Target:** 4:00-4:30
-
----
-
-## FINAL LYRICS
+## Lyrics
 
 ```
 [Ominous Intro]
@@ -113,9 +110,10 @@ You cannot burn a name...
 [End]
 ```
 
----
+</div>
 
-## SOURCE MATERIAL
+<details class="track-section">
+<summary>Source Material</summary>
 
 This song draws from documented historical events and the Nauvoo Expositor's own language.
 
@@ -140,9 +138,10 @@ The destruction of the press led to:
 3. Joseph's arrest and transfer to Carthage Jail
 4. The mob attack that killed Joseph and Hyrum Smith
 
----
+</details>
 
-## LYRIC-TO-SOURCE MAPPING
+<details class="track-section">
+<summary>Lyric-to-Source Mapping</summary>
 
 | Lyric | Source |
 |-------|--------|
@@ -157,9 +156,10 @@ The destruction of the press led to:
 | "Seventeen days later / At Carthage they would fall" | June 10 to June 27 = 17 days |
 | "Lo, it is sudden day" | Direct quote from Expositor preamble |
 
----
+</details>
 
-## PRODUCER NOTES
+<details class="track-section">
+<summary>Producer Notes</summary>
 
 ### What This Song Does
 - Documents June 10, 1844 - the destruction of the press
@@ -202,9 +202,10 @@ Neither is celebrated. Both are documented. The song finds its resolution not in
 ### The Outro
 The song ends with "Lo, it is sudden day..." - a direct quote from the Expositor's preamble, and the title of the final track. This creates a seamless transition to the album's epilogue.
 
----
+</details>
 
-## HISTORICAL CONTEXT
+<details class="track-section">
+<summary>Historical Context</summary>
 
 On June 10, 1844, three days after the Nauvoo Expositor published its single issue, the Nauvoo City Council met in emergency session. They declared the newspaper a "public nuisance" - a legal designation that allowed for its destruction.
 
@@ -232,9 +233,10 @@ The Expositor had predicted this: "Men solace themselves by saying the facts slu
 
 180 years later, sudden day continues.
 
----
+</details>
 
-## ALBUM FLOW NOTE
+<details class="track-section">
+<summary>Album Flow Note</summary>
 
 **Act V: The Reckoning** structure:
 
@@ -254,9 +256,10 @@ Track 16 opens with that promise fulfilled: the truth survived.
 
 This is the album's emotional climax. The flames, the death, the apparent triumph of tyranny - and then the whispered promise that truth outlasts fire.
 
----
+</details>
 
-## VERSION HISTORY
+<details class="track-section">
+<summary>Version History</summary>
 
 ### v1 (Final)
 - Documented the June 10 destruction with historical specificity
@@ -269,3 +272,5 @@ This is the album's emotional climax. The flames, the death, the apparent triump
 - Song is longer than others (4:00-4:30) - intentional for climax
 - Carthage reference may need historical context for some listeners
 - Dual male/female vocals may be challenging in production
+
+</details>

@@ -1,11 +1,11 @@
 +++
 title = "Act V — The Reckoning"
-suno_url = "https://suno.com/embed/ff4ea206-0d85-4071-83ef-84d2f9ba8d51"
+audio_url = "https://suno.com/embed/ff4ea206-0d85-4071-83ef-84d2f9ba8d51"
 +++
 
 *The silencing that wasn't*
 
-{{< suno >}}
+{{< player >}}
 
 ### [Track 14 — Citizens of Hancock County](/tracks/citizens-of-hancock-county/)
 > Francis Higbee's letter to his neighbors. Arise in the majesty of your strength. The August election approaches. This is the dreadful conflict.

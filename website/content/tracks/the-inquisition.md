@@ -6,26 +6,23 @@ summary = "April 18th. A council called in secret. Tried, condemned, and cut off
 weight = 12
 acts = ["Act IV — The Power"]
 tags = ["Dark folk", "tense", "male vocals", "minor key", "sparse arrangement building to intensity", "accusatory", "dramatic", "ominous"]
-suno_url = "https://suno.com/embed/037ee37d-c35d-453d-9a8b-df2d295b00fd"
+showtoc = false
+audio_url = "https://suno.com/embed/037ee37d-c35d-453d-9a8b-df2d295b00fd"
 +++
-{{< suno >}}
+{{< player >}}
+<div class="track-meta">
+  <p class="track-caption">April 18th. A council called in secret. Tried, condemned, and cut off. They never knew until it was done. Our law condemns no man until he is heard.</p>
+  <dl class="track-meta-list">
+  <div class="track-meta-row"><dt>Act</dt><dd>Act IV — The Power</dd></div>
+  <div class="track-meta-row"><dt>Style</dt><dd>Dark folk, tense, male vocals, minor key, sparse arrangement building to intensity, accusatory, dramatic, ominous, building dread</dd></div>
+  <div class="track-meta-row"><dt>Runtime</dt><dd>3:30-4:00</dd></div>
+  <div class="track-meta-row"><dt>Role</dt><dd>The secret trial - cut off without a hearing</dd></div>
+  </dl>
+</div>
 
-## SONG OVERVIEW
+<div class="track-lyrics">
 
-**Title:** The Inquisition
-**Album Position:** Track 12
-**Act:** IV - The Power
-**Role:** The secret trial - cut off without a hearing
-
-**Caption:** April 18th. A council called in secret. Tried, condemned, and cut off. They never knew until it was done. Our law condemns no man until he is heard.
-
-**Style:** `Dark folk, tense, male vocals, minor key, sparse arrangement building to intensity, accusatory, dramatic, ominous, building dread`
-
-**Runtime Target:** 3:30-4:00
-
----
-
-## FINAL LYRICS
+## Lyrics
 
 ```
 [Tense Intro]
@@ -112,9 +109,10 @@ Erased from time...
 [End]
 ```
 
----
+</div>
 
-## SOURCE MATERIAL FROM THE NAUVOO EXPOSITOR
+<details class="track-section">
+<summary>Source Material</summary>
 
 All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the Preamble's discussion of the secret trial.
 
@@ -133,9 +131,10 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the 
 ### False Testimony
 > "condemned on the testimony of a man that had confessed himself a liar"
 
----
+</details>
 
-## LYRIC-TO-SOURCE MAPPING
+<details class="track-section">
+<summary>Lyric-to-Source Mapping</summary>
 
 | Lyric | Source |
 |-------|--------|
@@ -154,9 +153,10 @@ All lyrics are grounded in the Nauvoo Expositor, June 7, 1844, particularly the 
 | "No one here is safe" | Implied warning from the Expositor's argument |
 | "Your name erased from time" | The effect of excommunication - erasure from the community |
 
----
+</details>
 
-## PRODUCER NOTES
+<details class="track-section">
+<summary>Producer Notes</summary>
 
 ### What This Song Does
 - Documents the secret trial of April 18, 1844
@@ -196,9 +196,10 @@ This is institutional terror. Anyone could be next. The bridge makes this explic
 ### The Laws' Response
 William, Wilson, and Jane Law responded to their secret excommunication by publishing the Expositor. They didn't slink away - they documented everything. This song is part of that documentation.
 
----
+</details>
 
-## HISTORICAL CONTEXT
+<details class="track-section">
+<summary>Historical Context</summary>
 
 On April 18, 1844, a church council met in secret to try William Law (Second Counselor in the First Presidency), his brother Wilson Law (brigadier general in the Nauvoo Legion), and Jane Law (William's wife).
 
@@ -212,9 +213,10 @@ The Expositor's comparison to the Spanish Inquisition was not casual. Pope Innoc
 
 Their warning proved prophetic. Less than three months after the secret trial, Joseph Smith (as mayor) would order the destruction of their press - another act of power without due process.
 
----
+</details>
 
-## ALBUM FLOW NOTE
+<details class="track-section">
+<summary>Album Flow Note</summary>
 
 **Act IV: The Power** structure:
 
@@ -230,9 +232,10 @@ Their warning proved prophetic. Less than three months after the secret trial, J
 **Transition to Track 13:**
 "The Inquisition" covers internal dissent (excommunicating critics). "Habeas Corpus" covers external accountability (protecting fugitives from federal law). Both show the same pattern: using institutional power to evade justice.
 
----
+</details>
 
-## VERSION HISTORY
+<details class="track-section">
+<summary>Version History</summary>
 
 ### v1 (Final)
 - Documented the April 18, 1844 secret trial
@@ -245,3 +248,5 @@ Their warning proved prophetic. Less than three months after the secret trial, J
 - "Innocent and Dominic" may be obscure references - consider whether listeners will understand
 - "Erased from time" is interpretive but captures the effect of excommunication
 - Bridge's "today/tomorrow" structure is classic protest song form
+
+</details>
