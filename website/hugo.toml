@@ -128,6 +128,13 @@ On June 7, 1844, a group of insiders published a single issue of a newspaper. Th
     tagline = "A song cycle drawn directly from the *Nauvoo Expositor* of June 7, 1844. Every lyric traces to the primary source."
     githubURL = "https://github.com/imcmurray/Sudden-Day"
 
+  [params.legal]
+    ownerName = "Sudden Day Project"
+    copyrightYear = 2026
+    notAffiliated = "*Sudden Day* is an independent artistic and educational project. **Not affiliated with, endorsed by, or connected to** The Church of Jesus Christ of Latter-day Saints, Brigham Young University, or any related organization."
+    fairUseShort = "Lyrics are drawn from the public-domain *Nauvoo Expositor* (June 7, 1844). Original music, arrangements, and commentary fall under fair use, 17 U.S.C. § 107."
+    learnMoreUrl = "/terms/"
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 

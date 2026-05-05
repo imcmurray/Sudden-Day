@@ -15,16 +15,17 @@
       <p class="footer-tagline">{{ . | markdownify }}</p>
       {{- end }}
 
+      {{- with site.Params.legal }}
+      <div class="footer-legal">
+        <p class="footer-not-affiliated">{{ .notAffiliated | markdownify }}</p>
+        <p class="footer-copyright">
+          &copy; {{ .copyrightYear }}{{ if gt now.Year (int .copyrightYear) }}&ndash;{{ now.Year }}{{ end }} {{ .ownerName }}. All original music, arrangements, recordings, and site content are protected by copyright.
+        </p>
+      </div>
+      {{- end }}
+
       <div class="footer-bottom">
-        {{- if not site.Params.footer.hideCopyright }}
-          {{- if site.Copyright }}
-          <span>{{ site.Copyright | markdownify }}</span>
-          {{- else }}
-          <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
-          {{- end }}
-        {{- end }}
         {{- with site.Params.footer.githubURL }}
-          <span class="separator">•</span>
           <a href="{{ . }}" target="_blank" rel="noopener">GitHub</a>
         {{- end }}
       </div>
@@ -63,6 +64,22 @@
       margin: 0 0 1.25rem;
       line-height: 1.5;
     }
+    .footer-legal {
+      color: var(--secondary);
+      font-size: .85rem;
+      line-height: 1.55;
+      margin: 0 auto 1.25rem;
+      max-width: 720px;
+      padding: 1rem 1.25rem;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--theme);
+    }
+    .footer-legal p { margin: 0; }
+    .footer-not-affiliated { margin-bottom: .5rem !important; }
+    .footer-not-affiliated strong { color: var(--primary); }
+    .footer-copyright { color: var(--secondary); }
+    html[data-theme="dark"] .footer-legal { background: rgba(255,255,255,.03); }
     .footer-bottom {
       color: var(--secondary);
       font-size: .85rem;

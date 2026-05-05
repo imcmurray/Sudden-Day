@@ -937,6 +937,14 @@ The *Nauvoo Expositor* was published on June 7, 1844. Under United States copyri
 
 ---
 
+## Copyright (original content)
+
+All original music, arrangements, recordings, lyrics-as-arranged, commentary, analysis, essays, site design, and source code on this site are **&copy; 2026 Sudden Day Project. All rights reserved.**
+
+The public-domain status of the *Nauvoo Expositor* applies only to the historical text itself. It does not extend to the original creative and analytical work that surrounds, arranges, and comments on that text. Reuse of original material requires permission.
+
+---
+
 ## Fair use
 
 Original commentary, analysis, and creative works on this site constitute fair use under 17 U.S.C. § 107. This includes:
