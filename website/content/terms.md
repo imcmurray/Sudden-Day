@@ -67,6 +67,22 @@ Historical quotations reflect the views of their original authors, not the creat
 
 ---
 
+## Why This Page Exists
+
+This page exists because a religion is also a corporation. The Church of Jesus Christ of Latter-day Saints holds federally registered trademarks. Intellectual Reserve, Inc. holds the copyrights. Lawyers write the letters. So educational and artistic projects that quote a public-domain newspaper from 1844 still need disclaimers, fair-use citations, and a paper trail — not because the underlying record is fragile, but because the legal machinery around it is muscular.
+
+It is worth sitting with that.
+
+If a teaching is true, what does it have to fear from a song?
+
+If history is just what was printed — in plain words, on the public record, in a newspaper that was destroyed three days later for printing it — what is gained by chilling its retelling?
+
+If there is a god, would that god really need a registered trademark to defend a single line of scripture?
+
+We do not pretend to answer these questions. We only notice that this page had to be written, and that the writing of it is itself a small piece of the historical record. The terms above are the price of admission to the conversation. The conversation is what we came for.
+
+---
+
 ## Contact
 
 For corrections, questions, or concerns, please open an issue on the project's [GitHub repository](https://github.com/imcmurray/Sudden-Day).
